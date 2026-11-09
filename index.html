@@ -267,619 +267,176 @@
             devanahalli: { name: "Devanahalli Airport Corridor", lat: 13.2484, lng: 77.7082 }
         };
 
-        const PROPERTIES = [
+        const propertiesData = [
+    {
+        "id": 1,
+        "title": "Prestige Crystal Lawns",
+        "subtitle": "Luxury Plotted Development on IVC Road",
+        "locationKey": "ivc-road-devanahalli-bangalore",
+        "locationName": "IVC Road, Devanahalli, North Bangalore",
+        "typeKey": "Plots",
+        "typeLabel": "Residential Plots",
+        "lat": 13.2642,
+        "lng": 77.6761,
+        "reraId": "PRM/KA/RERA/1250/303/PR/300925/008132",
+        "priceDisplay": "\u20b9 2.25 Cr*",
+        "basePriceNum": 2.25,
+        "statusTag": "Under Construction",
+        "vastuRating": "100% Vastu Compliant Layout",
+        "acres": "24.3 Acres",
+        "towers": "N/A (Plotted Development)",
+        "totalUnits": "235 Units",
+        "possession": "March 2027",
+        "heroImage": "https://raw.githubusercontent.com/novaestatesrealtycompany/Projects/main/Prestige/Prestige-Crystal-Lawns/Images/1.png",
+        "videoEmbedUrl": "https://www.youtube.com/embed/61GGYh5uzOg",
+        "description": "Prestige Crystal Lawns is an elite, gated plotted development by the Prestige Group situated on IVC Road, North Bangalore. Spanning across 24.3 acres, it offers custom-sized luxury plots ranging from 2,400 sq. ft. to 4,000 sq. ft. Designed for modern community living, the township blends open green spaces, grand landscapes, and top-tier lifestyle amenities with close proximity to Kempegowda International Airport.",
+        "gallery": [
             {
-                id: 1,
-                title: "The Crown Penthouse Enclave",
-                subtitle: "Malleshwaram Diplomatic Belt",
-                locationKey: "malleshwaram",
-                locationName: "Malleshwaram, Bangalore",
-                typeKey: "apartment",
-                typeLabel: "Apartments & Penthouses",
-                lat: 13.0037,
-                lng: 77.5689,
-                reraId: "PRM/KA/RERA/1251/309/PR/210222/004812",
-                priceDisplay: "₹ 8.50 Cr*",
-                basePriceNum: 8.5,
-                statusTag: "Ready To Move",
-                vastuRating: "100% Vastu Compliant (East Facing)",
-                acres: "4.5 Acres",
-                towers: "2 Towers",
-                totalUnits: "64 Ultra-Luxury Units",
-                possession: "Immediate Possession",
-                heroImage: "images/property-1/hero.jpg",
-                videoEmbedUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
-                description: "Perched high above historic Malleshwaram, The Crown Penthouse Enclave presents double-height ceilings, private infinity pools, panoramic city skydecks, and direct elevator access.",
-                
-                gallery: [
-                    { url: "images/property-1/gallery-1.jpg", title: "Skyline Facade", category: "Exterior" },
-                    { url: "images/property-1/gallery-2.jpg", title: "Double Height Living", category: "Interior" },
-                    { url: "images/property-1/gallery-3.jpg", title: "Master Suite Bath", category: "Interior" },
-                    { url: "images/property-1/gallery-4.jpg", title: "Infinity Rooftop Pool", category: "Clubhouse" }
-                ],
-
-                floorPlans: [
-                    { title: "4 BHK Royal Penthouse", area: "4,850 Sq.Ft.", price: "₹ 8.50 Cr", image: "images/property-1/floor-1.jpg" },
-                    { title: "5 BHK Duplex Sky Mansion", area: "6,200 Sq.Ft.", price: "₹ 11.20 Cr", image: "images/property-1/floor-2.jpg" }
-                ],
-
-                pricingMatrix: [
-                    { typ: "4 BHK Sky Villa", carpet: "3,800 Sq.Ft.", superBuilt: "4,850 Sq.Ft.", floorBand: "18th to 24th Floor", allInPrice: "₹ 8,50,00,000" },
-                    { typ: "5 BHK Duplex Mansion", carpet: "5,100 Sq.Ft.", superBuilt: "6,200 Sq.Ft.", floorBand: "25th to 28th Floor", allInPrice: "₹ 11,20,00,000" }
-                ],
-
-                connectivityCategories: [
-                    {
-                        category: "Workplaces & Tech Hubs",
-                        icon: "fa-briefcase",
-                        items: [
-                            { name: "World Trade Center (WTC)", dist: "2.1 km", time: "6 mins" },
-                            { name: "Manyata Tech Park", dist: "10.5 km", time: "22 mins" }
-                        ]
-                    },
-                    {
-                        category: "International Schools & Education",
-                        icon: "fa-graduation-cap",
-                        items: [
-                            { name: "Cluny Convent High School", dist: "1.2 km", time: "4 mins" },
-                            { name: "Kendriya Vidyalaya Malleshwaram", dist: "0.8 km", time: "3 mins" }
-                        ]
-                    },
-                    {
-                        category: "Groceries, Dining & Malls",
-                        icon: "fa-cart-shopping",
-                        items: [
-                            { name: "Orion Mall & Lakeside Cafe", dist: "2.1 km", time: "6 mins" },
-                            { name: "Nature's Basket Organic Market", dist: "0.5 km", time: "2 mins" }
-                        ]
-                    },
-                    {
-                        category: "Healthcare & Hospitals",
-                        icon: "fa-hospital",
-                        items: [
-                            { name: "Columbia Asia Referral Hospital", dist: "1.8 km", time: "5 mins" },
-                            { name: "Manipal Hospital Malleshwaram", dist: "1.1 km", time: "4 mins" }
-                        ]
-                    },
-                    {
-                        category: "Airport & Transit",
-                        icon: "fa-plane",
-                        items: [
-                            { name: "Sankey Road / Central Metro", dist: "0.9 km", time: "3 mins" },
-                            { name: "Kempegowda International Airport", dist: "31.0 km", time: "35 mins" }
-                        ]
-                    }
-                ],
-
-                googleMapEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.420808298713!2d77.5689104!3d13.0037198!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae16238b6d859d%3A0xb304ef2dfa0523e1!2sMalleshwaram%2C%20Bengaluru%2C%20Karnataka!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin",
-                googleMapUrl: "https://www.google.com/maps/search/?api=1&query=Malleshwaram+Bangalore",
-
-                amenities: [
-                    { icon: "fa-swimming-pool", name: "Temperature Controlled Infinity Pool" },
-                    { icon: "fa-dumbbell", name: "Technogym Certified Fitness Studio" },
-                    { icon: "fa-spa", name: "Ayurvedic Spa & Hydrotherapy Lounge" },
-                    { icon: "fa-helipad", name: "Rooftop Private Helipad" },
-                    { icon: "fa-shield-halved", name: "5-Tier Biometric Security System" },
-                    { icon: "fa-wine-glass", name: "Private Wine Cellar & Cigar Lounge" }
-                ]
+                "url": "https://raw.githubusercontent.com/novaestatesrealtycompany/Projects/main/Prestige/Prestige-Crystal-Lawns/Images/2.png",
+                "title": "Landscape View",
+                "category": "Exterior"
             },
             {
-                id: 2,
-                title: "One North Lakefront Residences",
-                subtitle: "Hebbal Express Corridor",
-                locationKey: "hebbal",
-                locationName: "Hebbal, Bangalore",
-                typeKey: "apartment",
-                typeLabel: "Apartments & Penthouses",
-                lat: 13.0402,
-                lng: 77.5913,
-                reraId: "PRM/KA/RERA/1251/309/PR/220518/005120",
-                priceDisplay: "₹ 4.25 Cr*",
-                basePriceNum: 4.25,
-                statusTag: "Under Construction",
-                vastuRating: "North-East Entrance Compliant",
-                acres: "8.2 Acres",
-                towers: "4 Towers",
-                totalUnits: "180 Luxury Units",
-                possession: "December 2027",
-                heroImage: "images/property-2/hero.jpg",
-                videoEmbedUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
-                description: "Overlooking the serene Hebbal Lake, One North brings together waterfront tranquility with rapid access to the International Airport and Manyata Tech Park.",
-                
-                gallery: [
-                    { url: "images/property-2/gallery-1.jpg", title: "Lakeview Frontage", category: "Exterior" },
-                    { url: "images/property-2/gallery-2.jpg", title: "Contemporary Living Suite", category: "Interior" },
-                    { url: "images/property-2/gallery-3.jpg", title: "Clubhouse Lounge", category: "Clubhouse" }
-                ],
-
-                floorPlans: [
-                    { title: "3 BHK Lake View Deck", area: "2,450 Sq.Ft.", price: "₹ 4.25 Cr", image: "images/property-2/floor-1.jpg" },
-                    { title: "4 BHK Royal Waterfront", area: "3,200 Sq.Ft.", price: "₹ 5.80 Cr", image: "images/property-2/floor-2.jpg" }
-                ],
-
-                pricingMatrix: [
-                    { typ: "3 BHK Superior", carpet: "1,920 Sq.Ft.", superBuilt: "2,450 Sq.Ft.", floorBand: "5th to 15th Floor", allInPrice: "₹ 4,25,00,000" },
-                    { typ: "4 BHK Royal Waterfront", carpet: "2,550 Sq.Ft.", superBuilt: "3,200 Sq.Ft.", floorBand: "16th to 22nd Floor", allInPrice: "₹ 5,80,00,000" }
-                ],
-
-                connectivityCategories: [
-                    {
-                        category: "Workplaces & Tech Hubs",
-                        icon: "fa-briefcase",
-                        items: [
-                            { name: "Manyata Tech Park", dist: "3.5 km", time: "8 mins" },
-                            { name: "Kirloskar Business Park", dist: "2.0 km", time: "5 mins" }
-                        ]
-                    },
-                    {
-                        category: "International Schools & Education",
-                        icon: "fa-graduation-cap",
-                        items: [
-                            { name: "Canadian International School", dist: "6.2 km", time: "12 mins" },
-                            { name: "Vidyashilp Academy", dist: "7.0 km", time: "14 mins" }
-                        ]
-                    },
-                    {
-                        category: "Groceries, Dining & Malls",
-                        icon: "fa-cart-shopping",
-                        items: [
-                            { name: "RMV Club & Galleria Mall", dist: "2.5 km", time: "6 mins" },
-                            { name: "Lulu Hypermarket Hebbal", dist: "1.8 km", time: "4 mins" }
-                        ]
-                    },
-                    {
-                        category: "Healthcare & Hospitals",
-                        icon: "fa-hospital",
-                        items: [
-                            { name: "Aster CMI Hospital", dist: "1.0 km", time: "2 mins" },
-                            { name: "Baptist Hospital", dist: "2.2 km", time: "5 mins" }
-                        ]
-                    },
-                    {
-                        category: "Airport & Transit",
-                        icon: "fa-plane",
-                        items: [
-                            { name: "Hebbal Elevated Expressway", dist: "0.5 km", time: "1 min" },
-                            { name: "Kempegowda International Airport", dist: "26.0 km", time: "25 mins" }
-                        ]
-                    }
-                ],
-
-                googleMapEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.82285097204!2d77.5912852!3d13.0401825!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae17937385f0ef%3A0x6b4ef84c71887e50!2sHebbal%2C%20Bengaluru%2C%20Karnataka!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin",
-                googleMapUrl: "https://www.google.com/maps/search/?api=1&query=Hebbal+Bangalore",
-
-                amenities: [
-                    { icon: "fa-water", name: "Lakefront Promenade Walkway" },
-                    { icon: "fa-volleyball", name: "Squash & Tennis Courts" },
-                    { icon: "fa-leaf", name: "Tropical Landscaped Botanical Park" },
-                    { icon: "fa-shield-halved", name: "24/7 Smart Surveillance Gate" }
-                ]
+                "url": "https://raw.githubusercontent.com/novaestatesrealtycompany/Projects/main/Prestige/Prestige-Crystal-Lawns/Images/3.png",
+                "title": "Project Architecture",
+                "category": "Exterior"
             },
             {
-                id: 3,
-                title: "Indiranagar Boulevard Mansions",
-                subtitle: "100ft Road Lifestyle Enclave",
-                locationKey: "indiranagar",
-                locationName: "Indiranagar, Bangalore",
-                typeKey: "villatment",
-                typeLabel: "Bespoke Villatment",
-                lat: 12.9784,
-                lng: 77.6412,
-                reraId: "PRM/KA/RERA/1251/309/PR/230111/006190",
-                priceDisplay: "₹ 12.80 Cr*",
-                basePriceNum: 12.8,
-                statusTag: "Ready To Move",
-                vastuRating: "East & North Entrances Available",
-                acres: "3.1 Acres",
-                towers: "1 Boutique Tower",
-                totalUnits: "24 Private Sky Mansions",
-                possession: "Ready to Move",
-                heroImage: "images/property-3/hero.jpg",
-                videoEmbedUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
-                description: "Ultra-exclusive private sky villatments located right off Indiranagar 100ft road. Combining the independent sprawling feel of a villa with the security and skyline views of an apartment, complete with private plunge pools.",
-                
-                gallery: [
-                    { url: "images/property-3/gallery-1.jpg", title: "Facade View", category: "Exterior" },
-                    { url: "images/property-3/gallery-2.jpg", title: "Living Room Glass Suite", category: "Interior" }
-                ],
-
-                floorPlans: [
-                    { title: "5 BHK Sky Villatment", area: "5,800 Sq.Ft.", price: "₹ 12.80 Cr", image: "images/property-3/floor-1.jpg" }
-                ],
-
-                pricingMatrix: [
-                    { typ: "5 BHK Sky Villatment", carpet: "4,600 Sq.Ft.", superBuilt: "5,800 Sq.Ft.", floorBand: "All Floors Private", allInPrice: "₹ 12,80,00,000" }
-                ],
-
-                connectivityCategories: [
-                    {
-                        category: "Workplaces & Tech Hubs",
-                        icon: "fa-briefcase",
-                        items: [
-                            { name: "EGL Tech Park (Domlur)", dist: "2.5 km", time: "6 mins" },
-                            { name: "MG Road & UB City", dist: "4.5 km", time: "12 mins" }
-                        ]
-                    },
-                    {
-                        category: "International Schools & Education",
-                        icon: "fa-graduation-cap",
-                        items: [
-                            { name: "National Public School (NPS)", dist: "1.5 km", time: "4 mins" },
-                            { name: "The Frank Anthony Public School", dist: "3.2 km", time: "8 mins" }
-                        ]
-                    },
-                    {
-                        category: "Groceries, Dining & Malls",
-                        icon: "fa-cart-shopping",
-                        items: [
-                            { name: "100ft Road High Street & Fine Dining", dist: "0.2 km", time: "1 min" },
-                            { name: "1 MG-Lido Mall", dist: "3.5 km", time: "8 mins" }
-                        ]
-                    },
-                    {
-                        category: "Healthcare & Hospitals",
-                        icon: "fa-hospital",
-                        items: [
-                            { name: "Manipal Hospital HAL Airport Rd", dist: "2.0 km", time: "5 mins" },
-                            { name: "CMH Hospital Indiranagar", dist: "0.8 km", time: "2 mins" }
-                        ]
-                    },
-                    {
-                        category: "Airport & Transit",
-                        icon: "fa-plane",
-                        items: [
-                            { name: "Indiranagar Metro Station", dist: "0.6 km", time: "2 mins" },
-                            { name: "Kempegowda International Airport", dist: "38.0 km", time: "45 mins" }
-                        ]
-                    }
-                ],
-
-                googleMapEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.001601609101!2d77.6411545!3d12.9783692!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae16a71e892c9b%3A0xe54e793910f545f4!2sIndiranagar%2C%20Bengaluru%2C%20Karnataka!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin",
-                googleMapUrl: "https://www.google.com/maps/search/?api=1&query=Indiranagar+Bangalore",
-
-                amenities: [
-                    { icon: "fa-shield-halved", name: "24/7 Private Security & Valet" },
-                    { icon: "fa-wine-glass", name: "Private Sky Lounge & Wine Cellar" }
-                ]
+                "url": "https://raw.githubusercontent.com/novaestatesrealtycompany/Projects/main/Prestige/Prestige-Crystal-Lawns/Images/4.png",
+                "title": "Landscaped Pavilion",
+                "category": "Amenities"
             },
             {
-                id: 4,
-                title: "Aerotropolis Villa & Plot Enclave",
-                subtitle: "Devanahalli Airport Corridor",
-                locationKey: "devanahalli",
-                locationName: "Devanahalli, Bangalore",
-                typeKey: "villa",
-                typeLabel: "Independent Villa",
-                lat: 13.2484,
-                lng: 77.7082,
-                reraId: "PRM/KA/RERA/1251/309/PR/240201/007300",
-                priceDisplay: "₹ 3.10 Cr*",
-                basePriceNum: 3.1,
-                statusTag: "New Launch",
-                vastuRating: "100% Vastu Compliant",
-                acres: "25.0 Acres",
-                towers: "Plotted Villas",
-                totalUnits: "120 Luxury Villas",
-                possession: "December 2028",
-                heroImage: "images/property-4/hero.jpg",
-                videoEmbedUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
-                description: "Sprawling luxury independent villas with private gardens and club facilities located just 10 minutes from Kempegowda International Airport.",
-                
-                gallery: [
-                    { url: "images/property-4/gallery-1.jpg", title: "Villa Exterior", category: "Exterior" }
-                ],
-
-                floorPlans: [
-                    { title: "4 BHK Independent Villa", area: "3,400 Sq.Ft.", price: "₹ 3.10 Cr", image: "images/property-4/floor-1.jpg" }
-                ],
-
-                pricingMatrix: [
-                    { typ: "4 BHK Villa", carpet: "2,800 Sq.Ft.", superBuilt: "3,400 Sq.Ft.", floorBand: "G + 2 Floors", allInPrice: "₹ 3,10,00,000" }
-                ],
-
-                connectivityCategories: [
-                    {
-                        category: "Workplaces & Tech Hubs",
-                        icon: "fa-briefcase",
-                        items: [
-                            { name: "KIADB Aerospace Park", dist: "6.0 km", time: "8 mins" },
-                            { name: "IFCI Financial City", dist: "8.0 km", time: "10 mins" }
-                        ]
-                    },
-                    {
-                        category: "International Schools & Education",
-                        icon: "fa-graduation-cap",
-                        items: [
-                            { name: "Stonehill International School", dist: "12.0 km", time: "15 mins" }
-                        ]
-                    },
-                    {
-                        category: "Groceries, Dining & Malls",
-                        icon: "fa-cart-shopping",
-                        items: [
-                            { name: "D-Mart Devanahalli", dist: "3.0 km", time: "5 mins" }
-                        ]
-                    },
-                    {
-                        category: "Healthcare & Hospitals",
-                        icon: "fa-hospital",
-                        items: [
-                            { name: "Leena Multispeciality Hospital", dist: "4.0 km", time: "6 mins" }
-                        ]
-                    },
-                    {
-                        category: "Airport & Transit",
-                        icon: "fa-plane",
-                        items: [
-                            { name: "Kempegowda International Airport", dist: "8.5 km", time: "10 mins" }
-                        ]
-                    }
-                ],
-
-                googleMapEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3883.334057863117!2d77.7082343!3d13.2483863!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1d1373d5677d%3A0xb3a027376c11b51e!2sDevanahalli%2C%20Bengaluru%2C%20Karnataka!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin",
-                googleMapUrl: "https://www.google.com/maps/search/?api=1&query=Devanahalli+Bangalore",
-
-                amenities: [
-                    { icon: "fa-tree", name: "25-Acre Gated Private Parkland" },
-                    { icon: "fa-dumbbell", name: "Resort-Style Luxury Clubhouse" }
-                ]
+                "url": "https://raw.githubusercontent.com/novaestatesrealtycompany/Projects/main/Prestige/Prestige-Crystal-Lawns/Images/5.png",
+                "title": "Entrance Gate",
+                "category": "Exterior"
             },
             {
-                id: 5,
-                title: "Devanahalli Aerotropolis Prime Plots",
-                subtitle: "Gated International Plot Enclave",
-                locationKey: "devanahalli",
-                locationName: "Devanahalli, Bangalore",
-                typeKey: "plot",
-                typeLabel: "Gated Plot & Land",
-                lat: 13.2510,
-                lng: 77.7120,
-                reraId: "PRM/KA/RERA/1251/309/PR/240315/008100",
-                priceDisplay: "₹ 2.15 Cr*",
-                basePriceNum: 2.15,
-                statusTag: "Ready for Registration",
-                vastuRating: "100% East & North Facing Plots",
-                acres: "15.0 Acres",
-                towers: "N/A - Plotted",
-                totalUnits: "85 Premium Plot Plots",
-                possession: "Immediate Registration",
-                heroImage: "images/property-5/hero.jpg",
-                videoEmbedUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
-                description: "Exclusive villa plots situated within a master-planned gated enclave near Devanahalli SEZ with underground cabling, club access, and paved roads.",
-                
-                gallery: [
-                    { url: "images/property-5/gallery-1.jpg", title: "Gated Enclave Grounds", category: "Exterior" }
-                ],
-
-                floorPlans: [
-                    { title: "Villa Plot Layout (30x40)", area: "1,200 Sq.Ft.", price: "₹ 2.15 Cr", image: "images/property-5/floor-1.jpg" },
-                    { title: "Grand Villa Plot Layout (40x60)", area: "2,400 Sq.Ft.", price: "₹ 4.10 Cr", image: "images/property-5/floor-2.jpg" }
-                ],
-
-                pricingMatrix: [
-                    { typ: "Standard Plot (30x40)", carpet: "1,200 Sq.Ft.", superBuilt: "1,200 Sq.Ft.", floorBand: "Corner / Avenue", allInPrice: "₹ 2,15,00,000" }
-                ],
-
-                connectivityCategories: [
+                "url": "https://raw.githubusercontent.com/novaestatesrealtycompany/Projects/main/Prestige/Prestige-Crystal-Lawns/Images/6.png",
+                "title": "Garden Fountain",
+                "category": "Amenities"
+            }
+        ],
+        "floorPlans": [],
+        "pricingMatrix": [
+            {
+                "typ": "2,400 Sq.Ft. Plot",
+                "carpet": "Dimension: 30x80 / 40x60",
+                "superBuilt": "Price: \u20b9 2,25,00,000",
+                "floorBand": "3,600 Sq.Ft. Plot",
+                "allInPrice": "Dimension: 45x80"
+            }
+        ],
+        "connectivityCategories": [
+            {
+                "category": "Transportation & Transit",
+                "icon": "fa-plane",
+                "items": [
                     {
-                        category: "Airport & Transit",
-                        icon: "fa-plane",
-                        items: [
-                            { name: "Kempegowda International Airport", dist: "7.5 km", time: "8 mins" }
-                        ]
+                        "name": "Kempegowda International Airport",
+                        "dist": "12.0 km",
+                        "time": "20 mins"
                     }
-                ],
-
-                googleMapEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3883.334057863117!2d77.7082343!3d13.2483863!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1d1373d5677d%3A0xb3a027376c11b51e!2sDevanahalli%2C%20Bengaluru%2C%20Karnataka!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin",
-                googleMapUrl: "https://www.google.com/maps/search/?api=1&query=Devanahalli+Bangalore",
-
-                amenities: [
-                    { icon: "fa-road", name: "Wide Asphalt Roads & Solar Streetlights" },
-                    { icon: "fa-shield-halved", name: "24/7 Gate Surveillance & Compound Wall" }
                 ]
             }
-        ,
-        {
-    id: 6,
-    title: "Prestige Crystal Lawns",
-    subtitle: "Prime Residential Enclave",
-    locationKey: "hebbal",
-    locationName: "Hebbal, Bangalore",
-    typeKey: "apartment",
-    typeLabel: "Luxury Apartments",
-    lat: 13.0402,
-    lng: 77.5913,
+        ],
+        "googleMapEmbed": "https://www.google.com/maps?q=Hebbal+Bangalore&output=embed",
+        "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=Hebbal+Bangalore",
+        "amenities": [
+            {
+                "name": "Grand Clubhouse",
+                "icon": "fa-building"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "title": "Sobhs Onehhhhhh World",
+        "subtitle": "Prime Residential Luxurious Apartment",
+        "locationKey": "hebbal",
+        "locationName": "Hebbal, Bangalore",
+        "typeKey": "apartment",
+        "typeLabel": "Luxury Apartments",
+        "lat": 13.0402,
+        "lng": 77.5913,
+        "reraId": "PRM/KA/RERA/1251/309/PR/240520/009123",
+        "priceDisplay": "\u20b9 5.50 Cr*",
+        "basePriceNum": 5.5,
+        "statusTag": "New Launch",
+        "vastuRating": "100% Vastu Compliant",
+        "acres": "6.0 Acres",
+        "towers": "3 Towers",
+        "totalUnits": "140 Luxury Units",
+        "possession": "December 2028",
+        "heroImage": "https://raw.githubusercontent.com/novaestatesrealtycompany/Projects/main/Prestige/Prestige-Crystal-Lawns/Images/1.png",
+        "videoEmbedUrl": "https://www.youtube.com/embed/61GGYh5uzOg",
+        "description": "Prestige Crystal Lawns offers expansive residences designed with contemporary architecture, lush landscaped courtyards, and world-class amenities.",
+        "gallery": [
+            {
+                "url": "https://raw.githubusercontent.com/novaestatesrealtycompany/Projects/main/Prestige/Prestige-Crystal-Lawns/Images/2.png",
+                "title": "Landscape View",
+                "category": "Exterior"
+            },
+            {
+                "url": "https://raw.githubusercontent.com/novaestatesrealtycompany/Projects/main/Prestige/Prestige-Crystal-Lawns/Images/3.png",
+                "title": "Project Architecture",
+                "category": "Exterior"
+            },
+            {
+                "url": "https://raw.githubusercontent.com/novaestatesrealtycompany/Projects/main/Prestige/Prestige-Crystal-Lawns/Images/4.png",
+                "title": "Landscaped Pavilion",
+                "category": "Amenities"
+            },
+            {
+                "url": "https://raw.githubusercontent.com/novaestatesrealtycompany/Projects/main/Prestige/Prestige-Crystal-Lawns/Images/5.png",
+                "title": "Entrance Gate",
+                "category": "Exterior"
+            },
+            {
+                "url": "https://raw.githubusercontent.com/novaestatesrealtycompany/Projects/main/Prestige/Prestige-Crystal-Lawns/Images/6.png",
+                "title": "Garden Fountain",
+                "category": "Amenities"
+            }
+        ],
+        "floorPlans": [],
+        "pricingMatrix": [
+            {
+                "typ": "3 BHK Luxury Suite",
+                "carpet": "2,050 Sq.Ft.",
+                "superBuilt": "2,600 Sq.Ft.",
+                "floorBand": "10th to 15th Floor",
+                "allInPrice": "\u20b9 5,50,00,000"
+            }
+        ],
+        "connectivityCategories": [
+            {
+                "category": "Workplaces & Tech Hubs",
+                "icon": "fa-briefcase",
+                "items": [
+                    {
+                        "name": "Manyata Tech Park",
+                        "dist": "4.0 km",
+                        "time": "10 mins"
+                    }
+                ]
+            }
+        ],
+        "googleMapEmbed": "https://www.google.com/maps?q=Hebbal+Bangalore&output=embed",
+        "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=Hebbal+Bangalore",
+        "amenities": [
+            {
+                "name": "Infinity Swimming Pool",
+                "icon": "fa-swimming-pool"
+            },
+            {
+                "name": "State-of-the-art Gymnasium",
+                "icon": "fa-dumbbell"
+            }
+        ]
+    }
+];
 
-    reraId: "PRM/KA/RERA/1251/309/PR/240520/009123",
-    priceDisplay: "₹ 5.50 Cr*",
-    basePriceNum: 5.5,
-    statusTag: "New Launch",
-    vastuRating: "100% Vastu Compliant",
-    acres: "6.0 Acres",
-    towers: "3 Towers",
-    totalUnits: "140 Luxury Units",
-    possession: "December 2028",
-
-    // HERO IMAGE
-    heroImage: "https://raw.githubusercontent.com/novaestatesrealtycompany/Projects/main/Prestige/Prestige-Crystal-Lawns/Images/1.png",
-
-    videoEmbedUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
-
-    description: "Prestige Crystal Lawns offers expansive residences designed with contemporary architecture, lush landscaped courtyards, and world-class amenities.",
-
-    // PROPERTY GALLERY
-    gallery: [
-        {
-            url: "https://raw.githubusercontent.com/novaestatesrealtycompany/Projects/main/Prestige/Prestige-Crystal-Lawns/Images/2.png",
-            title: "Landscape View",
-            category: "Exterior"
-        },
-        {
-            url: "https://raw.githubusercontent.com/novaestatesrealtycompany/Projects/main/Prestige/Prestige-Crystal-Lawns/Images/3.png",
-            title: "Project Architecture",
-            category: "Exterior"
-        },
-        {
-            url: "https://raw.githubusercontent.com/novaestatesrealtycompany/Projects/main/Prestige/Prestige-Crystal-Lawns/Images/4.png",
-            title: "Landscaped Pavilion",
-            category: "Amenities"
-        },
-        {
-            url: "https://raw.githubusercontent.com/novaestatesrealtycompany/Projects/main/Prestige/Prestige-Crystal-Lawns/Images/5.png",
-            title: "Entrance Gate",
-            category: "Exterior"
-        },
-        {
-            url: "https://raw.githubusercontent.com/novaestatesrealtycompany/Projects/main/Prestige/Prestige-Crystal-Lawns/Images/6.png",
-            title: "Garden Fountain",
-            category: "Amenities"
-        }
-    ],
-
-    // Add floor-plan images here after uploading
-    // the actual floor-plan file to GitHub.
-    floorPlans: [],
-
-    pricingMatrix: [
-        {
-            typ: "3 BHK Luxury Suite",
-            carpet: "2,050 Sq.Ft.",
-            superBuilt: "2,600 Sq.Ft.",
-            floorBand: "10th to 15th Floor",
-            allInPrice: "₹ 5,50,00,000"
-        }
-    ],
-
-    connectivityCategories: [
-        {
-            category: "Workplaces & Tech Hubs",
-            icon: "fa-briefcase",
-            items: [
-                {
-                    name: "Manyata Tech Park",
-                    dist: "4.0 km",
-                    time: "10 mins"
-                }
-            ]
-        }
-    ],
-
-    googleMapEmbed: "https://www.google.com/maps?q=Hebbal+Bangalore&output=embed",
-
-    googleMapUrl: "https://www.google.com/maps/search/?api=1&query=Hebbal+Bangalore",
-
-    amenities: [
-        {
-            icon: "fa-swimming-pool",
-            name: "Infinity Swimming Pool"
-        },
-        {
-            icon: "fa-dumbbell",
-            name: "State-of-the-art Gymnasium"
-        }
-    ]
-},
-{
-    id: 7,
-    title: "Sobhs One World",
-    subtitle: "Prime Residential Luxurious Apartment",
-    locationKey: "hebbal",
-    locationName: "Hebbal, Bangalore",
-    typeKey: "apartment",
-    typeLabel: "Luxury Apartments",
-    lat: 13.0402,
-    lng: 77.5913,
-
-    reraId: "PRM/KA/RERA/1251/309/PR/240520/009123",
-    priceDisplay: "₹ 5.50 Cr*",
-    basePriceNum: 5.5,
-    statusTag: "New Launch",
-    vastuRating: "100% Vastu Compliant",
-    acres: "6.0 Acres",
-    towers: "3 Towers",
-    totalUnits: "140 Luxury Units",
-    possession: "December 2028",
-
-    // HERO IMAGE
-    heroImage: "https://raw.githubusercontent.com/novaestatesrealtycompany/Projects/main/Prestige/Prestige-Crystal-Lawns/Images/1.png",
-
-    videoEmbedUrl: "https://www.youtube.com/embed/61GGYh5uzOg",
-
-    description: "Prestige Crystal Lawns offers expansive residences designed with contemporary architecture, lush landscaped courtyards, and world-class amenities.",
-
-    // PROPERTY GALLERY
-    gallery: [
-        {
-            url: "https://raw.githubusercontent.com/novaestatesrealtycompany/Projects/main/Prestige/Prestige-Crystal-Lawns/Images/2.png",
-            title: "Landscape View",
-            category: "Exterior"
-        },
-        {
-            url: "https://raw.githubusercontent.com/novaestatesrealtycompany/Projects/main/Prestige/Prestige-Crystal-Lawns/Images/3.png",
-            title: "Project Architecture",
-            category: "Exterior"
-        },
-        {
-            url: "https://raw.githubusercontent.com/novaestatesrealtycompany/Projects/main/Prestige/Prestige-Crystal-Lawns/Images/4.png",
-            title: "Landscaped Pavilion",
-            category: "Amenities"
-        },
-        {
-            url: "https://raw.githubusercontent.com/novaestatesrealtycompany/Projects/main/Prestige/Prestige-Crystal-Lawns/Images/5.png",
-            title: "Entrance Gate",
-            category: "Exterior"
-        },
-        {
-            url: "https://raw.githubusercontent.com/novaestatesrealtycompany/Projects/main/Prestige/Prestige-Crystal-Lawns/Images/6.png",
-            title: "Garden Fountain",
-            category: "Amenities"
-        }
-    ],
-
-    // Add floor-plan images here after uploading
-    // the actual floor-plan file to GitHub.
-    floorPlans: [],
-
-    pricingMatrix: [
-        {
-            typ: "3 BHK Luxury Suite",
-            carpet: "2,050 Sq.Ft.",
-            superBuilt: "2,600 Sq.Ft.",
-            floorBand: "10th to 15th Floor",
-            allInPrice: "₹ 5,50,00,000"
-        }
-    ],
-
-    connectivityCategories: [
-        {
-            category: "Workplaces & Tech Hubs",
-            icon: "fa-briefcase",
-            items: [
-                {
-                    name: "Manyata Tech Park",
-                    dist: "4.0 km",
-                    time: "10 mins"
-                }
-            ]
-        }
-    ],
-
-    googleMapEmbed: "https://www.google.com/maps?q=Hebbal+Bangalore&output=embed",
-
-    googleMapUrl: "https://www.google.com/maps/search/?api=1&query=Hebbal+Bangalore",
-
-    amenities: [
-        {
-            icon: "fa-swimming-pool",
-            name: "Infinity Swimming Pool"
-        },
-        {
-            icon: "fa-dumbbell",
-            name: "State-of-the-art Gymnasium"
-        }
-    ]
-}
-        ];
+export default propertiesData;
 
         /* HAVERSINE DISTANCE CALCULATOR IN KILOMETERS */
         function calculateKmDistance(lat1, lon1, lat2, lon2) {
