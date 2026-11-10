@@ -1,0 +1,1000 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nova Estates Realty Co. | Ultra-Luxury Real Estate Bangalore</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Tailwind Custom Configuration -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        obsidian: {
+                            DEFAULT: '#0a0a0c',
+                            light: '#121216',
+                            card: '#16161c',
+                            border: '#262630'
+                        },
+                        champagne: {
+                            50: '#fdfbf7',
+                            100: '#f7f2e8',
+                            300: '#e2cc98',
+                            400: '#d4af37',
+                            500: '#c59b27',
+                            600: '#a37c1e',
+                        }
+                    },
+                    fontFamily: {
+                        serif: ['Cinzel', 'serif'],
+                        sans: ['Plus Jakarta Sans', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        body {
+            background-color: #0a0a0c;
+            color: #e4e4e7;
+            font-family: 'Plus Jakarta Sans', sans-serif;
+        }
+
+        .glass-panel {
+            background: rgba(22, 22, 28, 0.75);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+            border: 1px solid rgba(212, 175, 55, 0.15);
+        }
+
+        .glass-panel-gold {
+            background: rgba(197, 155, 39, 0.08);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(212, 175, 55, 0.3);
+        }
+
+        .gold-gradient-text {
+            background: linear-gradient(135deg, #FFF0CA 0%, #D4AF37 50%, #997819 100%);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #0a0a0c;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #262630;
+            border-radius: 4px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #d4af37;
+        }
+    </style>
+</head>
+<body class="antialiased selection:bg-champagne-400 selection:text-black">
+
+    <!-- TOP ANNOUNCEMENT / CONTACT BAR -->
+    <div class="bg-obsidian-light border-b border-obsidian-border text-xs py-2 px-4 text-zinc-400 hidden sm:block">
+        <div class="max-w-7xl mx-auto flex justify-between items-center">
+            <div class="flex items-center gap-6">
+                <span><i class="fa-solid fa-location-dot text-champagne-400 mr-2"></i># 58/1, 13th Main, 18th Cross, Malleshwaram, Bangalore - 560055</span>
+                <a href="mailto:novaestatesrealtyco@gmail.com" class="hover:text-champagne-400 transition-colors"><i class="fa-solid fa-envelope text-champagne-400 mr-2"></i>novaestatesrealtyco@gmail.com</a>
+            </div>
+            <div class="flex items-center gap-4">
+                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="hover:text-champagne-400"><i class="fa-brands fa-linkedin text-sm"></i></a>
+                <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="hover:text-champagne-400"><i class="fa-brands fa-instagram text-sm"></i></a>
+                <span class="text-zinc-600">|</span>
+                <a href="tel:+917204158077" class="text-champagne-400 font-semibold hover:underline"><i class="fa-solid fa-phone mr-1"></i> +91 7204158077</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- MAIN HEADER / NAVIGATION -->
+    <header class="sticky top-0 z-40 glass-panel border-b border-obsidian-border">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+            <a href="#" class="flex items-center gap-3 group">
+                <div id="brand-logo-slot"></div>
+            </a>
+
+            <nav class="hidden md:flex items-center gap-8 text-sm font-medium tracking-wider uppercase text-zinc-300">
+                <a href="#" class="hover:text-champagne-400 transition-colors">Home</a>
+                <a href="#privileges-section" class="hover:text-champagne-400 transition-colors">Why Nova</a>
+                <a href="#properties-section" class="hover:text-champagne-400 transition-colors">Portfolios</a>
+                <a href="#calculator-section" class="hover:text-champagne-400 transition-colors">Financial Calculator</a>
+                <a href="#contact-section" class="hover:text-champagne-400 transition-colors">Contact Us</a>
+            </nav>
+
+            <div class="flex items-center gap-3">
+                <button onclick="openBookingModal()" class="px-5 py-2.5 rounded-full bg-gradient-to-r from-champagne-400 to-champagne-600 text-black font-semibold text-xs uppercase tracking-widest hover:brightness-110 transition-all shadow-lg shadow-champagne-400/20">
+                    Book Private Tour
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- DYNAMIC ROUTER CONTAINER -->
+    <main id="app-viewport"></main>
+
+    <!-- FOOTER -->
+    <footer class="bg-obsidian border-t border-obsidian-border pt-16 pb-12 text-zinc-400 text-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-4 gap-10">
+            <div class="space-y-4 md:col-span-1">
+                <h3 class="font-serif text-xl font-bold text-white">NOVA ESTATES</h3>
+                <p class="text-xs leading-relaxed text-zinc-500">
+                    Curators of ultra-luxury residential spaces, penthouses, villas, villatments, and bespoke plots across Bangalore's most prime addresses.
+                </p>
+                <div class="flex items-center gap-3 text-champagne-400">
+                    <a href="https://linkedin.com" class="p-2 glass-panel rounded-full hover:bg-champagne-400 hover:text-black transition-all"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="https://instagram.com" class="p-2 glass-panel rounded-full hover:bg-champagne-400 hover:text-black transition-all"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+
+            <div>
+                <h4 class="font-serif text-white font-semibold mb-4 text-xs tracking-widest uppercase">Quick Links</h4>
+                <ul class="space-y-2 text-xs">
+                    <li><a href="#" class="hover:text-champagne-400">Prime Residences</a></li>
+                    <li><a href="#privileges-section" class="hover:text-champagne-400">Buyer Privileges</a></li>
+                    <li><a href="#properties-section" class="hover:text-champagne-400">Commercial Spaces</a></li>
+                    <li><a href="#calculator-section" class="hover:text-champagne-400">Mortgage Estimator</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h4 class="font-serif text-white font-semibold mb-4 text-xs tracking-widest uppercase">Prime Locations</h4>
+                <ul class="space-y-2 text-xs text-zinc-500">
+                    <li>Malleshwaram Premier Quarter</li>
+                    <li>Hebbal Lakefront Towers</li>
+                    <li>Indiranagar Diplomatic Enclave</li>
+                    <li>Devanahalli Aerotropolis</li>
+                </ul>
+            </div>
+
+            <div id="contact-section">
+                <h4 class="font-serif text-white font-semibold mb-4 text-xs tracking-widest uppercase">Contact Advisory</h4>
+                <p class="text-xs text-zinc-400 mb-2"><i class="fa-solid fa-location-dot text-champagne-400 mr-2"></i># 58/1, 13th main, 18th cross, Malleshwaram, Bangalore-560055</p>
+                <p class="text-xs text-zinc-400 mb-2"><i class="fa-solid fa-envelope text-champagne-400 mr-2"></i>novaestatesrealtyco@gmail.com</p>
+                <p class="text-xs text-zinc-400"><i class="fa-solid fa-phone text-champagne-400 mr-2"></i>+91 7204158077</p>
+            </div>
+        </div>
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-12 pt-6 border-t border-obsidian-border text-center text-xs text-zinc-600">
+            &copy; 2026 Nova Estates Realty Co. All Rights Reserved. RERA Registered Advisory.
+        </div>
+    </footer>
+
+    <!-- PERSISTENT FLOATING DIRECT CONTACT BAR -->
+    <div class="fixed bottom-6 right-6 z-50 flex items-center gap-3">
+        <a href="tel:+917204158077" class="flex items-center gap-2 px-5 py-3 rounded-full bg-obsidian-card border border-champagne-400/40 text-white font-semibold text-xs hover:border-champagne-400 shadow-xl transition-all">
+            <span class="w-2.5 h-2.5 rounded-full bg-green-500 animate-ping"></span>
+            <i class="fa-solid fa-phone text-champagne-400"></i>
+            <span class="hidden sm:inline">Call +91 7204158077</span>
+        </a>
+        <a href="https://wa.me/917204158077?text=Hello%20Nova%20Estates,%20I%20would%20like%20to%20inquire%20about%20your%20luxury%20properties." target="_blank" rel="noopener noreferrer" class="flex items-center gap-2 px-5 py-3 rounded-full bg-emerald-600 hover:bg-emerald-500 text-white font-semibold text-xs shadow-xl transition-all">
+            <i class="fa-brands fa-whatsapp text-lg"></i>
+            <span class="hidden sm:inline">WhatsApp Concierge</span>
+        </a>
+    </div>
+
+    <!-- SITE VISIT BOOKING MODAL -->
+    <div id="booking-modal" class="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/80 backdrop-blur-md hidden">
+        <div class="glass-panel max-w-lg w-full rounded-2xl p-8 border border-champagne-400/30 relative">
+            <button onclick="closeBookingModal()" class="absolute top-4 right-4 text-zinc-400 hover:text-white"><i class="fa-solid fa-xmark text-xl"></i></button>
+            <h3 class="font-serif text-2xl font-bold text-white mb-2">Schedule Private Site Visit</h3>
+            <p class="text-xs text-zinc-400 mb-6">Enjoy complimentary private chauffeur pick-up & drop at your preferred timing and location.</p>
+            <form onsubmit="handleFormSubmit(event)" class="space-y-4">
+                <div>
+                    <label class="block text-xs font-semibold text-zinc-300 uppercase mb-1">Full Name</label>
+                    <input type="text" required placeholder="John Doe" class="w-full bg-obsidian-light border border-obsidian-border rounded-lg px-4 py-2.5 text-sm focus:border-champagne-400 focus:outline-none">
+                </div>
+                <div>
+                    <label class="block text-xs font-semibold text-zinc-300 uppercase mb-1">Phone Number</label>
+                    <input type="tel" required placeholder="+91 98765 43210" class="w-full bg-obsidian-light border border-obsidian-border rounded-lg px-4 py-2.5 text-sm focus:border-champagne-400 focus:outline-none">
+                </div>
+                <div>
+                    <label class="block text-xs font-semibold text-zinc-300 uppercase mb-1">Preferred Pick-up Location & Date</label>
+                    <input type="text" required placeholder="e.g. Indiranagar, Bangalore - Tomorrow 3 PM" class="w-full bg-obsidian-light border border-obsidian-border rounded-lg px-4 py-2.5 text-sm focus:border-champagne-400 focus:outline-none text-zinc-300">
+                </div>
+                <button type="submit" class="w-full py-3 rounded-lg bg-gradient-to-r from-champagne-400 to-champagne-600 text-black font-bold text-xs uppercase tracking-widest hover:brightness-110 transition-all">
+                    Confirm Private Chauffeur Tour
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <!-- LIGHTBOX MODAL -->
+    <div id="lightbox-modal" class="fixed inset-0 z-50 flex items-center justify-center bg-black/90 p-4 hidden">
+        <button onclick="closeLightbox()" class="absolute top-6 right-6 text-white text-3xl hover:text-champagne-400"><i class="fa-solid fa-xmark"></i></button>
+        <img id="lightbox-img" src="" alt="Enlarged view" class="max-w-full max-h-[85vh] rounded-lg border border-champagne-400/30 object-contain">
+    </div>
+
+    <!-- JAVASCRIPT APPLICATION CORE -->
+    <script>
+        const brandLogoConfig = {
+            mode: 'svg',
+            svgContent: `<svg class="w-10 h-10 text-champagne-400" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <polygon points="50,10 90,85 10,85" stroke="currentColor" stroke-width="5" fill="none"/>
+                            <polygon points="50,28 78,78 22,78" fill="currentColor" fill-opacity="0.2"/>
+                            <circle cx="50" cy="55" r="12" fill="currentColor"/>
+                         </svg>`,
+            imageUrl: "",
+            textTitle: "NOVA ESTATES",
+            textSub: "REALTY CO."
+        };
+
+        function renderBrandLogo() {
+            const slot = document.getElementById('brand-logo-slot');
+            if (!slot) return;
+            if (brandLogoConfig.mode === 'svg') {
+                slot.innerHTML = `
+                    <div class="flex items-center gap-3">
+                        ${brandLogoConfig.svgContent}
+                        <div>
+                            <span class="font-serif text-lg font-bold text-white tracking-widest block leading-none">NOVA ESTATES</span>
+                            <span class="text-[9px] text-champagne-400 tracking-[0.25em] uppercase font-semibold">REALTY CO.</span>
+                        </div>
+                    </div>`;
+            } else if (brandLogoConfig.mode === 'image') {
+                slot.innerHTML = `<img src="${brandLogoConfig.imageUrl}" alt="Nova Estates" class="h-10 object-contain">`;
+            } else {
+                slot.innerHTML = `
+                    <div>
+                        <span class="font-serif text-xl font-bold text-white tracking-widest block">${brandLogoConfig.textTitle}</span>
+                        <span class="text-[9px] text-champagne-400 tracking-[0.3em] uppercase block">${brandLogoConfig.textSub}</span>
+                    </div>`;
+            }
+        }
+
+        /* ANCHOR LAT/LNG COORDINATES FOR GOOGLE MAPS PROXIMITY CALCULATIONS */
+        const LOCATION_ANCHORS = {
+            malleshwaram: { name: "Malleshwaram", lat: 13.0037, lng: 77.5689 },
+            hebbal: { name: "Hebbal", lat: 13.0402, lng: 77.5913 },
+            indiranagar: { name: "Indiranagar", lat: 12.9784, lng: 77.6412 },
+            devanahalli: { name: "Devanahalli Airport Corridor", lat: 13.2484, lng: 77.7082 }
+        };
+
+        const PROPERTIES = [
+    {
+        "id": 1,
+        "title": "Prestige Crystal Lawns",
+        "subtitle": "Luxury Plotted Development on IVC Road",
+        "locationKey": "ivc-road-devanahalli-bangalore",
+        "locationName": "IVC Road, Devanahalli, North Bangalore",
+        "typeKey": "plot",
+        "typeLabel": "Residential Plots",
+        "lat": 13.2642,
+        "lng": 77.6761,
+        "reraId": "PRM/KA/RERA/1250/303/PR/300925/008132",
+        "priceDisplay": "\u20b9 2.25 Cr*",
+        "basePriceNum": 2.25,
+        "statusTag": "Under Construction",
+        "vastuRating": "100% Vastu Compliant Layout",
+        "acres": "24.3 Acres",
+        "towers": "N/A (Plotted Development)",
+        "totalUnits": "235 Units",
+        "possession": "March 2027",
+        "heroImage": "https://raw.githubusercontent.com/novaestatesrealtycompany/Projects/main/Prestige/Prestige-Crystal-Lawns/Images/1.png",
+        "videoEmbedUrl": "https://www.youtube.com/embed/61GGYh5uzOg",
+        "description": "Prestige Crystal Lawns is an elite, gated plotted development by the Prestige Group situated on IVC Road, North Bangalore. Spanning across 24.3 acres, it offers custom-sized luxury plots ranging from 2,400 sq. ft. to 4,000 sq. ft. Designed for modern community living, the township blends open green spaces, grand landscapes, and top-tier lifestyle amenities with close proximity to Kempegowda International Airport.",
+        "gallery": [
+            {
+                "url": "https://raw.githubusercontent.com/novaestatesrealtycompany/Projects/main/Prestige/Prestige-Crystal-Lawns/Images/2.png",
+                "title": "Landscape View",
+                "category": "Exterior"
+            },
+            {
+                "url": "https://raw.githubusercontent.com/novaestatesrealtycompany/Projects/main/Prestige/Prestige-Crystal-Lawns/Images/3.png",
+                "title": "Project Architecture",
+                "category": "Exterior"
+            },
+            {
+                "url": "https://raw.githubusercontent.com/novaestatesrealtycompany/Projects/main/Prestige/Prestige-Crystal-Lawns/Images/4.png",
+                "title": "Landscaped Pavilion",
+                "category": "Amenities"
+            },
+            {
+                "url": "https://raw.githubusercontent.com/novaestatesrealtycompany/Projects/main/Prestige/Prestige-Crystal-Lawns/Images/5.png",
+                "title": "Entrance Gate",
+                "category": "Exterior"
+            },
+            {
+                "url": "https://raw.githubusercontent.com/novaestatesrealtycompany/Projects/main/Prestige/Prestige-Crystal-Lawns/Images/6.png",
+                "title": "Garden Fountain",
+                "category": "Amenities"
+            }
+        ],
+        "floorPlans": [],
+        "pricingMatrix": [
+            {
+                "typ": "2,400 Sq.Ft. Plot",
+                "carpet": "Dimension: 30x80 / 40x60",
+                "superBuilt": "Price: \u20b9 2,25,00,000",
+                "floorBand": "3,600 Sq.Ft. Plot",
+                "allInPrice": "Dimension: 45x80"
+            }
+        ],
+        "connectivityCategories": [
+            {
+                "category": "Transportation & Transit",
+                "icon": "fa-plane",
+                "items": [
+                    {
+                        "name": "Kempegowda International Airport",
+                        "dist": "12.0 km",
+                        "time": "20 mins"
+                    }
+                ]
+            }
+        ],
+        "googleMapEmbed": "https://www.google.com/maps?q=IVC+Road,+Devanahalli,+Bengaluru&output=embed",
+        "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=IVC+Road%2C+Devanahalli%2C+Bengaluru",
+        "amenities": [
+            {
+                "name": "Grand Clubhouse",
+                "icon": "fa-building"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "title": "Sobha One World",
+        "subtitle": "Prime Residential Luxurious Apartment",
+        "locationKey": "hebbal",
+        "locationName": "Hebbal, Bangalore",
+        "typeKey": "apartment",
+        "typeLabel": "Luxury Apartments",
+        "lat": 13.0402,
+        "lng": 77.5913,
+        "reraId": "PRM/KA/RERA/1251/309/PR/240520/009123",
+        "priceDisplay": "\u20b9 5.50 Cr*",
+        "basePriceNum": 5.5,
+        "statusTag": "New Launch",
+        "vastuRating": "100% Vastu Compliant",
+        "acres": "6.0 Acres",
+        "towers": "3 Towers",
+        "totalUnits": "140 Luxury Units",
+        "possession": "December 2028",
+        "heroImage": "https://raw.githubusercontent.com/novaestatesrealtycompany/Projects/main/Prestige/Prestige-Crystal-Lawns/Images/1.png",
+        "videoEmbedUrl": "https://www.youtube.com/embed/61GGYh5uzOg",
+        "description": "A luxury residential apartment development in Hebbal, with contemporary residences and lifestyle amenities. Contact Nova Estates for current availability, specifications and verified project details.",
+        "gallery": [
+            {
+                "url": "https://raw.githubusercontent.com/novaestatesrealtycompany/Projects/main/Prestige/Prestige-Crystal-Lawns/Images/2.png",
+                "title": "Landscape View",
+                "category": "Exterior"
+            },
+            {
+                "url": "https://raw.githubusercontent.com/novaestatesrealtycompany/Projects/main/Prestige/Prestige-Crystal-Lawns/Images/3.png",
+                "title": "Project Architecture",
+                "category": "Exterior"
+            },
+            {
+                "url": "https://raw.githubusercontent.com/novaestatesrealtycompany/Projects/main/Prestige/Prestige-Crystal-Lawns/Images/4.png",
+                "title": "Landscaped Pavilion",
+                "category": "Amenities"
+            },
+            {
+                "url": "https://raw.githubusercontent.com/novaestatesrealtycompany/Projects/main/Prestige/Prestige-Crystal-Lawns/Images/5.png",
+                "title": "Entrance Gate",
+                "category": "Exterior"
+            },
+            {
+                "url": "https://raw.githubusercontent.com/novaestatesrealtycompany/Projects/main/Prestige/Prestige-Crystal-Lawns/Images/6.png",
+                "title": "Garden Fountain",
+                "category": "Amenities"
+            }
+        ],
+        "floorPlans": [],
+        "pricingMatrix": [
+            {
+                "typ": "3 BHK Luxury Suite",
+                "carpet": "2,050 Sq.Ft.",
+                "superBuilt": "2,600 Sq.Ft.",
+                "floorBand": "10th to 15th Floor",
+                "allInPrice": "\u20b9 5,50,00,000"
+            }
+        ],
+        "connectivityCategories": [
+            {
+                "category": "Workplaces & Tech Hubs",
+                "icon": "fa-briefcase",
+                "items": [
+                    {
+                        "name": "Manyata Tech Park",
+                        "dist": "4.0 km",
+                        "time": "10 mins"
+                    }
+                ]
+            }
+        ],
+        "googleMapEmbed": "https://www.google.com/maps?q=IVC+Road,+Devanahalli,+Bengaluru&output=embed",
+        "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=IVC+Road%2C+Devanahalli%2C+Bengaluru",
+        "amenities": [
+            {
+                "name": "Infinity Swimming Pool",
+                "icon": "fa-swimming-pool"
+            },
+            {
+                "name": "State-of-the-art Gymnasium",
+                "icon": "fa-dumbbell"
+            }
+        ]
+    }
+];
+
+
+        /* HAVERSINE DISTANCE CALCULATOR IN KILOMETERS */
+        function calculateKmDistance(lat1, lon1, lat2, lon2) {
+            const R = 6371;
+            const dLat = (lat2 - lat1) * Math.PI / 180;
+            const dLon = (lon2 - lon1) * Math.PI / 180;
+            const a = Math.sin(dLat/2) * Math.sin(dLat/2) +
+                      Math.cos(lat1 * Math.PI / 180) * Math.cos(lat2 * Math.PI / 180) *
+                      Math.sin(dLon/2) * Math.sin(dLon/2);
+            const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
+            return R * c;
+        }
+
+        /* GLOBAL FILTER STATE */
+        let activeFilters = {
+            type: 'all',
+            location: 'all',
+            radiusKm: 10,
+            maxPrice: 25
+        };
+
+        function initRouter() {
+            window.addEventListener('hashchange', renderCurrentRoute);
+            renderCurrentRoute();
+        }
+
+        function renderCurrentRoute() {
+            const hash = window.location.hash;
+            const viewport = document.getElementById('app-viewport');
+            if (!viewport) return;
+
+            if (hash.startsWith('#property/')) {
+                const propId = parseInt(hash.replace('#property/', ''));
+                const property = PROPERTIES.find(p => p.id === propId);
+                if (property) {
+                    viewport.innerHTML = renderPropertyDetailPage(property);
+                    window.scrollTo(0,0);
+                    return;
+                }
+            }
+            
+            viewport.innerHTML = renderHomePage();
+            applyPropertyFilters();
+            window.scrollTo(0,0);
+        }
+
+        function renderHomePage() {
+            return `
+                <!-- HERO SECTION -->
+                <section class="relative min-h-[85vh] flex items-center justify-center overflow-hidden border-b border-obsidian-border">
+                    <div class="absolute inset-0 z-0">
+                        <img src="${PROPERTIES[0]?.heroImage || ''}" alt="Luxury Real Estate" class="w-full h-full object-cover opacity-30">
+                        <div class="absolute inset-0 bg-gradient-to-t from-obsidian via-obsidian/60 to-transparent"></div>
+                    </div>
+
+                    <div class="relative z-10 max-w-5xl mx-auto px-4 text-center space-y-6 py-20">
+                        <span class="inline-block px-4 py-1.5 rounded-full glass-panel-gold text-champagne-400 text-xs tracking-[0.3em] font-semibold uppercase">
+                            Exclusive Real Estate Advisory
+                        </span>
+                        
+                        <h1 class="font-serif text-4xl sm:text-6xl md:text-7xl font-bold tracking-tight text-white leading-tight">
+                            Architectural Excellence in <br/><span class="gold-gradient-text">Prime Bangalore</span>
+                        </h1>
+                        
+                        <p class="max-w-2xl mx-auto text-zinc-400 text-sm sm:text-base leading-relaxed">
+                            Bespoke penthouses, lakefront villas, sky villatments, and gated plots meticulously curated by Nova Estates Realty Co.
+                        </p>
+
+                        <div class="pt-6 flex flex-wrap justify-center gap-4">
+                            <a href="#properties-section" class="px-8 py-4 rounded-full bg-gradient-to-r from-champagne-400 to-champagne-600 text-black font-bold text-xs uppercase tracking-widest hover:brightness-110 transition-all shadow-xl shadow-champagne-400/20">
+                                Explore Portfolios
+                            </a>
+                            <a href="tel:+917204158077" class="px-8 py-4 rounded-full glass-panel text-white font-semibold text-xs uppercase tracking-widest hover:border-champagne-400 transition-all">
+                                <i class="fa-solid fa-phone text-champagne-400 mr-2"></i> +91 7204158077
+                            </a>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- BUYER PRIVILEGES BANNER -->
+                <section id="privileges-section" class="py-16 bg-obsidian-light border-b border-obsidian-border">
+                    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                        <div class="text-center max-w-3xl mx-auto mb-12 space-y-2">
+                            <span class="text-champagne-400 text-xs uppercase tracking-[0.25em] font-bold">Client Direct Advantage</span>
+                            <h2 class="font-serif text-3xl font-bold text-white">Why Reserve Through Nova Estates Reference?</h2>
+                            <p class="text-xs text-zinc-400">Unlock VIP perks and guaranteed financial savings when booking your luxury home through our advisory.</p>
+                        </div>
+
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                            <div class="glass-panel p-8 rounded-2xl border border-champagne-400/30 flex items-start gap-6 hover:border-champagne-400 transition-all">
+                                <div class="w-14 h-14 rounded-2xl bg-champagne-400/10 border border-champagne-400/40 flex items-center justify-center shrink-0">
+                                    <i class="fa-solid fa-car-side text-2xl text-champagne-400"></i>
+                                </div>
+                                <div class="space-y-2">
+                                    <h3 class="font-serif text-xl font-bold text-white">Complimentary Chauffeur Pick & Drop</h3>
+                                    <p class="text-xs text-zinc-300 leading-relaxed">
+                                        Experience site visits in complete luxury. We arrange private, luxury AC chauffeur pick-up and drop-off directly from your residence or office at your exact preferred timing.
+                                    </p>
+                                    <span class="inline-block pt-1 text-[10px] text-champagne-400 font-semibold uppercase tracking-wider"><i class="fa-solid fa-check-circle mr-1"></i> Zero Hassle • Personalized Schedule</span>
+                                </div>
+                            </div>
+
+                            <div class="glass-panel p-8 rounded-2xl border border-champagne-400/30 flex items-start gap-6 hover:border-champagne-400 transition-all">
+                                <div class="w-14 h-14 rounded-2xl bg-champagne-400/10 border border-champagne-400/40 flex items-center justify-center shrink-0">
+                                    <i class="fa-solid fa-handshake-simple text-2xl text-champagne-400"></i>
+                                </div>
+                                <div class="space-y-2">
+                                    <h3 class="font-serif text-xl font-bold text-white">Guaranteed ₹500/sq.ft. Price Reduction</h3>
+                                    <p class="text-xs text-zinc-300 leading-relaxed">
+                                        Leverage our direct high-volume developer advisory standing. We guarantee to negotiate up to <strong>₹500 per sq.ft. lower</strong> than the builder's official quoting rate.
+                                    </p>
+                                    <span class="inline-block pt-1 text-[10px] text-champagne-400 font-semibold uppercase tracking-wider"><i class="fa-solid fa-check-circle mr-1"></i> Massive Direct Savings • Institutional Leverage</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- REAL-TIME FILTER BAR WITH TYPOLOGY & MAP RADIUS ENGINE -->
+                <section id="properties-section" class="py-24 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                    <div class="text-center max-w-3xl mx-auto mb-12 space-y-3">
+                        <h2 class="font-serif text-3xl sm:text-4xl font-bold text-white">Featured Luxury Landmark Residences</h2>
+                        <p class="text-xs text-zinc-400">Filter residences by property type, Google Maps radius distance, or budget cap in real time.</p>
+                    </div>
+
+                    <!-- INTERACTIVE MULTI-VARIABLE FILTER PANEL -->
+                    <div class="glass-panel rounded-2xl p-6 mb-12 border border-champagne-400/20 grid grid-cols-1 md:grid-cols-5 gap-4 items-center">
+                        <div>
+                            <label class="block text-xs font-semibold text-zinc-300 uppercase mb-2"><i class="fa-solid fa-house text-champagne-400 mr-1.5"></i>Property Type</label>
+                            <select id="filter-type" onchange="handleTypeFilterChange(this.value)" class="w-full bg-obsidian-light border border-obsidian-border rounded-xl px-3 py-2.5 text-xs text-white focus:border-champagne-400 focus:outline-none">
+                                <option value="all">All Typologies</option>
+                                <option value="apartment">Apartments & Penthouses</option>
+                                <option value="villa">Luxury Villas</option>
+                                <option value="villatment">Bespoke Villatments</option>
+                                <option value="plot">Gated Plots</option>
+                            </select>
+                        </div>
+
+                        <div>
+                            <label class="block text-xs font-semibold text-zinc-300 uppercase mb-2"><i class="fa-solid fa-location-dot text-champagne-400 mr-1.5"></i>Anchor Location</label>
+                            <select id="filter-location" onchange="handleLocationFilterChange(this.value)" class="w-full bg-obsidian-light border border-obsidian-border rounded-xl px-3 py-2.5 text-xs text-white focus:border-champagne-400 focus:outline-none">
+                                <option value="all">All Prime Bangalore Hubs</option>
+                                <option value="malleshwaram">Malleshwaram Hub</option>
+                                <option value="hebbal">Hebbal Lake Hub</option>
+                                <option value="indiranagar">Indiranagar Metro Hub</option>
+                                <option value="devanahalli">Devanahalli Airport Hub</option>
+                            </select>
+                        </div>
+
+                        <div>
+                            <label class="block text-xs font-semibold text-zinc-300 uppercase mb-2"><i class="fa-solid fa-compass text-champagne-400 mr-1.5"></i>Distance Radius</label>
+                            <select id="filter-radius" onchange="handleRadiusFilterChange(this.value)" class="w-full bg-obsidian-light border border-obsidian-border rounded-xl px-3 py-2.5 text-xs text-white focus:border-champagne-400 focus:outline-none">
+                                <option value="5">Within 5 km Radius</option>
+                                <option value="10" selected>Within 10 km Radius</option>
+                                <option value="15">Within 15 km Radius</option>
+                                <option value="25">Within 25 km Radius</option>
+                            </select>
+                        </div>
+
+                        <div>
+                            <div class="flex justify-between items-center mb-2">
+                                <label class="text-xs font-semibold text-zinc-300 uppercase"><i class="fa-solid fa-tag text-champagne-400 mr-1.5"></i>Max Budget</label>
+                                <span id="filter-price-display" class="text-xs font-bold text-champagne-400">Up to ₹ 25 Cr</span>
+                            </div>
+                            <input type="range" id="filter-price" min="2" max="25" step="0.5" value="25" oninput="handlePriceFilterChange(this.value)" class="w-full accent-champagne-400">
+                        </div>
+
+                        <div class="flex items-end justify-between md:justify-end gap-2">
+                            <button onclick="resetFilters()" class="px-3 py-2.5 rounded-xl bg-obsidian-light border border-obsidian-border text-xs text-zinc-400 hover:text-white hover:border-champagne-400 transition-all">
+                                <i class="fa-solid fa-rotate-left mr-1"></i> Reset
+                            </button>
+                            <div id="filter-count-badge" class="px-3 py-2.5 rounded-xl glass-panel-gold text-champagne-400 text-xs font-bold shrink-0">
+                                Showing available residences
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="properties-grid" class="grid grid-cols-1 md:grid-cols-2 gap-10">
+                        <!-- Dynamic Property Cards Rendered via JS -->
+                    </div>
+                </section>
+
+                <!-- MORTGAGE ESTIMATOR -->
+                <section id="calculator-section" class="py-20 bg-obsidian-light border-y border-obsidian-border">
+                    <div class="max-w-4xl mx-auto px-4">
+                        <div class="text-center mb-10">
+                            <h2 class="font-serif text-3xl font-bold text-white">Investment Financial Estimator</h2>
+                            <p class="text-xs text-zinc-400 mt-1">Calculate your monthly outlay for prime real estate acquisitions.</p>
+                        </div>
+
+                        <div class="glass-panel p-8 rounded-2xl grid grid-cols-1 md:grid-cols-2 gap-8">
+                            <div class="space-y-4">
+                                <div>
+                                    <label class="block text-xs font-semibold text-zinc-300 uppercase mb-2">Property Value (₹ Cr)</label>
+                                    <input type="range" id="calc-price" min="2" max="25" step="0.5" value="8.5" oninput="updateCalculator()" class="w-full accent-champagne-400">
+                                    <span id="calc-price-val" class="text-sm font-bold text-champagne-400">₹ 8.5 Cr</span>
+                                </div>
+                                <div>
+                                    <label class="block text-xs font-semibold text-zinc-300 uppercase mb-2">Down Payment (%)</label>
+                                    <input type="range" id="calc-down" min="10" max="50" step="5" value="20" oninput="updateCalculator()" class="w-full accent-champagne-400">
+                                    <span id="calc-down-val" class="text-sm font-bold text-champagne-400">20%</span>
+                                </div>
+                                <div>
+                                    <label class="block text-xs font-semibold text-zinc-300 uppercase mb-2">Loan Tenure (Years)</label>
+                                    <input type="range" id="calc-tenure" min="5" max="30" step="5" value="20" oninput="updateCalculator()" class="w-full accent-champagne-400">
+                                    <span id="calc-tenure-val" class="text-sm font-bold text-champagne-400">20 Years</span>
+                                </div>
+                            </div>
+
+                            <div class="glass-panel-gold rounded-xl p-6 flex flex-col justify-between text-center">
+                                <span class="text-xs uppercase tracking-widest text-zinc-400">Estimated Monthly EMI</span>
+                                <div id="calc-emi-result" class="font-serif text-4xl font-bold text-champagne-400 my-4">₹ 5,88,410</div>
+                                <p class="text-[10px] text-zinc-500">Indicative interest rate of 8.5% p.a.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            `;
+        }
+
+        function renderPropertyDetailPage(property) {
+            return `
+                <section class="relative h-[65vh] flex items-end justify-start border-b border-obsidian-border overflow-hidden">
+                    <img src="${property.heroImage}" alt="${property.title}" class="absolute inset-0 w-full h-full object-cover opacity-40">
+                    <div class="absolute inset-0 bg-gradient-to-t from-obsidian via-obsidian/40 to-transparent"></div>
+                    <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-12 w-full">
+                        <a href="#" class="inline-flex items-center text-xs text-champagne-400 hover:underline mb-4">
+                            <i class="fa-solid fa-arrow-left mr-2"></i> Back to All Residences
+                        </a>
+                        <div class="flex items-center gap-2 mb-2">
+                            <span class="px-3 py-1 rounded-full bg-champagne-400/20 text-champagne-400 text-[10px] uppercase font-bold tracking-widest border border-champagne-400/30">
+                                ${property.typeLabel}
+                            </span>
+                            <span class="px-3 py-1 rounded-full bg-emerald-950/60 text-emerald-400 text-[10px] uppercase font-bold tracking-widest border border-emerald-500/30">
+                                ${property.statusTag}
+                            </span>
+                        </div>
+                        <h1 class="font-serif text-4xl sm:text-6xl font-bold text-white mb-2">${property.title}</h1>
+                        <p class="text-sm text-zinc-300"><i class="fa-solid fa-location-dot text-champagne-400 mr-2"></i>${property.subtitle}</p>
+                    </div>
+                </section>
+
+                <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 grid grid-cols-1 lg:grid-cols-3 gap-12">
+                    <div class="lg:col-span-2 space-y-12">
+                        
+                        <!-- OVERVIEW -->
+                        <div class="glass-panel rounded-2xl p-8 space-y-4">
+                            <h2 class="font-serif text-2xl font-bold text-white">Executive Summary</h2>
+                            <p class="text-sm text-zinc-300 leading-relaxed">${property.description}</p>
+                            
+                            <div class="grid grid-cols-2 sm:grid-cols-4 gap-4 pt-4 border-t border-obsidian-border text-center">
+                                <div class="bg-obsidian-light p-3 rounded-lg">
+                                    <span class="block text-[10px] text-zinc-500 uppercase">Land Area</span>
+                                    <span class="text-sm font-bold text-white">${property.acres}</span>
+                                </div>
+                                <div class="bg-obsidian-light p-3 rounded-lg">
+                                    <span class="block text-[10px] text-zinc-500 uppercase">Towers/Type</span>
+                                    <span class="text-sm font-bold text-white">${property.towers}</span>
+                                </div>
+                                <div class="bg-obsidian-light p-3 rounded-lg">
+                                    <span class="block text-[10px] text-zinc-500 uppercase">Total Inventory</span>
+                                    <span class="text-sm font-bold text-white">${property.totalUnits}</span>
+                                </div>
+                                <div class="bg-obsidian-light p-3 rounded-lg">
+                                    <span class="block text-[10px] text-zinc-500 uppercase">Possession</span>
+                                    <span class="text-sm font-bold text-white">${property.possession}</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- ARCHITECTURAL BLUEPRINTS & MASTER PLANS -->
+                        <div class="space-y-6">
+                            <h2 class="font-serif text-2xl font-bold text-white">Master & Floor Plans</h2>
+                            <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                                ${property.floorPlans.map(fp => `
+                                    <div class="glass-panel rounded-xl p-4 cursor-pointer hover:border-champagne-400 transition-all" onclick="openLightbox('${fp.image}')">
+                                        <img src="${fp.image}" alt="${fp.title}" class="w-full h-48 object-cover rounded-lg mb-4">
+                                        <h4 class="font-serif text-lg font-bold text-white">${fp.title}</h4>
+                                        <p class="text-xs text-zinc-400">Carpet Area: ${fp.area}</p>
+                                        <p class="text-xs text-champagne-400 font-semibold mt-1">Indicative Price: ${fp.price}</p>
+                                    </div>
+                                `).join('')}
+                            </div>
+                        </div>
+
+                        <!-- CATEGORIZED NEARBY CONNECTIVITY MATRIX -->
+                        <div class="space-y-6">
+                            <h2 class="font-serif text-2xl font-bold text-white">Neighborhood Connectivity & Essentials</h2>
+                            <div class="grid grid-cols-1 gap-6">
+                                ${property.connectivityCategories.map(cat => `
+                                    <div class="glass-panel rounded-2xl p-6 border border-obsidian-border">
+                                        <div class="flex items-center gap-3 mb-4 pb-2 border-b border-obsidian-border">
+                                            <i class="fa-solid ${cat.icon} text-champagne-400 text-lg"></i>
+                                            <h3 class="font-serif text-lg font-bold text-white">${cat.category}</h3>
+                                        </div>
+                                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                                            ${cat.items.map(item => `
+                                                <div class="bg-obsidian-light p-3 rounded-xl flex justify-between items-center border border-obsidian-border">
+                                                    <div>
+                                                        <span class="block text-xs font-semibold text-white">${item.name}</span>
+                                                        <span class="text-[10px] text-zinc-500">Distance: ${item.dist}</span>
+                                                    </div>
+                                                    <span class="px-2.5 py-1 rounded bg-champagne-400/10 text-champagne-400 text-xs font-semibold">
+                                                        ${item.time}
+                                                    </span>
+                                                </div>
+                                            `).join('')}
+                                        </div>
+                                    </div>
+                                `).join('')}
+                            </div>
+                        </div>
+
+                        <!-- GOOGLE MAP LOCATION -->
+                        <div class="space-y-4">
+                            <div class="flex justify-between items-center">
+                                <h2 class="font-serif text-2xl font-bold text-white">Google Map Location</h2>
+                                <a href="${property.googleMapUrl}" target="_blank" rel="noopener noreferrer" class="text-xs text-champagne-400 hover:underline">Open in Google Maps App <i class="fa-solid fa-arrow-up-right-from-square ml-1"></i></a>
+                            </div>
+                            <div class="glass-panel rounded-2xl overflow-hidden h-80 border border-champagne-400/20">
+                                <iframe src="${property.googleMapEmbed}" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                            </div>
+                        </div>
+
+                        <!-- GALLERY & VIDEO WALKTHROUGH -->
+                        <div class="space-y-6">
+                            <h2 class="font-serif text-2xl font-bold text-white">Visual Gallery & Video Tour</h2>
+                            
+                            <div class="glass-panel rounded-2xl overflow-hidden aspect-video">
+                                <iframe class="w-full h-full" src="${property.videoEmbedUrl}" title="Property Walkthrough" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+
+                            <div class="grid grid-cols-2 sm:grid-cols-3 gap-4">
+                                ${property.gallery.map(img => `
+                                    <div class="relative group h-36 rounded-xl overflow-hidden cursor-pointer" onclick="openLightbox('${img.url}')">
+                                        <img src="${img.url}" alt="${img.title}" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                                        <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-3">
+                                            <span class="text-[10px] text-white font-semibold">${img.title}</span>
+                                        </div>
+                                    </div>
+                                `).join('')}
+                            </div>
+                        </div>
+
+                        <!-- WORLD CLASS AMENITIES -->
+                        <div class="space-y-6">
+                            <h2 class="font-serif text-2xl font-bold text-white">Curated Amenities</h2>
+                            <div class="grid grid-cols-2 sm:grid-cols-3 gap-4">
+                                ${property.amenities.map(a => `
+                                    <div class="glass-panel p-4 rounded-xl flex items-center gap-3">
+                                        <i class="fa-solid ${a.icon} text-champagne-400 text-lg"></i>
+                                        <span class="text-xs font-medium text-zinc-300">${a.name}</span>
+                                    </div>
+                                `).join('')}
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- RIGHT STICKY ACTION PANEL -->
+                    <div class="lg:col-span-1">
+                        <div class="sticky top-28 glass-panel rounded-2xl p-8 space-y-6 border border-champagne-400/30">
+                            <div>
+                                <span class="text-[10px] uppercase tracking-widest text-zinc-500">Asking Price</span>
+                                <div class="font-serif text-3xl font-bold text-champagne-400">${property.priceDisplay}</div>
+                            </div>
+
+                            <!-- PRIVILEGES HIGHLIGHT CARD -->
+                            <div class="p-4 rounded-xl glass-panel-gold border border-champagne-400/30 space-y-2 text-xs">
+                                <div class="font-bold text-white flex items-center gap-2">
+                                    <i class="fa-solid fa-crown text-champagne-400"></i> Nova Reference Privileges
+                                </div>
+                                <ul class="space-y-1.5 text-[11px] text-zinc-300">
+                                    <li><i class="fa-solid fa-check text-champagne-400 mr-1.5"></i> Complimentary luxury pick & drop for site tour</li>
+                                    <li><i class="fa-solid fa-check text-champagne-400 mr-1.5"></i> Guaranteed negotiation: <strong>₹500/sq.ft lower</strong> than quoted price</li>
+                                </ul>
+                            </div>
+
+                            <div class="space-y-3 pt-4 border-t border-obsidian-border">
+                                <a href="tel:+917204158077" class="w-full py-3.5 rounded-xl bg-gradient-to-r from-champagne-400 to-champagne-600 text-black font-bold text-xs uppercase tracking-widest flex items-center justify-center gap-2">
+                                    <i class="fa-solid fa-phone"></i> Call Direct
+                                </a>
+                                <a href="https://wa.me/917204158077?text=Hello%20Nova%20Estates,%20I%20would%20like%20to%20inquire%20about%20${encodeURIComponent(property.title)}%20and%20avail%20the%20Nova%20Reference%20Privileges." target="_blank" rel="noopener noreferrer" class="w-full py-3.5 rounded-xl bg-emerald-600 text-white font-bold text-xs uppercase tracking-widest flex items-center justify-center gap-2">
+                                    <i class="fa-brands fa-whatsapp"></i> WhatsApp Inquiry
+                                </a>
+                                <a href="brochures/property-${property.id}-brochure.pdf" target="_blank" download class="w-full py-3.5 rounded-xl bg-obsidian-light border border-champagne-400/40 hover:border-champagne-400 text-champagne-400 font-bold text-xs uppercase tracking-widest flex items-center justify-center gap-2">
+                                    <i class="fa-solid fa-file-pdf"></i> Download PDF Brochure
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            `;
+        }
+
+        /* FILTER LOGIC FUNCTIONS WITH TYPOLOGY & RADIUS ENGINE */
+        function handleTypeFilterChange(val) {
+            activeFilters.type = val;
+            applyPropertyFilters();
+        }
+
+        function handleLocationFilterChange(val) {
+            activeFilters.location = val;
+            applyPropertyFilters();
+        }
+
+        function handleRadiusFilterChange(val) {
+            activeFilters.radiusKm = parseFloat(val);
+            applyPropertyFilters();
+        }
+
+        function handlePriceFilterChange(val) {
+            activeFilters.maxPrice = parseFloat(val);
+            const label = document.getElementById('filter-price-display');
+            if (label) label.innerText = `Up to ₹ ${val} Cr`;
+            applyPropertyFilters();
+        }
+
+        function resetFilters() {
+            activeFilters.type = 'all';
+            activeFilters.location = 'all';
+            activeFilters.radiusKm = 10;
+            activeFilters.maxPrice = 25;
+            
+            const typeSelect = document.getElementById('filter-type');
+            const locSelect = document.getElementById('filter-location');
+            const radSelect = document.getElementById('filter-radius');
+            const priceSlider = document.getElementById('filter-price');
+            const priceLabel = document.getElementById('filter-price-display');
+
+            if (typeSelect) typeSelect.value = 'all';
+            if (locSelect) locSelect.value = 'all';
+            if (radSelect) radSelect.value = '10';
+            if (priceSlider) priceSlider.value = 25;
+            if (priceLabel) priceLabel.innerText = 'Up to ₹ 25 Cr';
+
+            applyPropertyFilters();
+        }
+
+        function applyPropertyFilters() {
+            const grid = document.getElementById('properties-grid');
+            const badge = document.getElementById('filter-count-badge');
+            if (!grid) return;
+
+            const filtered = PROPERTIES.filter(p => {
+                const matchesType = (activeFilters.type === 'all') || (p.typeKey === activeFilters.type);
+
+                let matchesLocation = true;
+                if (activeFilters.location !== 'all' && LOCATION_ANCHORS[activeFilters.location]) {
+                    const anchor = LOCATION_ANCHORS[activeFilters.location];
+                    const distKm = calculateKmDistance(anchor.lat, anchor.lng, p.lat, p.lng);
+                    matchesLocation = distKm <= activeFilters.radiusKm;
+                }
+
+                const matchesPrice = p.basePriceNum <= activeFilters.maxPrice;
+
+                return matchesType && matchesLocation && matchesPrice;
+            });
+
+            if (badge) {
+                badge.innerText = `Showing ${filtered.length} Residence${filtered.length === 1 ? '' : 's'}`;
+            }
+
+            if (filtered.length === 0) {
+                grid.innerHTML = `
+                    <div class="col-span-1 md:col-span-2 text-center py-16 glass-panel rounded-2xl">
+                        <i class="fa-solid fa-building-circle-xmark text-4xl text-champagne-400 mb-4"></i>
+                        <h3 class="font-serif text-xl text-white font-bold mb-2">No Residences Match Your Criteria</h3>
+                        <p class="text-xs text-zinc-400 mb-6">Try selecting 'All Typologies', expanding your distance radius, or increasing your budget range.</p>
+                        <button onclick="resetFilters()" class="px-6 py-2.5 rounded-full bg-champagne-400 text-black text-xs font-bold uppercase tracking-wider">
+                            Reset Filters
+                        </button>
+                    </div>
+                `;
+                return;
+            }
+
+            grid.innerHTML = filtered.map(p => `
+                <div class="glass-panel rounded-2xl overflow-hidden group hover:border-champagne-400/50 transition-all duration-500 flex flex-col">
+                    <div class="relative h-72 overflow-hidden">
+                        <img src="${p.heroImage}" alt="${p.title}" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
+                        <div class="absolute top-4 left-4 flex gap-2">
+                            <span class="px-3 py-1 rounded-full bg-black/70 text-champagne-400 text-[10px] uppercase font-semibold border border-champagne-400/30">
+                                ${p.typeLabel}
+                            </span>
+                            <span class="px-3 py-1 rounded-full bg-emerald-950/70 text-emerald-400 text-[10px] uppercase font-semibold border border-emerald-500/30">
+                                ${p.statusTag}
+                            </span>
+                        </div>
+                        <div class="absolute inset-0 bg-black/60 backdrop-blur-sm opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center gap-4">
+                            <a href="#property/${p.id}" class="px-5 py-2.5 rounded-full bg-champagne-400 text-black text-xs font-bold uppercase tracking-wider">
+                                View Details
+                            </a>
+                            <a href="https://wa.me/917204158077?text=Hello%20Nova%20Estates,%20I%20am%20interested%20in%20${encodeURIComponent(p.title)}" target="_blank" rel="noopener noreferrer" class="px-5 py-2.5 rounded-full bg-emerald-600 text-white text-xs font-bold uppercase tracking-wider">
+                                <i class="fa-brands fa-whatsapp mr-1"></i> WhatsApp
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="p-8 flex-1 flex flex-col justify-between space-y-6">
+                        <div>
+                            <h3 class="font-serif text-2xl font-bold text-white group-hover:text-champagne-400 transition-colors">${p.title}</h3>
+                            <p class="text-xs text-champagne-400 font-semibold mb-3"><i class="fa-solid fa-location-dot mr-1"></i> ${p.subtitle}</p>
+                            <p class="text-xs text-zinc-400 line-clamp-2 leading-relaxed">${p.description}</p>
+                        </div>
+
+                        <div class="pt-4 border-t border-obsidian-border flex justify-between items-center">
+                            <div>
+                                <span class="block text-[10px] uppercase tracking-widest text-zinc-500">Starting Price</span>
+                                <span class="text-xl font-bold text-white font-serif">${p.priceDisplay}</span>
+                            </div>
+                            <a href="#property/${p.id}" class="px-4 py-2 rounded-lg bg-obsidian-light border border-obsidian-border hover:border-champagne-400 text-xs font-semibold text-zinc-300">
+                                Explore Residence <i class="fa-solid fa-arrow-right ml-1"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            `).join('');
+        }
+
+        function updateCalculator() {
+            const priceInput = document.getElementById('calc-price');
+            const downInput = document.getElementById('calc-down');
+            const tenureInput = document.getElementById('calc-tenure');
+            const result = document.getElementById('calc-emi-result');
+            if (!priceInput || !downInput || !tenureInput || !result) return;
+
+            const priceCr = parseFloat(priceInput.value);
+            const downPct = parseFloat(downInput.value);
+            const tenureYrs = parseFloat(tenureInput.value);
+
+            document.getElementById('calc-price-val').innerText = `₹ ${priceCr} Cr`;
+            document.getElementById('calc-down-val').innerText = `${downPct}%`;
+            document.getElementById('calc-tenure-val').innerText = `${tenureYrs} Years`;
+
+            const loanAmount = (priceCr * 10000000) * (1 - (downPct / 100));
+            const monthlyRate = 0.085 / 12;
+            const months = tenureYrs * 12;
+
+            const emi = (loanAmount * monthlyRate * Math.pow(1 + monthlyRate, months)) / (Math.pow(1 + monthlyRate, months) - 1);
+            result.innerText = `₹ ${Math.round(emi).toLocaleString('en-IN')}`;
+        }
+
+        function openBookingModal() { document.getElementById('booking-modal').classList.remove('hidden'); }
+        function closeBookingModal() { document.getElementById('booking-modal').classList.add('hidden'); }
+        function openLightbox(url) { document.getElementById('lightbox-img').src = url; document.getElementById('lightbox-modal').classList.remove('hidden'); }
+        function closeLightbox() { document.getElementById('lightbox-modal').classList.add('hidden'); }
+        function handleFormSubmit(e) { e.preventDefault(); alert("This demo form is not connected to a booking system yet. Please call +91 7204158077 or use WhatsApp to confirm your site visit."); }
+
+        document.addEventListener('DOMContentLoaded', () => {
+            renderBrandLogo();
+            initRouter();
+            updateCalculator();
+        });
+    </script>
+</body>
+
+
+
+
+</html>
