@@ -98,8 +98,8 @@
                 <a href="mailto:novaestatesrealtyco@gmail.com" class="hover:text-champagne-400 transition-colors"><i class="fa-solid fa-envelope text-champagne-400 mr-2"></i>novaestatesrealtyco@gmail.com</a>
             </div>
             <div class="flex items-center gap-4">
-                <a href="https://linkedin.com" target="_blank" class="hover:text-champagne-400"><i class="fa-brands fa-linkedin text-sm"></i></a>
-                <a href="https://instagram.com" target="_blank" class="hover:text-champagne-400"><i class="fa-brands fa-instagram text-sm"></i></a>
+                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="hover:text-champagne-400"><i class="fa-brands fa-linkedin text-sm"></i></a>
+                <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="hover:text-champagne-400"><i class="fa-brands fa-instagram text-sm"></i></a>
                 <span class="text-zinc-600">|</span>
                 <a href="tel:+917204158077" class="text-champagne-400 font-semibold hover:underline"><i class="fa-solid fa-phone mr-1"></i> +91 7204158077</a>
             </div>
@@ -185,7 +185,7 @@
             <i class="fa-solid fa-phone text-champagne-400"></i>
             <span class="hidden sm:inline">Call +91 7204158077</span>
         </a>
-        <a href="https://wa.me/17204158077?text=Hello%20Nova%20Estates,%20I%20would%20like%20to%20inquire%20about%20your%20luxury%20properties." target="_blank" class="flex items-center gap-2 px-5 py-3 rounded-full bg-emerald-600 hover:bg-emerald-500 text-white font-semibold text-xs shadow-xl transition-all">
+        <a href="https://wa.me/917204158077?text=Hello%20Nova%20Estates,%20I%20would%20like%20to%20inquire%20about%20your%20luxury%20properties." target="_blank" rel="noopener noreferrer" class="flex items-center gap-2 px-5 py-3 rounded-full bg-emerald-600 hover:bg-emerald-500 text-white font-semibold text-xs shadow-xl transition-all">
             <i class="fa-brands fa-whatsapp text-lg"></i>
             <span class="hidden sm:inline">WhatsApp Concierge</span>
         </a>
@@ -268,14 +268,14 @@
             devanahalli: { name: "Devanahalli Airport Corridor", lat: 13.2484, lng: 77.7082 }
         };
 
-        const propertiesData = [
+        const PROPERTIES = [
     {
         "id": 1,
         "title": "Prestige Crystal Lawns",
         "subtitle": "Luxury Plotted Development on IVC Road",
         "locationKey": "ivc-road-devanahalli-bangalore",
         "locationName": "IVC Road, Devanahalli, North Bangalore",
-        "typeKey": "Plots",
+        "typeKey": "plot",
         "typeLabel": "Residential Plots",
         "lat": 13.2642,
         "lng": 77.6761,
@@ -341,8 +341,8 @@
                 ]
             }
         ],
-        "googleMapEmbed": "https://www.google.com/maps?q=Hebbal+Bangalore&output=embed",
-        "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=Hebbal+Bangalore",
+        "googleMapEmbed": "https://www.google.com/maps?q=IVC+Road,+Devanahalli,+Bengaluru&output=embed",
+        "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=IVC+Road%2C+Devanahalli%2C+Bengaluru",
         "amenities": [
             {
                 "name": "Grand Clubhouse",
@@ -352,7 +352,7 @@
     },
     {
         "id": 2,
-        "title": "Sobhs Onehhhhhh World",
+        "title": "Sobha One World",
         "subtitle": "Prime Residential Luxurious Apartment",
         "locationKey": "hebbal",
         "locationName": "Hebbal, Bangalore",
@@ -371,7 +371,7 @@
         "possession": "December 2028",
         "heroImage": "https://raw.githubusercontent.com/novaestatesrealtycompany/Projects/main/Prestige/Prestige-Crystal-Lawns/Images/1.png",
         "videoEmbedUrl": "https://www.youtube.com/embed/61GGYh5uzOg",
-        "description": "Prestige Crystal Lawns offers expansive residences designed with contemporary architecture, lush landscaped courtyards, and world-class amenities.",
+        "description": "A luxury residential apartment development in Hebbal, with contemporary residences and lifestyle amenities. Contact Nova Estates for current availability, specifications and verified project details.",
         "gallery": [
             {
                 "url": "https://raw.githubusercontent.com/novaestatesrealtycompany/Projects/main/Prestige/Prestige-Crystal-Lawns/Images/2.png",
@@ -422,8 +422,8 @@
                 ]
             }
         ],
-        "googleMapEmbed": "https://www.google.com/maps?q=Hebbal+Bangalore&output=embed",
-        "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=Hebbal+Bangalore",
+        "googleMapEmbed": "https://www.google.com/maps?q=IVC+Road,+Devanahalli,+Bengaluru&output=embed",
+        "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=IVC+Road%2C+Devanahalli%2C+Bengaluru",
         "amenities": [
             {
                 "name": "Infinity Swimming Pool",
@@ -437,7 +437,6 @@
     }
 ];
 
-export default propertiesData;
 
         /* HAVERSINE DISTANCE CALCULATOR IN KILOMETERS */
         function calculateKmDistance(lat1, lon1, lat2, lon2) {
@@ -467,7 +466,8 @@ export default propertiesData;
         function renderCurrentRoute() {
             const hash = window.location.hash;
             const viewport = document.getElementById('app-viewport');
-            
+            if (!viewport) return;
+
             if (hash.startsWith('#property/')) {
                 const propId = parseInt(hash.replace('#property/', ''));
                 const property = PROPERTIES.find(p => p.id === propId);
@@ -488,7 +488,7 @@ export default propertiesData;
                 <!-- HERO SECTION -->
                 <section class="relative min-h-[85vh] flex items-center justify-center overflow-hidden border-b border-obsidian-border">
                     <div class="absolute inset-0 z-0">
-                        <img src="images/property-1/hero.jpg" alt="Luxury Mansion" class="w-full h-full object-cover opacity-30">
+                        <img src="${PROPERTIES[0]?.heroImage || ''}" alt="Luxury Real Estate" class="w-full h-full object-cover opacity-30">
                         <div class="absolute inset-0 bg-gradient-to-t from-obsidian via-obsidian/60 to-transparent"></div>
                     </div>
 
@@ -609,7 +609,7 @@ export default propertiesData;
                                 <i class="fa-solid fa-rotate-left mr-1"></i> Reset
                             </button>
                             <div id="filter-count-badge" class="px-3 py-2.5 rounded-xl glass-panel-gold text-champagne-400 text-xs font-bold shrink-0">
-                                Showing 5 Residences
+                                Showing available residences
                             </div>
                         </div>
                     </div>
@@ -754,7 +754,7 @@ export default propertiesData;
                         <div class="space-y-4">
                             <div class="flex justify-between items-center">
                                 <h2 class="font-serif text-2xl font-bold text-white">Google Map Location</h2>
-                                <a href="${property.googleMapUrl}" target="_blank" class="text-xs text-champagne-400 hover:underline">Open in Google Maps App <i class="fa-solid fa-arrow-up-right-from-square ml-1"></i></a>
+                                <a href="${property.googleMapUrl}" target="_blank" rel="noopener noreferrer" class="text-xs text-champagne-400 hover:underline">Open in Google Maps App <i class="fa-solid fa-arrow-up-right-from-square ml-1"></i></a>
                             </div>
                             <div class="glass-panel rounded-2xl overflow-hidden h-80 border border-champagne-400/20">
                                 <iframe src="${property.googleMapEmbed}" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
@@ -819,7 +819,7 @@ export default propertiesData;
                                 <a href="tel:+917204158077" class="w-full py-3.5 rounded-xl bg-gradient-to-r from-champagne-400 to-champagne-600 text-black font-bold text-xs uppercase tracking-widest flex items-center justify-center gap-2">
                                     <i class="fa-solid fa-phone"></i> Call Direct
                                 </a>
-                                <a href="https://wa.me/17204158077?text=Hello%20Nova%20Estates,%20I%20would%20like%20to%20inquire%20about%20${encodeURIComponent(property.title)}%20and%20avail%20the%20Nova%20Reference%20Privileges." target="_blank" class="w-full py-3.5 rounded-xl bg-emerald-600 text-white font-bold text-xs uppercase tracking-widest flex items-center justify-center gap-2">
+                                <a href="https://wa.me/917204158077?text=Hello%20Nova%20Estates,%20I%20would%20like%20to%20inquire%20about%20${encodeURIComponent(property.title)}%20and%20avail%20the%20Nova%20Reference%20Privileges." target="_blank" rel="noopener noreferrer" class="w-full py-3.5 rounded-xl bg-emerald-600 text-white font-bold text-xs uppercase tracking-widest flex items-center justify-center gap-2">
                                     <i class="fa-brands fa-whatsapp"></i> WhatsApp Inquiry
                                 </a>
                                 <a href="brochures/property-${property.id}-brochure.pdf" target="_blank" download class="w-full py-3.5 rounded-xl bg-obsidian-light border border-champagne-400/40 hover:border-champagne-400 text-champagne-400 font-bold text-xs uppercase tracking-widest flex items-center justify-center gap-2">
@@ -930,7 +930,7 @@ export default propertiesData;
                             <a href="#property/${p.id}" class="px-5 py-2.5 rounded-full bg-champagne-400 text-black text-xs font-bold uppercase tracking-wider">
                                 View Details
                             </a>
-                            <a href="https://wa.me/17204158077?text=Hello%20Nova%20Estates,%20I%20am%20interested%20in%20${encodeURIComponent(p.title)}" target="_blank" class="px-5 py-2.5 rounded-full bg-emerald-600 text-white text-xs font-bold uppercase tracking-wider">
+                            <a href="https://wa.me/917204158077?text=Hello%20Nova%20Estates,%20I%20am%20interested%20in%20${encodeURIComponent(p.title)}" target="_blank" rel="noopener noreferrer" class="px-5 py-2.5 rounded-full bg-emerald-600 text-white text-xs font-bold uppercase tracking-wider">
                                 <i class="fa-brands fa-whatsapp mr-1"></i> WhatsApp
                             </a>
                         </div>
@@ -958,9 +958,15 @@ export default propertiesData;
         }
 
         function updateCalculator() {
-            const priceCr = parseFloat(document.getElementById('calc-price').value);
-            const downPct = parseFloat(document.getElementById('calc-down').value);
-            const tenureYrs = parseFloat(document.getElementById('calc-tenure').value);
+            const priceInput = document.getElementById('calc-price');
+            const downInput = document.getElementById('calc-down');
+            const tenureInput = document.getElementById('calc-tenure');
+            const result = document.getElementById('calc-emi-result');
+            if (!priceInput || !downInput || !tenureInput || !result) return;
+
+            const priceCr = parseFloat(priceInput.value);
+            const downPct = parseFloat(downInput.value);
+            const tenureYrs = parseFloat(tenureInput.value);
 
             document.getElementById('calc-price-val').innerText = `₹ ${priceCr} Cr`;
             document.getElementById('calc-down-val').innerText = `${downPct}%`;
@@ -971,18 +977,19 @@ export default propertiesData;
             const months = tenureYrs * 12;
 
             const emi = (loanAmount * monthlyRate * Math.pow(1 + monthlyRate, months)) / (Math.pow(1 + monthlyRate, months) - 1);
-            document.getElementById('calc-emi-result').innerText = `₹ ${Math.round(emi).toLocaleString('en-IN')}`;
+            result.innerText = `₹ ${Math.round(emi).toLocaleString('en-IN')}`;
         }
 
         function openBookingModal() { document.getElementById('booking-modal').classList.remove('hidden'); }
         function closeBookingModal() { document.getElementById('booking-modal').classList.add('hidden'); }
         function openLightbox(url) { document.getElementById('lightbox-img').src = url; document.getElementById('lightbox-modal').classList.remove('hidden'); }
         function closeLightbox() { document.getElementById('lightbox-modal').classList.add('hidden'); }
-        function handleFormSubmit(e) { e.preventDefault(); alert("Site visit requested! Our private chauffeur will reach out to confirm your pick-up."); closeBookingModal(); }
+        function handleFormSubmit(e) { e.preventDefault(); alert("This demo form is not connected to a booking system yet. Please call +91 7204158077 or use WhatsApp to confirm your site visit."); }
 
         document.addEventListener('DOMContentLoaded', () => {
             renderBrandLogo();
             initRouter();
+            updateCalculator();
         });
     </script>
 </body>
