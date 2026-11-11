@@ -71,7 +71,7 @@ const propertiesData = [
                 ]
             }
         ],
-        "googleMapEmbed": "https://www.google.com/maps?q=Hebbal+Bangalore&output=embed",
+        "googleMapEmbed": "https://maps.app.goo.gl/sPupt6U6z7aQfrJ69",
         "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=Hebbal+Bangalore",
         "amenities": [
             {
