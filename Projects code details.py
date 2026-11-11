@@ -102,7 +102,7 @@ def convert_google_sheet_to_js(sheet_url, output_file="propertiesData.js"):
         }
         properties_list.append(prop)
     
-    js_content = f"const propertiesData = {json.dumps(properties_list, indent=4)};\n\nexport default propertiesData;"
+    js_content = f"const propertiesData = {json.dumps(properties_list, indent=4)};"
     
     with open(output_file, "w", encoding="utf-8") as f:
         f.write(js_content)
