@@ -10,14 +10,14 @@ from urllib.parse import quote_plus
 # ============================================================
 
 def get_csv_url(sheet_url):
-    """
-    Extracts the Google Sheet ID and generates its CSV export URL.
-    """
 
-    match = re.search(r"/spreadsheets/d/([a-zA-Z0-9_-]+)", sheet_url)
+    match = re.search(
+        r"/spreadsheets/d/([a-zA-Z0-9_-]+)",
+        sheet_url
+    )
 
     if not match:
-        raise ValueError("Invalid Google Sheets URL provided.")
+        raise ValueError("Invalid Google Sheets URL.")
 
     file_id = match.group(1)
 
@@ -32,10 +32,6 @@ def get_csv_url(sheet_url):
 # ============================================================
 
 def clean_text(value, default=""):
-    """
-    Converts spreadsheet values into clean strings.
-    Prevents NaN from appearing in the generated JavaScript.
-    """
 
     if pd.isna(value):
         return default
@@ -44,62 +40,67 @@ def clean_text(value, default=""):
 
 
 def to_float(value, default=0.0):
-    """
-    Safely converts a spreadsheet value into a float.
-    """
 
     if pd.isna(value) or str(value).strip() == "":
         return default
 
     try:
-        return float(str(value).replace(",", "").strip())
+        return float(
+            str(value).replace(",", "").strip()
+        )
+
     except (ValueError, TypeError):
         return default
 
 
 def to_int(value, default=0):
-    """
-    Safely converts a spreadsheet value into an integer.
-    """
-
-    number = to_float(value, default)
 
     try:
-        return int(number)
+        return int(to_float(value, default))
+
     except (ValueError, TypeError):
         return default
 
 
-def normalize_type_key(value):
-    """
-    Converts property types into keys expected by the website.
-    """
+# ============================================================
+# 3. PROPERTY TYPE NORMALIZATION
+# ============================================================
 
-    value = clean_text(value).lower().strip()
+def normalize_type_key(value):
+
+    value = clean_text(value).lower()
 
     type_mapping = {
+
         "plots": "plot",
         "plot": "plot",
         "residential plots": "plot",
+
         "apartments": "apartment",
         "apartment": "apartment",
         "flats": "apartment",
-        "villa": "villa",
+
         "villas": "villa",
+        "villa": "villa",
+
         "row houses": "row-house",
         "row house": "row-house",
+
         "commercial": "commercial"
     }
 
     if value in type_mapping:
         return type_mapping[value]
 
-    # Convert other values into lowercase URL-style keys.
-    return re.sub(r"[^a-z0-9]+", "-", value).strip("-")
+    return re.sub(
+        r"[^a-z0-9]+",
+        "-",
+        value
+    ).strip("-")
 
 
 # ============================================================
-# 3. GALLERY, PRICING, CONNECTIVITY AND AMENITIES PARSER
+# 4. GALLERY, PRICING, CONNECTIVITY AND AMENITIES
 # ============================================================
 
 def parse_pipe_field(value, field_type):
@@ -107,78 +108,80 @@ def parse_pipe_field(value, field_type):
     if pd.isna(value) or not str(value).strip():
         return []
 
-    lines = str(value).strip().splitlines()
+    text = str(value).strip()
+
+    lines = text.splitlines()
 
     parsed_items = []
 
+
     # --------------------------------------------------------
     # GALLERY
-    #
-    # Spreadsheet format:
-    # Title | Category | Image URL
+    # Format: Title | Category | Image URL
     # --------------------------------------------------------
 
     if field_type == "gallery":
 
         for line in lines:
 
-            parts = [p.strip() for p in line.split("|")]
+            parts = [
+                p.strip()
+                for p in line.split("|")
+            ]
 
             if len(parts) >= 3:
 
                 parsed_items.append({
+
                     "url": parts[2],
                     "title": parts[0],
                     "category": parts[1]
+
                 })
+
 
     # --------------------------------------------------------
     # PRICING MATRIX
-    #
-    # Spreadsheet format:
-    # Type | Carpet | SuperBuilt | Floor | Price
+    # Format: Type | Carpet | SuperBuilt | Floor | Price
     # --------------------------------------------------------
 
     elif field_type == "pricingMatrix":
 
         for line in lines:
 
-            parts = [p.strip() for p in line.split("|")]
+            parts = [
+                p.strip()
+                for p in line.split("|")
+            ]
 
             if len(parts) >= 5:
 
-                carpet = parts[1].replace(
-                    "Carpet:", ""
-                ).strip()
-
-                super_built = parts[2].replace(
-                    "SuperBuilt:", ""
-                ).strip()
-
-                floor = parts[3].replace(
-                    "Floor:", ""
-                ).strip()
-
-                price = parts[4].replace(
-                    "Price:", ""
-                ).strip()
-
                 parsed_items.append({
+
                     "typ": parts[0],
-                    "carpet": carpet,
-                    "superBuilt": super_built,
-                    "floorBand": floor,
-                    "allInPrice": price
+
+                    "carpet": parts[1].replace(
+                        "Carpet:", ""
+                    ).strip(),
+
+                    "superBuilt": parts[2].replace(
+                        "SuperBuilt:", ""
+                    ).strip(),
+
+                    "floorBand": parts[3].replace(
+                        "Floor:", ""
+                    ).strip(),
+
+                    "allInPrice": parts[4].replace(
+                        "Price:", ""
+                    ).strip()
+
                 })
+
 
     # --------------------------------------------------------
     # CONNECTIVITY
-    #
-    # Spreadsheet format:
-    # Category | Name | Distance | Time | Icon
-    #
-    # Example:
-    # Transportation | Airport | 12 km | 20 mins | fa-plane
+    # Format: Category | Name | Distance | Time | Icon
     # --------------------------------------------------------
 
     elif field_type == "connectivity":
@@ -187,7 +190,10 @@ def parse_pipe_field(value, field_type):
 
         for line in lines:
 
-            parts = [p.strip() for p in line.split("|")]
+            parts = [
+                p.strip()
+                for p in line.split("|")
+            ]
 
             if len(parts) >= 4:
 
@@ -200,75 +206,91 @@ def parse_pipe_field(value, field_type):
                 )
 
                 item = {
+
                     "name": parts[1],
                     "dist": parts[2],
                     "time": parts[3]
+
                 }
 
                 if category not in categories:
 
                     categories[category] = {
+
                         "category": category,
                         "icon": icon,
                         "items": []
+
                     }
 
                 categories[category]["items"].append(item)
 
         parsed_items = list(categories.values())
 
+
     # --------------------------------------------------------
     # AMENITIES
     #
-    # Spreadsheet format:
-    # Grand Clubhouse (fa-building)
-    # Swimming Pool (fa-swimming-pool)
+    # Google Sheets cell format:
+    #
+    # Grand Clubhouse (fa-building) |
+    # Infinity Swimming Pool (fa-swimming-pool) |
+    # State-of-the-art Gymnasium (fa-dumbbell)
+    #
+    # Each amenity becomes a separate JSON object.
     # --------------------------------------------------------
 
     elif field_type == "amenities":
 
-        for line in lines:
+        # Split amenities using pipe or newline.
+        amenities = re.split(r"[|\n]+", text)
 
-            line = line.strip()
+        for amenity in amenities:
 
-            if not line:
+            amenity = amenity.strip()
+
+            if not amenity:
                 continue
 
+            # Extract name and icon from parentheses.
             match = re.match(
                 r"^(.*?)\s*\(([^()]*)\)\s*$",
-                line
+                amenity
             )
 
             if match:
 
-                parsed_items.append({
-                    "name": match.group(1).strip(),
-                    "icon": match.group(2).strip()
-                })
+                name = match.group(1).strip()
+                icon = match.group(2).strip()
 
             else:
 
+                # If no icon is provided, use default icon.
+                name = amenity
+                icon = "fa-check"
+
+            if name:
+
                 parsed_items.append({
-                    "name": line,
-                    "icon": "fa-check"
+
+                    "name": name,
+                    "icon": icon or "fa-check"
+
                 })
 
     return parsed_items
 
 
 # ============================================================
-# 4. GOOGLE MAPS URL GENERATOR
+# 5. GOOGLE MAPS URL GENERATOR
 # ============================================================
 
-def generate_google_maps_urls(lat, lng, location_name, title):
-    """
-    Generates:
-    1. A Google Maps URL suitable for an iframe.
-    2. A Google Maps link for opening the location.
-
-    Uses coordinates when available.
-    Falls back to the project location/title otherwise.
-    """
+def generate_google_maps_urls(
+    lat,
+    lng,
+    location_name,
+    title
+):
 
     if lat != 0 and lng != 0:
 
@@ -281,12 +303,12 @@ def generate_google_maps_urls(lat, lng, location_name, title):
     encoded_query = quote_plus(map_query)
 
     google_map_embed = (
-        f"https://www.google.com/maps"
+        "https://www.google.com/maps"
         f"?q={encoded_query}&z=15&output=embed"
     )
 
     google_map_url = (
-        f"https://www.google.com/maps/search/"
+        "https://www.google.com/maps/search/"
         f"?api=1&query={encoded_query}"
     )
 
@@ -294,7 +316,7 @@ def generate_google_maps_urls(lat, lng, location_name, title):
 
 
 # ============================================================
-# 5. MAIN GOOGLE SHEETS CONVERTER
+# 6. CONVERT GOOGLE SHEET TO JAVASCRIPT
 # ============================================================
 
 def convert_google_sheet_to_js(
@@ -304,30 +326,35 @@ def convert_google_sheet_to_js(
 
     csv_url = get_csv_url(sheet_url)
 
-    print("Connecting to Google Sheets...")
+    print("\nConnecting to Google Sheets...")
 
     try:
-        df = pd.read_csv(csv_url)
+
+        df = pd.read_csv(
+            csv_url,
+            dtype=str,
+            keep_default_na=False
+        )
+
     except Exception as error:
+
         raise RuntimeError(
             "Unable to read Google Sheet. "
-            "Check that the sheet is shared with "
-            "'Anyone with the link' as Viewer."
+            "Make sure the sheet is shared as "
+            "'Anyone with the link - Viewer'."
         ) from error
 
     properties_list = []
 
-    print(f"Found {len(df)} spreadsheet rows.")
-
     for _, row in df.iterrows():
 
-        # ----------------------------------------------------
-        # BASIC PROPERTY INFORMATION
-        # ----------------------------------------------------
+        property_id = to_int(
+            row.get("ID", 0)
+        )
 
-        property_id = to_int(row.get("ID", 0))
-
-        title = clean_text(row.get("Title", ""))
+        title = clean_text(
+            row.get("Title", "")
+        )
 
         location_name = clean_text(
             row.get("Location Name", "")
@@ -341,12 +368,7 @@ def convert_google_sheet_to_js(
             row.get("Longitude", 0)
         )
 
-        # ----------------------------------------------------
-        # GOOGLE MAPS
-        # Generate valid embed and external URLs automatically.
-        # The spreadsheet's short Google Maps URL is not used.
-        # ----------------------------------------------------
-
+        # Generate Google Maps URLs.
         google_map_embed, google_map_url = (
             generate_google_maps_urls(
                 latitude,
@@ -356,10 +378,7 @@ def convert_google_sheet_to_js(
             )
         )
 
-        # ----------------------------------------------------
-        # PROPERTY DATA OBJECT
-        # ----------------------------------------------------
-
+        # Create property object.
         prop = {
 
             "id": property_id,
@@ -443,8 +462,6 @@ def convert_google_sheet_to_js(
             ),
 
             # FLOOR PLANS
-            # Kept empty because no floor-plan parser
-            # or spreadsheet column was specified.
             "floorPlans": [],
 
             # PRICING MATRIX
@@ -464,65 +481,82 @@ def convert_google_sheet_to_js(
 
             "googleMapUrl": google_map_url,
 
-            # AMENITIES
+            # AMENITIES - INDIVIDUAL OBJECTS
             "amenities": parse_pipe_field(
                 row.get("Amenities (JSON/Pipe)", ""),
                 "amenities"
             )
+
         }
 
         properties_list.append(prop)
 
-    # ========================================================
-    # 6. GENERATE JAVASCRIPT
-    # ========================================================
 
-    # IMPORTANT:
-    # The corrected website uses PROPERTIES.
-    # Therefore, we generate const PROPERTIES here.
+    # ========================================================
+    # 7. GENERATE JAVASCRIPT FILE
+    # ========================================================
 
     js_content = (
+
         "const PROPERTIES = "
+
         + json.dumps(
             properties_list,
             indent=4,
             ensure_ascii=False
         )
+
         + ";"
+
     )
 
-    with open(output_file, "w", encoding="utf-8") as file:
+    with open(
+        output_file,
+        "w",
+        encoding="utf-8"
+    ) as file:
 
         file.write(js_content)
+
+
+    # ========================================================
+    # 8. DISPLAY RESULTS
+    # ========================================================
 
     print("\n======================================")
     print("SUCCESS!")
     print("======================================")
 
     print(
-        f"Extracted {len(properties_list)} properties."
+        f"Total properties extracted: {len(properties_list)}"
     )
 
     print(
         f"JavaScript file created: {output_file}"
     )
 
-    print(
-        "Google Maps URLs generated using "
-        "project coordinates."
-    )
+    for prop in properties_list:
 
-    print("======================================")
+        print(
+            f"\n{prop['title']}: "
+            f"{len(prop['amenities'])} amenities"
+        )
+
+        for amenity in prop["amenities"]:
+
+            print(
+                f"  - {amenity['name']} "
+                f"({amenity['icon']})"
+            )
+
+    print("\n======================================")
 
 
 # ============================================================
-# 7. RUN THE SCRIPT
+# 9. RUN SCRIPT
 # ============================================================
 
 if __name__ == "__main__":
-
-    # Paste your actual Google Sheets URL here.
-    # Do not put Markdown link formatting around it.
 
     sheet_url = (
         "https://docs.google.com/spreadsheets/d/"

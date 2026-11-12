@@ -75,7 +75,51 @@ const PROPERTIES = [
         "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=13.2642%2C77.6761",
         "amenities": [
             {
-                "name": "Grand Clubhouse (fa-building) | Infinity Swimming Pool (fa-swimming-pool) | State-of-the-art Gymnasium (fa-dumbbell) | Multipurpose Sports Court (fa-basketball-ball) | Open-Air Amphitheatre (fa-theater-masks) | Yoga & Meditation Lawn (fa-om) | Jogging & Walking Park (fa-running) | Children's Play Area (fa-child) | Landscaped Water Fountains (fa-water) | Senior Citizen Alcove (fa-user-friends) | Reflexology Pathway (fa-shoe-prints) | 24/7 Gated Security & CCTV",
+                "name": "Grand Clubhouse",
+                "icon": "fa-building"
+            },
+            {
+                "name": "Infinity Swimming Pool",
+                "icon": "fa-swimming-pool"
+            },
+            {
+                "name": "State-of-the-art Gymnasium",
+                "icon": "fa-dumbbell"
+            },
+            {
+                "name": "Multipurpose Sports Court",
+                "icon": "fa-basketball-ball"
+            },
+            {
+                "name": "Open-Air Amphitheatre",
+                "icon": "fa-theater-masks"
+            },
+            {
+                "name": "Yoga & Meditation Lawn",
+                "icon": "fa-om"
+            },
+            {
+                "name": "Jogging & Walking Park",
+                "icon": "fa-running"
+            },
+            {
+                "name": "Children's Play Area",
+                "icon": "fa-child"
+            },
+            {
+                "name": "Landscaped Water Fountains",
+                "icon": "fa-water"
+            },
+            {
+                "name": "Senior Citizen Alcove",
+                "icon": "fa-user-friends"
+            },
+            {
+                "name": "Reflexology Pathway",
+                "icon": "fa-shoe-prints"
+            },
+            {
+                "name": "24/7 Gated Security & CCTV",
                 "icon": "fa-shield-alt"
             }
         ]
@@ -156,7 +200,51 @@ const PROPERTIES = [
         "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=12.9755%2C77.7425",
         "amenities": [
             {
-                "name": "Grand Clubhouse (fa-building) | Infinity Swimming Pool (fa-swimming-pool) | State-of-the-art Gymnasium (fa-dumbbell) | Squash Court (fa-table-tennis) | Open-Air Amphitheatre (fa-theater-masks) | Yoga & Meditation Lawn (fa-om) | Forest Tree Park & Walking Trails (fa-tree) | Children's Play Zone (fa-child) | Indoor Games Room (fa-gamepad) | Senior Citizen Court (fa-user-friends) | Badminton Court (fa-volleyball-ball) | 24/7 Gated Security & Surveillance",
+                "name": "Grand Clubhouse",
+                "icon": "fa-building"
+            },
+            {
+                "name": "Infinity Swimming Pool",
+                "icon": "fa-swimming-pool"
+            },
+            {
+                "name": "State-of-the-art Gymnasium",
+                "icon": "fa-dumbbell"
+            },
+            {
+                "name": "Squash Court",
+                "icon": "fa-table-tennis"
+            },
+            {
+                "name": "Open-Air Amphitheatre",
+                "icon": "fa-theater-masks"
+            },
+            {
+                "name": "Yoga & Meditation Lawn",
+                "icon": "fa-om"
+            },
+            {
+                "name": "Forest Tree Park & Walking Trails",
+                "icon": "fa-tree"
+            },
+            {
+                "name": "Children's Play Zone",
+                "icon": "fa-child"
+            },
+            {
+                "name": "Indoor Games Room",
+                "icon": "fa-gamepad"
+            },
+            {
+                "name": "Senior Citizen Court",
+                "icon": "fa-user-friends"
+            },
+            {
+                "name": "Badminton Court",
+                "icon": "fa-volleyball-ball"
+            },
+            {
+                "name": "24/7 Gated Security & Surveillance",
                 "icon": "fa-shield-alt"
             }
         ]
@@ -181,7 +269,7 @@ const PROPERTIES = [
         "totalUnits": "1,368 Units",
         "possession": "December 2028",
         "heroImage": "Fetched dynamically via portal asset directory",
-        "videoEmbedUrl": "",
+        "videoEmbedUrl": "N/A",
         "description": "Prestige Raintree Park is an ultra-luxury landmark residential township by Prestige Group situated right opposite Varthur Lake in Whitefield. Spanning 21 acres with massive open green spaces, it comprises 18 high-rise towers offering sprawling 3, 4, and 5 BHK luxury residences. Built with world-class architecture, expansive decks, and elite community facilities, it offers seamless connectivity to major IT corridors and metro infrastructure.",
         "gallery": [],
         "floorPlans": [],
@@ -211,7 +299,51 @@ const PROPERTIES = [
         "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=12.9488%2C77.7471",
         "amenities": [
             {
-                "name": "Grand Clubhouse (fa-building) | Infinity Swimming Pool (fa-swimming-pool) | State-of-the-art Gymnasium (fa-dumbbell) | Squash & Badminton Courts (fa-table-tennis) | Open-Air Amphitheatre (fa-theater-masks) | Yoga & Meditation Lawn (fa-om) | Lakeside Jogging & Walking Trails (fa-running) | Children's Play Zone (fa-child) | Indoor Games & Recreation Room (fa-gamepad) | Senior Citizen Alcove (fa-user-friends) | Multi-purpose Sports Arena (fa-basketball-ball) | 24/7 Gated Security & Multi-Tier Surveillance",
+                "name": "Grand Clubhouse",
+                "icon": "fa-building"
+            },
+            {
+                "name": "Infinity Swimming Pool",
+                "icon": "fa-swimming-pool"
+            },
+            {
+                "name": "State-of-the-art Gymnasium",
+                "icon": "fa-dumbbell"
+            },
+            {
+                "name": "Squash & Badminton Courts",
+                "icon": "fa-table-tennis"
+            },
+            {
+                "name": "Open-Air Amphitheatre",
+                "icon": "fa-theater-masks"
+            },
+            {
+                "name": "Yoga & Meditation Lawn",
+                "icon": "fa-om"
+            },
+            {
+                "name": "Lakeside Jogging & Walking Trails",
+                "icon": "fa-running"
+            },
+            {
+                "name": "Children's Play Zone",
+                "icon": "fa-child"
+            },
+            {
+                "name": "Indoor Games & Recreation Room",
+                "icon": "fa-gamepad"
+            },
+            {
+                "name": "Senior Citizen Alcove",
+                "icon": "fa-user-friends"
+            },
+            {
+                "name": "Multi-purpose Sports Arena",
+                "icon": "fa-basketball-ball"
+            },
+            {
+                "name": "24/7 Gated Security & Multi-Tier Surveillance",
                 "icon": "fa-shield-alt"
             }
         ]
@@ -236,7 +368,7 @@ const PROPERTIES = [
         "totalUnits": "2,130 Units",
         "possession": "December 2029",
         "heroImage": "Fetched dynamically via portal asset directory",
-        "videoEmbedUrl": "",
+        "videoEmbedUrl": "N/A",
         "description": "Prestige Southern Star is an iconic luxury residential township by Prestige Group located on Begur Road, Akshayanagar, South Bangalore. Set across 32.5 acres with 80% dedicated open space and landscaped greens, it features 14 high-rise towers offering spacious 1, 2, 3, and 4 BHK apartments. Equipped with a 1,00,000 sq. ft. grand clubhouse and IGBC Pre-certified green building design, it delivers high-end community living close to Bannerghatta Road, Electronic City, and the Namma Metro Yellow Line.",
         "gallery": [],
         "floorPlans": [],
@@ -266,7 +398,51 @@ const PROPERTIES = [
         "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=12.8712%2C77.6258",
         "amenities": [
             {
-                "name": "Grand Clubhouse (fa-building) | Heated Swimming Pool (fa-swimming-pool) | Olympic-Size Fitness Arena (fa-dumbbell) | Badminton & Tennis Courts (fa-table-tennis) | Open-Air Amphitheatre (fa-theater-masks) | Yoga & Wellness Zone (fa-om) | Jogging & Cycling Tracks (fa-running) | Kids Play Area & Creche (fa-child) | Indoor Recreation Room (fa-gamepad) | Senior Citizen Alcove (fa-user-friends) | Health & Medical Center (fa-first-aid) | 24/7 Gated Security & Surveillance",
+                "name": "Grand Clubhouse",
+                "icon": "fa-building"
+            },
+            {
+                "name": "Heated Swimming Pool",
+                "icon": "fa-swimming-pool"
+            },
+            {
+                "name": "Olympic-Size Fitness Arena",
+                "icon": "fa-dumbbell"
+            },
+            {
+                "name": "Badminton & Tennis Courts",
+                "icon": "fa-table-tennis"
+            },
+            {
+                "name": "Open-Air Amphitheatre",
+                "icon": "fa-theater-masks"
+            },
+            {
+                "name": "Yoga & Wellness Zone",
+                "icon": "fa-om"
+            },
+            {
+                "name": "Jogging & Cycling Tracks",
+                "icon": "fa-running"
+            },
+            {
+                "name": "Kids Play Area & Creche",
+                "icon": "fa-child"
+            },
+            {
+                "name": "Indoor Recreation Room",
+                "icon": "fa-gamepad"
+            },
+            {
+                "name": "Senior Citizen Alcove",
+                "icon": "fa-user-friends"
+            },
+            {
+                "name": "Health & Medical Center",
+                "icon": "fa-first-aid"
+            },
+            {
+                "name": "24/7 Gated Security & Surveillance",
                 "icon": "fa-shield-alt"
             }
         ]
@@ -291,7 +467,7 @@ const PROPERTIES = [
         "totalUnits": "3,484 Units",
         "possession": "July 2032",
         "heroImage": "Fetched dynamically via portal asset directory",
-        "videoEmbedUrl": "",
+        "videoEmbedUrl": "N/A",
         "description": "SOBHA OneWorld is a next-generation mega-township spanning 48.4 acres along Old Madras Road in Greater Whitefield. Featuring 14 ultra-high-rise residential towers rising up to 47 floors, the development offers 1, 2, 3, and 4 BHK luxury residences set within 80% open green space. Designed with global themed lifestyle realms, a 120,000 sq. ft. 3-tier grand clubhouse, a 65,000 sq. ft. low-rise retail high street, and a 90m-diameter international cricket ground, it delivers an all-inclusive self-sustaining community right at the STRR and Bengaluru-Chennai Expressway junction.",
         "gallery": [],
         "floorPlans": [],
@@ -321,7 +497,51 @@ const PROPERTIES = [
         "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=13.0722%2C77.7958",
         "amenities": [
             {
-                "name": "One Club 120,000 Sq.Ft. Clubhouse (fa-building) | 90m-dia Cricket Ground & Football Arena (fa-football-ball) | One Emporium 65,000 Sq.Ft. High-Street Retail (fa-store) | Olympic-Length Swimming Pool & Kids Pool (fa-swimming-pool) | State-of-the-art Fitness Center & Gymnasium (fa-dumbbell) | Badminton, Tennis & Squash Courts (fa-table-tennis) | Open-Air Amphitheatre & Exhibition Square (fa-theater-masks) | Tuscan Gardens & Reflexology Walkway (fa-tree) | 750m Jogging & Cycling Track (fa-running) | Oasis Trail & Rainforest Experience (fa-leaf) | Children's Play Park & Activity Deck (fa-child) | 24/7 Gated Township Security & Smart Surveillance",
+                "name": "One Club 120,000 Sq.Ft. Clubhouse",
+                "icon": "fa-building"
+            },
+            {
+                "name": "90m-dia Cricket Ground & Football Arena",
+                "icon": "fa-football-ball"
+            },
+            {
+                "name": "One Emporium 65,000 Sq.Ft. High-Street Retail",
+                "icon": "fa-store"
+            },
+            {
+                "name": "Olympic-Length Swimming Pool & Kids Pool",
+                "icon": "fa-swimming-pool"
+            },
+            {
+                "name": "State-of-the-art Fitness Center & Gymnasium",
+                "icon": "fa-dumbbell"
+            },
+            {
+                "name": "Badminton, Tennis & Squash Courts",
+                "icon": "fa-table-tennis"
+            },
+            {
+                "name": "Open-Air Amphitheatre & Exhibition Square",
+                "icon": "fa-theater-masks"
+            },
+            {
+                "name": "Tuscan Gardens & Reflexology Walkway",
+                "icon": "fa-tree"
+            },
+            {
+                "name": "750m Jogging & Cycling Track",
+                "icon": "fa-running"
+            },
+            {
+                "name": "Oasis Trail & Rainforest Experience",
+                "icon": "fa-leaf"
+            },
+            {
+                "name": "Children's Play Park & Activity Deck",
+                "icon": "fa-child"
+            },
+            {
+                "name": "24/7 Gated Township Security & Smart Surveillance",
                 "icon": "fa-shield-alt"
             }
         ]
@@ -346,7 +566,7 @@ const PROPERTIES = [
         "totalUnits": "207 Units",
         "possession": "May 2031",
         "heroImage": "Fetched dynamically via portal asset directory",
-        "videoEmbedUrl": "",
+        "videoEmbedUrl": "N/A",
         "description": "SOBHA Altair is an ultra-luxury residential enclave by SOBHA Limited located in Hadosiddapura, just off Sarjapur Main Road, Bengaluru. Spanning 3.3 acres with low-density planning, it features 3 towers comprising 207 exclusive 3 and 4 BHK luxury residences. Located strategically close to major IT hubs like Embassy TechVillage and RMZ Ecoworld, the project offers high-end lifestyle amenities, landscaped greens, and meticulously crafted architectural spaces.",
         "gallery": [],
         "floorPlans": [],
@@ -376,7 +596,51 @@ const PROPERTIES = [
         "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=12.915%2C77.685",
         "amenities": [
             {
-                "name": "Grand Clubhouse & Indoor Facilities (fa-building) | Leisure & Lap Swimming Pool (fa-swimming-pool) | Outdoor Fitness Corner & Gymnasium (fa-dumbbell) | Multi-purpose Sports Courts (fa-basketball-ball) | Open-Air Amphitheatre (fa-theater-masks) | Yoga & Wellness Zone (fa-om) | Jogging & Walking Track (fa-running) | Children's Play Area & Creche (fa-child) | Nature's Pavilion & Gardens (fa-tree) | Reflexology Garden (fa-shoe-prints) | Indoor Games & Lounge (fa-gamepad) | 24/7 Gated Security & Surveillance",
+                "name": "Grand Clubhouse & Indoor Facilities",
+                "icon": "fa-building"
+            },
+            {
+                "name": "Leisure & Lap Swimming Pool",
+                "icon": "fa-swimming-pool"
+            },
+            {
+                "name": "Outdoor Fitness Corner & Gymnasium",
+                "icon": "fa-dumbbell"
+            },
+            {
+                "name": "Multi-purpose Sports Courts",
+                "icon": "fa-basketball-ball"
+            },
+            {
+                "name": "Open-Air Amphitheatre",
+                "icon": "fa-theater-masks"
+            },
+            {
+                "name": "Yoga & Wellness Zone",
+                "icon": "fa-om"
+            },
+            {
+                "name": "Jogging & Walking Track",
+                "icon": "fa-running"
+            },
+            {
+                "name": "Children's Play Area & Creche",
+                "icon": "fa-child"
+            },
+            {
+                "name": "Nature's Pavilion & Gardens",
+                "icon": "fa-tree"
+            },
+            {
+                "name": "Reflexology Garden",
+                "icon": "fa-shoe-prints"
+            },
+            {
+                "name": "Indoor Games & Lounge",
+                "icon": "fa-gamepad"
+            },
+            {
+                "name": "24/7 Gated Security & Surveillance",
                 "icon": "fa-shield-alt"
             }
         ]
@@ -401,7 +665,7 @@ const PROPERTIES = [
         "totalUnits": "2,104 Units",
         "possession": "December 2028",
         "heroImage": "Fetched dynamically via portal asset directory",
-        "videoEmbedUrl": "",
+        "videoEmbedUrl": "N/A",
         "description": "SOBHA Townpark is a massive New York City-inspired integrated residential township by SOBHA Limited located on Hosur Road near Electronic City, Bangalore. Spanning 33.7 acres with over 70% open green space, it features high-rise towers rising up to G+44 floors offering luxury 2, 3, and 4 BHK residences. Inspired by iconic NYC landmarks, the township features 3 exclusive clubhouses spanning 56,000 sq. ft., an 11-acre Central Park, Bangalore's first residential 90m-diameter Liberty Cricket Ground, and themed lifestyle zones with exceptional connectivity to Electronic City IT hubs and the upcoming Yellow Line Metro.",
         "gallery": [],
         "floorPlans": [],
@@ -431,7 +695,11 @@ const PROPERTIES = [
         "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=12.8398%2C77.683",
         "amenities": [
             {
-                "name": "65 mins | fa-plane`",
+                "name": "65 mins",
+                "icon": "fa-check"
+            },
+            {
+                "name": "fa-plane`",
                 "icon": "fa-check"
             }
         ]
@@ -456,7 +724,7 @@ const PROPERTIES = [
         "totalUnits": "1,875 Units",
         "possession": "December 2028",
         "heroImage": "Fetched dynamically via portal asset directory",
-        "videoEmbedUrl": "",
+        "videoEmbedUrl": "N/A",
         "description": "SOBHA Neopolis is a Mediterranean Greek architecture-inspired luxury residential township by SOBHA Limited located in Panathur, off the Marathahalli-Outer Ring Road (ORR) corridor. Spread across 25.86 acres with 78% open green space, it comprises 19 high-rise towers offering executive 1 BHK, 3 BHK, 3.5 BHK, and 4 BHK luxury residences. The township features 3 grand clubhouses totaling 77,850 sq. ft., Greek-themed landscaping, cascading water features, and seamless access to ITPL, Embassy TechVillage, and Prestige Tech Park.",
         "gallery": [],
         "floorPlans": [],
@@ -486,7 +754,51 @@ const PROPERTIES = [
         "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=12.9345%2C77.6978",
         "amenities": [
             {
-                "name": "3 Grand Clubhouses (77,850 Sq.Ft.) (fa-building) | Meandering Pool & Aqua Park (fa-swimming-pool) | State-of-the-art Fitness Center & Gym (fa-dumbbell) | Tennis Court & Cricket Practice Pitch (fa-basketball-ball) | Open-Air Amphitheatre (fa-theater-masks) | Grecian Pergola Trail & Yoga Lawn (fa-om) | Sensory Garden & Leisure Walkways (fa-tree) | Children's Play Zone & Activity Park (fa-child) | Indoor Games & Recreation Lounge (fa-gamepad) | Senior Citizen Alcove (fa-user-friends) | Cascading Waterfalls & Fountains (fa-water) | 24/7 Multi-Tier Gated Security & Surveillance",
+                "name": "3 Grand Clubhouses (77,850 Sq.Ft.)",
+                "icon": "fa-building"
+            },
+            {
+                "name": "Meandering Pool & Aqua Park",
+                "icon": "fa-swimming-pool"
+            },
+            {
+                "name": "State-of-the-art Fitness Center & Gym",
+                "icon": "fa-dumbbell"
+            },
+            {
+                "name": "Tennis Court & Cricket Practice Pitch",
+                "icon": "fa-basketball-ball"
+            },
+            {
+                "name": "Open-Air Amphitheatre",
+                "icon": "fa-theater-masks"
+            },
+            {
+                "name": "Grecian Pergola Trail & Yoga Lawn",
+                "icon": "fa-om"
+            },
+            {
+                "name": "Sensory Garden & Leisure Walkways",
+                "icon": "fa-tree"
+            },
+            {
+                "name": "Children's Play Zone & Activity Park",
+                "icon": "fa-child"
+            },
+            {
+                "name": "Indoor Games & Recreation Lounge",
+                "icon": "fa-gamepad"
+            },
+            {
+                "name": "Senior Citizen Alcove",
+                "icon": "fa-user-friends"
+            },
+            {
+                "name": "Cascading Waterfalls & Fountains",
+                "icon": "fa-water"
+            },
+            {
+                "name": "24/7 Multi-Tier Gated Security & Surveillance",
                 "icon": "fa-shield-alt"
             }
         ]
@@ -511,7 +823,7 @@ const PROPERTIES = [
         "totalUnits": "294 Units",
         "possession": "May 2030",
         "heroImage": "Fetched dynamically via portal asset directory",
-        "videoEmbedUrl": "",
+        "videoEmbedUrl": "N/A",
         "description": "SOBHA Magnus is an eco-luxe residential project by SOBHA Limited located on Bannerghatta Main Road, South Bangalore. Set across 5.85 acres with over 3.5 acres of open green spaces and low-density biophilic planning, the development features 294 apartments across 5 wings offering spacious 3 and 4 BHK luxury residences. Designed for sustainable living, it features a 13,000 sq. ft. luxury clubhouse, dedicated lifestyle zones, and seamless connectivity to JP Nagar, Electronic City, and the upcoming Pink Line Metro.",
         "gallery": [],
         "floorPlans": [],
@@ -541,7 +853,51 @@ const PROPERTIES = [
         "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=12.8765%2C77.5882",
         "amenities": [
             {
-                "name": "13,000 Sq.Ft. Luxury Clubhouse (fa-building) | Biophilic Landscaped Gardens & Eco Trails (fa-tree) | Swimming Pool & Kids Pool (fa-swimming-pool) | Fully Equipped Fitness Center & Gym (fa-dumbbell) | Multi-purpose Sports Courts (fa-basketball-ball) | Mini Open-Air Amphitheatre (fa-theater-masks) | Yoga & Meditation Deck (fa-om) | Shaded Jogging & Cycling Track (fa-running) | Children's Play Zone (fa-child) | Pet Park & Trail (fa-paw) | Senior Citizen Zone & Seating Alcove (fa-user-friends) | 24/7 Gated Security & Smart Surveillance",
+                "name": "13,000 Sq.Ft. Luxury Clubhouse",
+                "icon": "fa-building"
+            },
+            {
+                "name": "Biophilic Landscaped Gardens & Eco Trails",
+                "icon": "fa-tree"
+            },
+            {
+                "name": "Swimming Pool & Kids Pool",
+                "icon": "fa-swimming-pool"
+            },
+            {
+                "name": "Fully Equipped Fitness Center & Gym",
+                "icon": "fa-dumbbell"
+            },
+            {
+                "name": "Multi-purpose Sports Courts",
+                "icon": "fa-basketball-ball"
+            },
+            {
+                "name": "Mini Open-Air Amphitheatre",
+                "icon": "fa-theater-masks"
+            },
+            {
+                "name": "Yoga & Meditation Deck",
+                "icon": "fa-om"
+            },
+            {
+                "name": "Shaded Jogging & Cycling Track",
+                "icon": "fa-running"
+            },
+            {
+                "name": "Children's Play Zone",
+                "icon": "fa-child"
+            },
+            {
+                "name": "Pet Park & Trail",
+                "icon": "fa-paw"
+            },
+            {
+                "name": "Senior Citizen Zone & Seating Alcove",
+                "icon": "fa-user-friends"
+            },
+            {
+                "name": "24/7 Gated Security & Smart Surveillance",
                 "icon": "fa-shield-alt"
             }
         ]
@@ -566,7 +922,7 @@ const PROPERTIES = [
         "totalUnits": "196 Units",
         "possession": "December 2030",
         "heroImage": "Fetched dynamically via portal asset directory",
-        "videoEmbedUrl": "",
+        "videoEmbedUrl": "N/A",
         "description": "SOBHA Infinia is an ultra-luxury residential enclave by SOBHA Limited positioned centrally at Agara Junction, right at the intersection of Koramangala and HSR Layout. Spread across 4.71 acres with direct views of the sprawling Agara Lake, it features low-density planning housing 196 exclusive 3 and 4 BHK residences. Designed with top-tier cosmopolitan amenities, massive open spaces, and unmatched proximity to major tech corridors and lifestyle hubs, it represents elite central Bangalore living.",
         "gallery": [],
         "floorPlans": [],
@@ -596,7 +952,51 @@ const PROPERTIES = [
         "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=12.9245%2C77.632",
         "amenities": [
             {
-                "name": "20,000 Sq.Ft. Cosmopolitan Clubhouse (fa-building) | Lake-Facing Observation Deck & Lounge (fa-eye) | Temperature-Controlled Swimming Pool (fa-swimming-pool) | State-of-the-art Fitness Center & Gym (fa-dumbbell) | Squash & Badminton Courts (fa-table-tennis) | Open-Air Celebration Court & Plaza (fa-theater-masks) | Yoga & Meditation Lawn (fa-om) | 800m Peripheral Jogging & Cycling Track (fa-running) | Children's Play Zone & Park (fa-child) | Landscaped Sensory Gardens (fa-tree) | Indoor Games & Recreation Lounge (fa-gamepad) | 24/7 Gated Security & Multi-Tier Surveillance",
+                "name": "20,000 Sq.Ft. Cosmopolitan Clubhouse",
+                "icon": "fa-building"
+            },
+            {
+                "name": "Lake-Facing Observation Deck & Lounge",
+                "icon": "fa-eye"
+            },
+            {
+                "name": "Temperature-Controlled Swimming Pool",
+                "icon": "fa-swimming-pool"
+            },
+            {
+                "name": "State-of-the-art Fitness Center & Gym",
+                "icon": "fa-dumbbell"
+            },
+            {
+                "name": "Squash & Badminton Courts",
+                "icon": "fa-table-tennis"
+            },
+            {
+                "name": "Open-Air Celebration Court & Plaza",
+                "icon": "fa-theater-masks"
+            },
+            {
+                "name": "Yoga & Meditation Lawn",
+                "icon": "fa-om"
+            },
+            {
+                "name": "800m Peripheral Jogging & Cycling Track",
+                "icon": "fa-running"
+            },
+            {
+                "name": "Children's Play Zone & Park",
+                "icon": "fa-child"
+            },
+            {
+                "name": "Landscaped Sensory Gardens",
+                "icon": "fa-tree"
+            },
+            {
+                "name": "Indoor Games & Recreation Lounge",
+                "icon": "fa-gamepad"
+            },
+            {
+                "name": "24/7 Gated Security & Multi-Tier Surveillance",
                 "icon": "fa-shield-alt"
             }
         ]
@@ -621,7 +1021,7 @@ const PROPERTIES = [
         "totalUnits": "683 Units",
         "possession": "December 2031",
         "heroImage": "Fetched dynamically via portal asset directory",
-        "videoEmbedUrl": "",
+        "videoEmbedUrl": "N/A",
         "description": "SOBHA Ayana is an exclusive luxury residential development by SOBHA Limited located on Panathur Main Road, Balagere. Spread across 6.28 acres as the final phase within the sprawling Dream Acres township, it features 683 premium 3 BHK apartments across 12 wings with zero common walls and 3 acres of dedicated tropical forestscape. Designed for immersive nature-integrated living, it offers superior privacy, multi-tier security, and seamless proximity to major tech parks like Prestige Tech Park, RMZ Ecoworld, and the Outer Ring Road.",
         "gallery": [],
         "floorPlans": [],
@@ -651,7 +1051,51 @@ const PROPERTIES = [
         "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=12.932%2C77.695",
         "amenities": [
             {
-                "name": "Grand Clubhouse & Lifestyle Center (fa-building) | The Lanai Tropical Garden & Forestscape (fa-tree) | Swimming Pool & Kids Splash Pool (fa-swimming-pool) | Fully Equipped Gymnasium (fa-dumbbell) | Multi-purpose Sports & Activity Arena (fa-basketball-ball) | Open-Air Celebration Court & Amphitheatre (fa-theater-masks) | Yoga & Meditation Lawn (fa-om) | Serenity Trail & Walking Paths (fa-running) | Children's Play Deck & Park (fa-child) | Indoor Games Lounge (fa-gamepad) | Senior Citizen Seating Alcove (fa-user-friends) | 24/7 Gated Security & Multi-Tier Surveillance",
+                "name": "Grand Clubhouse & Lifestyle Center",
+                "icon": "fa-building"
+            },
+            {
+                "name": "The Lanai Tropical Garden & Forestscape",
+                "icon": "fa-tree"
+            },
+            {
+                "name": "Swimming Pool & Kids Splash Pool",
+                "icon": "fa-swimming-pool"
+            },
+            {
+                "name": "Fully Equipped Gymnasium",
+                "icon": "fa-dumbbell"
+            },
+            {
+                "name": "Multi-purpose Sports & Activity Arena",
+                "icon": "fa-basketball-ball"
+            },
+            {
+                "name": "Open-Air Celebration Court & Amphitheatre",
+                "icon": "fa-theater-masks"
+            },
+            {
+                "name": "Yoga & Meditation Lawn",
+                "icon": "fa-om"
+            },
+            {
+                "name": "Serenity Trail & Walking Paths",
+                "icon": "fa-running"
+            },
+            {
+                "name": "Children's Play Deck & Park",
+                "icon": "fa-child"
+            },
+            {
+                "name": "Indoor Games Lounge",
+                "icon": "fa-gamepad"
+            },
+            {
+                "name": "Senior Citizen Seating Alcove",
+                "icon": "fa-user-friends"
+            },
+            {
+                "name": "24/7 Gated Security & Multi-Tier Surveillance",
                 "icon": "fa-shield-alt"
             }
         ]
@@ -676,7 +1120,7 @@ const PROPERTIES = [
         "totalUnits": "33 Units",
         "possession": "March 2026",
         "heroImage": "Fetched dynamically via portal asset directory",
-        "videoEmbedUrl": "",
+        "videoEmbedUrl": "N/A",
         "description": "SOBHA Insignia is an exclusive, ultra-low-density luxury boutique enclave by SOBHA Limited located in Bhoganahalli, right off the Marathahalli-Outer Ring Road near Bellandur. Spanning 0.97 acres, this single-tower development features just 33 limited-edition 3 and 4 BHK luxury residences and duplexes. Built with precast technology and smart home integration, it offers maximum privacy, premium finishes, and walking proximity to major tech parks like Embassy TechVillage and RMZ Ecoworld.",
         "gallery": [],
         "floorPlans": [],
@@ -706,7 +1150,39 @@ const PROPERTIES = [
         "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=12.9276%2C77.6948",
         "amenities": [
             {
-                "name": "Exclusive Residents Clubhouse (fa-building) | Rooftop Swimming Pool & Kids Splash Pool (fa-swimming-pool) | Fully Equipped Gymnasium (fa-dumbbell) | Reflexology Park & Garden (fa-shoe-prints) | Smart Home Automation & RFID Access (fa-key) | Open-Air Terrace Lounge & Seating (fa-couch) | Children's Play Deck (fa-child) | Landscaped Green Walkways (fa-tree) | Multi-Tier 24/7 Security & CCTV",
+                "name": "Exclusive Residents Clubhouse",
+                "icon": "fa-building"
+            },
+            {
+                "name": "Rooftop Swimming Pool & Kids Splash Pool",
+                "icon": "fa-swimming-pool"
+            },
+            {
+                "name": "Fully Equipped Gymnasium",
+                "icon": "fa-dumbbell"
+            },
+            {
+                "name": "Reflexology Park & Garden",
+                "icon": "fa-shoe-prints"
+            },
+            {
+                "name": "Smart Home Automation & RFID Access",
+                "icon": "fa-key"
+            },
+            {
+                "name": "Open-Air Terrace Lounge & Seating",
+                "icon": "fa-couch"
+            },
+            {
+                "name": "Children's Play Deck",
+                "icon": "fa-child"
+            },
+            {
+                "name": "Landscaped Green Walkways",
+                "icon": "fa-tree"
+            },
+            {
+                "name": "Multi-Tier 24/7 Security & CCTV",
                 "icon": "fa-shield-alt"
             }
         ]
@@ -731,7 +1207,7 @@ const PROPERTIES = [
         "totalUnits": "800 Units",
         "possession": "December 2031",
         "heroImage": "Fetched dynamically via portal asset directory",
-        "videoEmbedUrl": "",
+        "videoEmbedUrl": "N/A",
         "description": "Assetz Codename Sublime is a low-density luxury residential enclave off Old Madras Road featuring 3 BHK high-rise residences with 81% open spaces and a 62,000 sq. ft. signature clubhouse.",
         "gallery": [],
         "floorPlans": [],
@@ -761,7 +1237,23 @@ const PROPERTIES = [
         "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=13.0785%2C77.798",
         "amenities": [
             {
-                "name": "Signature Clubhouse (fa-building) | Swimming Pool (fa-swimming-pool) | Gymnasium (fa-dumbbell) | Multi-sports Courts (fa-basketball-ball) | 24/7 Security",
+                "name": "Signature Clubhouse",
+                "icon": "fa-building"
+            },
+            {
+                "name": "Swimming Pool",
+                "icon": "fa-swimming-pool"
+            },
+            {
+                "name": "Gymnasium",
+                "icon": "fa-dumbbell"
+            },
+            {
+                "name": "Multi-sports Courts",
+                "icon": "fa-basketball-ball"
+            },
+            {
+                "name": "24/7 Security",
                 "icon": "fa-shield-alt"
             }
         ]
@@ -786,7 +1278,7 @@ const PROPERTIES = [
         "totalUnits": "676 Units",
         "possession": "September 2031",
         "heroImage": "Fetched dynamically via portal asset directory",
-        "videoEmbedUrl": "",
+        "videoEmbedUrl": "N/A",
         "description": "Assetz Niwa & Neo features Japanese nature-inspired high-rise residences beside KIADB Aerospace Park with 73% open green spaces and a 13,500 sq. ft. clubhouse.",
         "gallery": [],
         "floorPlans": [],
@@ -816,7 +1308,23 @@ const PROPERTIES = [
         "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=13.1415%2C77.6748",
         "amenities": [
             {
-                "name": "Japanese Clubhouse (fa-building) | Resort Pool (fa-swimming-pool) | Fitness Center (fa-dumbbell) | Zen Gardens (fa-tree) | 24/7 Security",
+                "name": "Japanese Clubhouse",
+                "icon": "fa-building"
+            },
+            {
+                "name": "Resort Pool",
+                "icon": "fa-swimming-pool"
+            },
+            {
+                "name": "Fitness Center",
+                "icon": "fa-dumbbell"
+            },
+            {
+                "name": "Zen Gardens",
+                "icon": "fa-tree"
+            },
+            {
+                "name": "24/7 Security",
                 "icon": "fa-shield-alt"
             }
         ]
@@ -841,7 +1349,7 @@ const PROPERTIES = [
         "totalUnits": "710 Units",
         "possession": "October 2031",
         "heroImage": "Fetched dynamically via portal asset directory",
-        "videoEmbedUrl": "",
+        "videoEmbedUrl": "N/A",
         "description": "Assetz Mizu & Ki is a nature-focused residential development offering 3 BHK high-rise homes designed with biophilic elements and immediate access to Bagalur Aerospace Park.",
         "gallery": [],
         "floorPlans": [],
@@ -871,7 +1379,23 @@ const PROPERTIES = [
         "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=13.142%2C77.6755",
         "amenities": [
             {
-                "name": "Signature Clubhouse (fa-building) | Swimming Pool (fa-swimming-pool) | Fitness Center (fa-dumbbell) | Nature Trails (fa-tree) | Security",
+                "name": "Signature Clubhouse",
+                "icon": "fa-building"
+            },
+            {
+                "name": "Swimming Pool",
+                "icon": "fa-swimming-pool"
+            },
+            {
+                "name": "Fitness Center",
+                "icon": "fa-dumbbell"
+            },
+            {
+                "name": "Nature Trails",
+                "icon": "fa-tree"
+            },
+            {
+                "name": "Security",
                 "icon": "fa-shield-alt"
             }
         ]
@@ -896,7 +1420,7 @@ const PROPERTIES = [
         "totalUnits": "310 Units",
         "possession": "December 2030",
         "heroImage": "Fetched dynamically via portal asset directory",
-        "videoEmbedUrl": "",
+        "videoEmbedUrl": "N/A",
         "description": "Assetz Miru & Miyo offers elegant 3 BHK luxury residences in Yelahanka, blending contemporary styling with extensive green open spaces and easy airport access.",
         "gallery": [],
         "floorPlans": [],
@@ -926,7 +1450,23 @@ const PROPERTIES = [
         "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=13.1%2C77.596",
         "amenities": [
             {
-                "name": "Clubhouse (fa-building) | Swimming Pool (fa-swimming-pool) | Gymnasium (fa-dumbbell) | Play Area (fa-child) | 24/7 Security",
+                "name": "Clubhouse",
+                "icon": "fa-building"
+            },
+            {
+                "name": "Swimming Pool",
+                "icon": "fa-swimming-pool"
+            },
+            {
+                "name": "Gymnasium",
+                "icon": "fa-dumbbell"
+            },
+            {
+                "name": "Play Area",
+                "icon": "fa-child"
+            },
+            {
+                "name": "24/7 Security",
                 "icon": "fa-shield-alt"
             }
         ]
@@ -951,7 +1491,7 @@ const PROPERTIES = [
         "totalUnits": "128 Units",
         "possession": "December 2030",
         "heroImage": "Fetched dynamically via portal asset directory",
-        "videoEmbedUrl": "",
+        "videoEmbedUrl": "N/A",
         "description": "Assetz Muse & Maison features boutique 3 BHK luxury residences off Hosa Road, blending urban architecture with sustainable green landscapes and premier amenities.",
         "gallery": [],
         "floorPlans": [],
@@ -981,7 +1521,23 @@ const PROPERTIES = [
         "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=12.903%2C77.668",
         "amenities": [
             {
-                "name": "Clubhouse (fa-building) | Swimming Pool (fa-swimming-pool) | Fitness Center (fa-dumbbell) | Yoga Lawn (fa-om) | Security",
+                "name": "Clubhouse",
+                "icon": "fa-building"
+            },
+            {
+                "name": "Swimming Pool",
+                "icon": "fa-swimming-pool"
+            },
+            {
+                "name": "Fitness Center",
+                "icon": "fa-dumbbell"
+            },
+            {
+                "name": "Yoga Lawn",
+                "icon": "fa-om"
+            },
+            {
+                "name": "Security",
                 "icon": "fa-shield-alt"
             }
         ]
@@ -1006,7 +1562,7 @@ const PROPERTIES = [
         "totalUnits": "704 Units",
         "possession": "December 2030",
         "heroImage": "Fetched dynamically via portal asset directory",
-        "videoEmbedUrl": "",
+        "videoEmbedUrl": "N/A",
         "description": "Assetz Mizumi Reserve is an expansive luxury enclave off HSR Layout Extension offering high-end 3 and 4 BHK residences with sprawling green infrastructure.",
         "gallery": [],
         "floorPlans": [],
@@ -1036,7 +1592,23 @@ const PROPERTIES = [
         "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=12.9012%2C77.653",
         "amenities": [
             {
-                "name": "Grand Clubhouse (fa-building) | Resort Swimming Pool (fa-swimming-pool) | Gymnasium (fa-dumbbell) | Jogging Track (fa-running) | Gated Security",
+                "name": "Grand Clubhouse",
+                "icon": "fa-building"
+            },
+            {
+                "name": "Resort Swimming Pool",
+                "icon": "fa-swimming-pool"
+            },
+            {
+                "name": "Gymnasium",
+                "icon": "fa-dumbbell"
+            },
+            {
+                "name": "Jogging Track",
+                "icon": "fa-running"
+            },
+            {
+                "name": "Gated Security",
                 "icon": "fa-shield-alt"
             }
         ]
@@ -1061,7 +1633,7 @@ const PROPERTIES = [
         "totalUnits": "204 Units",
         "possession": "August 2029",
         "heroImage": "Fetched dynamically via portal asset directory",
-        "videoEmbedUrl": "",
+        "videoEmbedUrl": "N/A",
         "description": "Assetz Melodies of Life Apartment development offers premium 3 BHK high-rise residences close to HSR and Sarjapur Road with state-of-the-art recreational zones.",
         "gallery": [],
         "floorPlans": [],
@@ -1091,7 +1663,23 @@ const PROPERTIES = [
         "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=12.905%2C77.67",
         "amenities": [
             {
-                "name": "Signature Clubhouse (fa-building) | Swimming Pool (fa-swimming-pool) | Gymnasium (fa-dumbbell) | Jogging Track (fa-running) | Gated Security",
+                "name": "Signature Clubhouse",
+                "icon": "fa-building"
+            },
+            {
+                "name": "Swimming Pool",
+                "icon": "fa-swimming-pool"
+            },
+            {
+                "name": "Gymnasium",
+                "icon": "fa-dumbbell"
+            },
+            {
+                "name": "Jogging Track",
+                "icon": "fa-running"
+            },
+            {
+                "name": "Gated Security",
                 "icon": "fa-shield-alt"
             }
         ]
@@ -1116,7 +1704,7 @@ const PROPERTIES = [
         "totalUnits": "520 Units",
         "possession": "December 2030",
         "heroImage": "Fetched dynamically via portal asset directory",
-        "videoEmbedUrl": "",
+        "videoEmbedUrl": "N/A",
         "description": "Assetz Meru & Meadow is an elite residential enclave on Kanakapura Road offering luxurious 3 BHK residences with seamless Green Line Metro access.",
         "gallery": [],
         "floorPlans": [],
@@ -1146,7 +1734,23 @@ const PROPERTIES = [
         "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=12.85%2C77.545",
         "amenities": [
             {
-                "name": "Grand Clubhouse (fa-building) | Swimming Pool (fa-swimming-pool) | Gymnasium (fa-dumbbell) | Tennis Court (fa-table-tennis) | Security",
+                "name": "Grand Clubhouse",
+                "icon": "fa-building"
+            },
+            {
+                "name": "Swimming Pool",
+                "icon": "fa-swimming-pool"
+            },
+            {
+                "name": "Gymnasium",
+                "icon": "fa-dumbbell"
+            },
+            {
+                "name": "Tennis Court",
+                "icon": "fa-table-tennis"
+            },
+            {
+                "name": "Security",
                 "icon": "fa-shield-alt"
             }
         ]
@@ -1171,7 +1775,7 @@ const PROPERTIES = [
         "totalUnits": "290 Units",
         "possession": "August 2029",
         "heroImage": "Fetched dynamically via portal asset directory",
-        "videoEmbedUrl": "",
+        "videoEmbedUrl": "N/A",
         "description": "Assetz Trees & Tandem is an eco-conscious residential development in Gattahalli off Sarjapur Road offering spacious 3 BHK luxury homes surrounded by green canopies.",
         "gallery": [],
         "floorPlans": [],
@@ -1201,7 +1805,23 @@ const PROPERTIES = [
         "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=12.875%2C77.712",
         "amenities": [
             {
-                "name": "Clubhouse (fa-building) | Swimming Pool (fa-swimming-pool) | Gymnasium (fa-dumbbell) | Jogging Tracks (fa-running) | Security",
+                "name": "Clubhouse",
+                "icon": "fa-building"
+            },
+            {
+                "name": "Swimming Pool",
+                "icon": "fa-swimming-pool"
+            },
+            {
+                "name": "Gymnasium",
+                "icon": "fa-dumbbell"
+            },
+            {
+                "name": "Jogging Tracks",
+                "icon": "fa-running"
+            },
+            {
+                "name": "Security",
                 "icon": "fa-shield-alt"
             }
         ]
@@ -1226,7 +1846,7 @@ const PROPERTIES = [
         "totalUnits": "240 Units",
         "possession": "September 2029",
         "heroImage": "Fetched dynamically via portal asset directory",
-        "videoEmbedUrl": "",
+        "videoEmbedUrl": "N/A",
         "description": "Assetz Ren & Rei is a contemporary residential community in Gattahalli offering 3 BHK luxury homes with clean architectural layouts and smooth IT corridor connectivity.",
         "gallery": [],
         "floorPlans": [],
@@ -1256,7 +1876,23 @@ const PROPERTIES = [
         "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=12.872%2C77.715",
         "amenities": [
             {
-                "name": "Clubhouse (fa-building) | Swimming Pool (fa-swimming-pool) | Gymnasium (fa-dumbbell) | Yoga Lawn (fa-om) | Security",
+                "name": "Clubhouse",
+                "icon": "fa-building"
+            },
+            {
+                "name": "Swimming Pool",
+                "icon": "fa-swimming-pool"
+            },
+            {
+                "name": "Gymnasium",
+                "icon": "fa-dumbbell"
+            },
+            {
+                "name": "Yoga Lawn",
+                "icon": "fa-om"
+            },
+            {
+                "name": "Security",
                 "icon": "fa-shield-alt"
             }
         ]
@@ -1281,7 +1917,7 @@ const PROPERTIES = [
         "totalUnits": "240 Units",
         "possession": "December 2026",
         "heroImage": "Fetched dynamically via portal asset directory",
-        "videoEmbedUrl": "",
+        "videoEmbedUrl": "N/A",
         "description": "Assetz 22 & Crest combines central West Bengaluru convenience in Yeshwanthpur with premium high-rise architecture and luxury 3 BHK layouts.",
         "gallery": [],
         "floorPlans": [],
@@ -1311,7 +1947,23 @@ const PROPERTIES = [
         "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=13.028%2C77.554",
         "amenities": [
             {
-                "name": "Sky Clubhouse (fa-building) | Temperature-Controlled Pool (fa-swimming-pool) | Gymnasium (fa-dumbbell) | Squash Court (fa-table-tennis) | Security",
+                "name": "Sky Clubhouse",
+                "icon": "fa-building"
+            },
+            {
+                "name": "Temperature-Controlled Pool",
+                "icon": "fa-swimming-pool"
+            },
+            {
+                "name": "Gymnasium",
+                "icon": "fa-dumbbell"
+            },
+            {
+                "name": "Squash Court",
+                "icon": "fa-table-tennis"
+            },
+            {
+                "name": "Security",
                 "icon": "fa-shield-alt"
             }
         ]
@@ -1336,7 +1988,7 @@ const PROPERTIES = [
         "totalUnits": "180 Plots",
         "possession": "December 2027",
         "heroImage": "Fetched dynamically via portal asset directory",
-        "videoEmbedUrl": "",
+        "videoEmbedUrl": "N/A",
         "description": "Melodies of Life Plotted enclave by Assetz provides premium villa plots off Hosa Road with grand entrance plazas, landscaped parks, and underground utility infrastructure.",
         "gallery": [],
         "floorPlans": [],
@@ -1366,7 +2018,23 @@ const PROPERTIES = [
         "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=12.9055%2C77.6705",
         "amenities": [
             {
-                "name": "Plotted Clubhouse (fa-building) | Landscaped Parks (fa-tree) | Paved Jogging Tracks (fa-running) | Underground Utilities (fa-bolt) | 24/7 Security",
+                "name": "Plotted Clubhouse",
+                "icon": "fa-building"
+            },
+            {
+                "name": "Landscaped Parks",
+                "icon": "fa-tree"
+            },
+            {
+                "name": "Paved Jogging Tracks",
+                "icon": "fa-running"
+            },
+            {
+                "name": "Underground Utilities",
+                "icon": "fa-bolt"
+            },
+            {
+                "name": "24/7 Security",
                 "icon": "fa-shield-alt"
             }
         ]
@@ -1391,7 +2059,7 @@ const PROPERTIES = [
         "totalUnits": "358 Units",
         "possession": "November 2030",
         "heroImage": "Fetched dynamically via portal asset directory",
-        "videoEmbedUrl": "",
+        "videoEmbedUrl": "N/A",
         "description": "Assetz Sora & Saki is an eco-luxury residential enclave in Bagalur near KIADB Aerospace Park providing modern 3 and 4 BHK configuration apartments.",
         "gallery": [],
         "floorPlans": [],
@@ -1421,7 +2089,23 @@ const PROPERTIES = [
         "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=13.138%2C77.671",
         "amenities": [
             {
-                "name": "Clubhouse (fa-building) | Resort Pool (fa-swimming-pool) | Gymnasium (fa-dumbbell) | Jogging Track (fa-running) | Security",
+                "name": "Clubhouse",
+                "icon": "fa-building"
+            },
+            {
+                "name": "Resort Pool",
+                "icon": "fa-swimming-pool"
+            },
+            {
+                "name": "Gymnasium",
+                "icon": "fa-dumbbell"
+            },
+            {
+                "name": "Jogging Track",
+                "icon": "fa-running"
+            },
+            {
+                "name": "Security",
                 "icon": "fa-shield-alt"
             }
         ]
@@ -1446,7 +2130,7 @@ const PROPERTIES = [
         "totalUnits": "96 Units",
         "possession": "June 2030",
         "heroImage": "Fetched dynamically via portal asset directory",
-        "videoEmbedUrl": "",
+        "videoEmbedUrl": "N/A",
         "description": "Assetz 66 & Shibui is an ultra-exclusive boutique luxury residence located on Whitefield Main Road implementing Japanese Shibui design principles.",
         "gallery": [],
         "floorPlans": [],
@@ -1476,7 +2160,23 @@ const PROPERTIES = [
         "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=12.9698%2C77.7499",
         "amenities": [
             {
-                "name": "Boutique Lounge (fa-building) | Rooftop Swimming Pool (fa-swimming-pool) | Fitness Studio (fa-dumbbell) | Zen Courtyard (fa-tree) | Security",
+                "name": "Boutique Lounge",
+                "icon": "fa-building"
+            },
+            {
+                "name": "Rooftop Swimming Pool",
+                "icon": "fa-swimming-pool"
+            },
+            {
+                "name": "Fitness Studio",
+                "icon": "fa-dumbbell"
+            },
+            {
+                "name": "Zen Courtyard",
+                "icon": "fa-tree"
+            },
+            {
+                "name": "Security",
                 "icon": "fa-shield-alt"
             }
         ]
@@ -1501,7 +2201,7 @@ const PROPERTIES = [
         "totalUnits": "320 Plots",
         "possession": "December 2027",
         "heroImage": "Fetched dynamically via portal asset directory",
-        "videoEmbedUrl": "",
+        "videoEmbedUrl": "N/A",
         "description": "Assetz Promise of Spring is an eco-centric luxury plotted township in Devanahalli featuring themed floral gardens, private tree groves, and modern clubhouse infrastructure.",
         "gallery": [],
         "floorPlans": [],
@@ -1531,7 +2231,23 @@ const PROPERTIES = [
         "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=13.23%2C77.705",
         "amenities": [
             {
-                "name": "Grand Clubhouse (fa-building) | Botanical & Floral Parks (fa-tree) | Swimming Pool (fa-swimming-pool) | Sports Courts (fa-basketball-ball) | 24/7 Security",
+                "name": "Grand Clubhouse",
+                "icon": "fa-building"
+            },
+            {
+                "name": "Botanical & Floral Parks",
+                "icon": "fa-tree"
+            },
+            {
+                "name": "Swimming Pool",
+                "icon": "fa-swimming-pool"
+            },
+            {
+                "name": "Sports Courts",
+                "icon": "fa-basketball-ball"
+            },
+            {
+                "name": "24/7 Security",
                 "icon": "fa-shield-alt"
             }
         ]
@@ -1556,7 +2272,7 @@ const PROPERTIES = [
         "totalUnits": "1,200+ Units",
         "possession": "December 2028",
         "heroImage": "Fetched dynamically via portal asset directory",
-        "videoEmbedUrl": "",
+        "videoEmbedUrl": "N/A",
         "description": "Assetz Canvas & Cove is an art-inspired residential community off Hosur Road in Begur offering 3 and 4 BHK homes set amidst open green lawns.",
         "gallery": [],
         "floorPlans": [],
@@ -1586,7 +2302,23 @@ const PROPERTIES = [
         "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=12.865%2C77.63",
         "amenities": [
             {
-                "name": "Art Clubhouse (fa-building) | Swimming Pool (fa-swimming-pool) | Gymnasium (fa-dumbbell) | Amphitheatre (fa-theater-masks) | Security",
+                "name": "Art Clubhouse",
+                "icon": "fa-building"
+            },
+            {
+                "name": "Swimming Pool",
+                "icon": "fa-swimming-pool"
+            },
+            {
+                "name": "Gymnasium",
+                "icon": "fa-dumbbell"
+            },
+            {
+                "name": "Amphitheatre",
+                "icon": "fa-theater-masks"
+            },
+            {
+                "name": "Security",
                 "icon": "fa-shield-alt"
             }
         ]
@@ -1611,7 +2343,7 @@ const PROPERTIES = [
         "totalUnits": "234 Units",
         "possession": "December 2030",
         "heroImage": "Fetched dynamically via portal asset directory",
-        "videoEmbedUrl": "",
+        "videoEmbedUrl": "N/A",
         "description": "Assetz Soho & Sky is a vibrant residential enclave near Jakkur-Hebbal offering plush 3 & 4 BHK luxury apartments with New York-inspired architectural aesthetics.",
         "gallery": [],
         "floorPlans": [],
@@ -1641,7 +2373,23 @@ const PROPERTIES = [
         "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=13.085%2C77.6",
         "amenities": [
             {
-                "name": "Clubhouse (fa-building) | Swimming Pool (fa-swimming-pool) | Gymnasium (fa-dumbbell) | Landscaped Park (fa-tree) | Security",
+                "name": "Clubhouse",
+                "icon": "fa-building"
+            },
+            {
+                "name": "Swimming Pool",
+                "icon": "fa-swimming-pool"
+            },
+            {
+                "name": "Gymnasium",
+                "icon": "fa-dumbbell"
+            },
+            {
+                "name": "Landscaped Park",
+                "icon": "fa-tree"
+            },
+            {
+                "name": "Security",
                 "icon": "fa-shield-alt"
             }
         ]
@@ -1666,7 +2414,7 @@ const PROPERTIES = [
         "totalUnits": "150 Units",
         "possession": "December 2027",
         "heroImage": "Fetched dynamically via portal asset directory",
-        "videoEmbedUrl": "",
+        "videoEmbedUrl": "N/A",
         "description": "Assetz 18 & Oak is an exclusive 177-acre golf-themed luxury villa community off Sarjapur Road offering scenic views of a private golf course and nature trails.",
         "gallery": [],
         "floorPlans": [],
@@ -1696,7 +2444,23 @@ const PROPERTIES = [
         "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=12.835%2C77.772",
         "amenities": [
             {
-                "name": "Private Golf Course (fa-flag) | Luxury Golf Clubhouse (fa-building) | Swimming Pool (fa-swimming-pool) | Tennis Courts (fa-table-tennis) | 24/7 Security",
+                "name": "Private Golf Course",
+                "icon": "fa-flag"
+            },
+            {
+                "name": "Luxury Golf Clubhouse",
+                "icon": "fa-building"
+            },
+            {
+                "name": "Swimming Pool",
+                "icon": "fa-swimming-pool"
+            },
+            {
+                "name": "Tennis Courts",
+                "icon": "fa-table-tennis"
+            },
+            {
+                "name": "24/7 Security",
                 "icon": "fa-shield-alt"
             }
         ]
@@ -1721,7 +2485,7 @@ const PROPERTIES = [
         "totalUnits": "244 Plots",
         "possession": "Ready to Move",
         "heroImage": "Fetched dynamically via portal asset directory",
-        "videoEmbedUrl": "",
+        "videoEmbedUrl": "N/A",
         "description": "Assetz Atmos & Aura is a completed premium plotted residential township in Shettigere off Airport Road featuring wide paved roads and fully equipped club amenities.",
         "gallery": [],
         "floorPlans": [],
@@ -1751,7 +2515,19 @@ const PROPERTIES = [
         "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=13.195%2C77.628",
         "amenities": [
             {
-                "name": "Completed Clubhouse (fa-building) | Landscaped Parks (fa-tree) | Children Play Area (fa-child) | Gated Security",
+                "name": "Completed Clubhouse",
+                "icon": "fa-building"
+            },
+            {
+                "name": "Landscaped Parks",
+                "icon": "fa-tree"
+            },
+            {
+                "name": "Children Play Area",
+                "icon": "fa-child"
+            },
+            {
+                "name": "Gated Security",
                 "icon": "fa-shield-alt"
             }
         ]
@@ -1776,7 +2552,7 @@ const PROPERTIES = [
         "totalUnits": "540 Units",
         "possession": "Ready to Move",
         "heroImage": "Fetched dynamically via portal asset directory",
-        "videoEmbedUrl": "",
+        "videoEmbedUrl": "N/A",
         "description": "Assetz Marq 3A and 3B comprise completed luxury apartment towers inside the Marq master township in Whitefield, featuring a central park and expansive club facilities.",
         "gallery": [],
         "floorPlans": [],
@@ -1806,7 +2582,19 @@ const PROPERTIES = [
         "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=12.998%2C77.768",
         "amenities": [
             {
-                "name": "Central Park (fa-tree) | Grand Clubhouse (fa-building) | Swimming Pool (fa-swimming-pool) | Security",
+                "name": "Central Park",
+                "icon": "fa-tree"
+            },
+            {
+                "name": "Grand Clubhouse",
+                "icon": "fa-building"
+            },
+            {
+                "name": "Swimming Pool",
+                "icon": "fa-swimming-pool"
+            },
+            {
+                "name": "Security",
                 "icon": "fa-shield-alt"
             }
         ]
@@ -1831,7 +2619,7 @@ const PROPERTIES = [
         "totalUnits": "220 Units",
         "possession": "Ready to Move",
         "heroImage": "Fetched dynamically via portal asset directory",
-        "videoEmbedUrl": "",
+        "videoEmbedUrl": "N/A",
         "description": "Assetz Sun & Sanctum Phase 1 is a completed residential project off KR Puram offering energy-efficient 2 & 3 BHK homes with serene open courtyards.",
         "gallery": [],
         "floorPlans": [],
@@ -1861,7 +2649,19 @@ const PROPERTIES = [
         "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=13.012%2C77.702",
         "amenities": [
             {
-                "name": "Clubhouse (fa-building) | Swimming Pool (fa-swimming-pool) | Gymnasium (fa-dumbbell) | Security",
+                "name": "Clubhouse",
+                "icon": "fa-building"
+            },
+            {
+                "name": "Swimming Pool",
+                "icon": "fa-swimming-pool"
+            },
+            {
+                "name": "Gymnasium",
+                "icon": "fa-dumbbell"
+            },
+            {
+                "name": "Security",
                 "icon": "fa-shield-alt"
             }
         ]
@@ -1886,7 +2686,7 @@ const PROPERTIES = [
         "totalUnits": "180 Units",
         "possession": "Ready to Move",
         "heroImage": "Fetched dynamically via portal asset directory",
-        "videoEmbedUrl": "",
+        "videoEmbedUrl": "N/A",
         "description": "Assetz Sun & Sanctum Phase 2 is the completed final phase of the Sun & Sanctum enclave in East Bengaluru, offering spacious 3 BHK luxury residences.",
         "gallery": [],
         "floorPlans": [],
@@ -1916,7 +2716,19 @@ const PROPERTIES = [
         "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=13.0125%2C77.7025",
         "amenities": [
             {
-                "name": "Clubhouse (fa-building) | Pool (fa-swimming-pool) | Fitness Center (fa-dumbbell) | Security",
+                "name": "Clubhouse",
+                "icon": "fa-building"
+            },
+            {
+                "name": "Pool",
+                "icon": "fa-swimming-pool"
+            },
+            {
+                "name": "Fitness Center",
+                "icon": "fa-dumbbell"
+            },
+            {
+                "name": "Security",
                 "icon": "fa-shield-alt"
             }
         ]
@@ -1941,7 +2753,7 @@ const PROPERTIES = [
         "totalUnits": "250 Units",
         "possession": "Ready to Move",
         "heroImage": "Fetched dynamically via portal asset directory",
-        "videoEmbedUrl": "",
+        "videoEmbedUrl": "N/A",
         "description": "Assetz Earth & Essence is an organic nature-integrated completed villa and plot development located in Hosahalli off Airport Road.",
         "gallery": [],
         "floorPlans": [],
@@ -1971,7 +2783,19 @@ const PROPERTIES = [
         "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=13.185%2C77.621",
         "amenities": [
             {
-                "name": "Orchards (fa-tree) | Clubhouse (fa-building) | Pool (fa-swimming-pool) | Security",
+                "name": "Orchards",
+                "icon": "fa-tree"
+            },
+            {
+                "name": "Clubhouse",
+                "icon": "fa-building"
+            },
+            {
+                "name": "Pool",
+                "icon": "fa-swimming-pool"
+            },
+            {
+                "name": "Security",
                 "icon": "fa-shield-alt"
             }
         ]
@@ -1996,7 +2820,7 @@ const PROPERTIES = [
         "totalUnits": "124 Units",
         "possession": "Ready to Move",
         "heroImage": "Fetched dynamically via portal asset directory",
-        "videoEmbedUrl": "",
+        "videoEmbedUrl": "N/A",
         "description": "Assetz Soul & Soil is a completed luxury row-house villa enclave in Hennur featuring organic gardens, wellness amenities, and sustainable design elements.",
         "gallery": [],
         "floorPlans": [],
@@ -2026,7 +2850,19 @@ const PROPERTIES = [
         "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=13.065%2C77.652",
         "amenities": [
             {
-                "name": "Villa Clubhouse (fa-building) | Swimming Pool (fa-swimming-pool) | Organic Parks (fa-tree) | Security",
+                "name": "Villa Clubhouse",
+                "icon": "fa-building"
+            },
+            {
+                "name": "Swimming Pool",
+                "icon": "fa-swimming-pool"
+            },
+            {
+                "name": "Organic Parks",
+                "icon": "fa-tree"
+            },
+            {
+                "name": "Security",
                 "icon": "fa-shield-alt"
             }
         ]
@@ -2051,7 +2887,7 @@ const PROPERTIES = [
         "totalUnits": "480 Units",
         "possession": "Ready to Move",
         "heroImage": "Fetched dynamically via portal asset directory",
-        "videoEmbedUrl": "",
+        "videoEmbedUrl": "N/A",
         "description": "Assetz Marq 2A and 2B are completed high-rise apartment towers within the Marq master project in Whitefield, providing premium family residences.",
         "gallery": [],
         "floorPlans": [],
@@ -2081,7 +2917,19 @@ const PROPERTIES = [
         "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=12.998%2C77.768",
         "amenities": [
             {
-                "name": "Central Park (fa-tree) | Clubhouse (fa-building) | Pool (fa-swimming-pool) | Security",
+                "name": "Central Park",
+                "icon": "fa-tree"
+            },
+            {
+                "name": "Clubhouse",
+                "icon": "fa-building"
+            },
+            {
+                "name": "Pool",
+                "icon": "fa-swimming-pool"
+            },
+            {
+                "name": "Security",
                 "icon": "fa-shield-alt"
             }
         ]
@@ -2106,7 +2954,7 @@ const PROPERTIES = [
         "totalUnits": "84 Units",
         "possession": "Ready to Move",
         "heroImage": "Fetched dynamically via portal asset directory",
-        "videoEmbedUrl": "",
+        "videoEmbedUrl": "N/A",
         "description": "Assetz Leaves & Lives Phase 1 is a completed luxury row-house villa enclave off Sarjapur Road nestled within a dense canopy of trees.",
         "gallery": [],
         "floorPlans": [],
@@ -2136,7 +2984,19 @@ const PROPERTIES = [
         "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=12.91%2C77.685",
         "amenities": [
             {
-                "name": "Villa Clubhouse (fa-building) | Pool (fa-swimming-pool) | Tree Canopy Parks (fa-tree) | Security",
+                "name": "Villa Clubhouse",
+                "icon": "fa-building"
+            },
+            {
+                "name": "Pool",
+                "icon": "fa-swimming-pool"
+            },
+            {
+                "name": "Tree Canopy Parks",
+                "icon": "fa-tree"
+            },
+            {
+                "name": "Security",
                 "icon": "fa-shield-alt"
             }
         ]
@@ -2161,7 +3021,7 @@ const PROPERTIES = [
         "totalUnits": "29 Units",
         "possession": "Ready to Move",
         "heroImage": "Fetched dynamically via portal asset directory",
-        "videoEmbedUrl": "",
+        "videoEmbedUrl": "N/A",
         "description": "Assetz 38 & Banyan is a completed ultra-exclusive boutique residence in CV Raman Nagar near Indiranagar, housing just 29 spacious luxury apartments.",
         "gallery": [],
         "floorPlans": [],
@@ -2191,7 +3051,19 @@ const PROPERTIES = [
         "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=12.981%2C77.662",
         "amenities": [
             {
-                "name": "Boutique Lounge (fa-building) | Rooftop Pool (fa-swimming-pool) | Gymnasium (fa-dumbbell) | Security",
+                "name": "Boutique Lounge",
+                "icon": "fa-building"
+            },
+            {
+                "name": "Rooftop Pool",
+                "icon": "fa-swimming-pool"
+            },
+            {
+                "name": "Gymnasium",
+                "icon": "fa-dumbbell"
+            },
+            {
+                "name": "Security",
                 "icon": "fa-shield-alt"
             }
         ]
@@ -2216,7 +3088,7 @@ const PROPERTIES = [
         "totalUnits": "332 Units",
         "possession": "Ready to Move",
         "heroImage": "Fetched dynamically via portal asset directory",
-        "videoEmbedUrl": "",
+        "videoEmbedUrl": "N/A",
         "description": "Assetz Here & Now is a completed urban smart-apartment project on Thanisandra Main Road, located right next to Manyata Tech Park.",
         "gallery": [],
         "floorPlans": [],
@@ -2246,7 +3118,23 @@ const PROPERTIES = [
         "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=13.055%2C77.625",
         "amenities": [
             {
-                "name": "Urban Clubhouse (fa-building) | Swimming Pool (fa-swimming-pool) | Gym (fa-dumbbell) | Co-Working Zone (fa-laptop) | Security",
+                "name": "Urban Clubhouse",
+                "icon": "fa-building"
+            },
+            {
+                "name": "Swimming Pool",
+                "icon": "fa-swimming-pool"
+            },
+            {
+                "name": "Gym",
+                "icon": "fa-dumbbell"
+            },
+            {
+                "name": "Co-Working Zone",
+                "icon": "fa-laptop"
+            },
+            {
+                "name": "Security",
                 "icon": "fa-shield-alt"
             }
         ]
@@ -2271,7 +3159,7 @@ const PROPERTIES = [
         "totalUnits": "420 Units",
         "possession": "Ready to Move",
         "heroImage": "Fetched dynamically via portal asset directory",
-        "videoEmbedUrl": "",
+        "videoEmbedUrl": "N/A",
         "description": "Assetz Marq 1 is the completed inaugural residential phase of the Marq master township in Whitefield, offering modern high-rise apartments.",
         "gallery": [],
         "floorPlans": [],
@@ -2301,7 +3189,19 @@ const PROPERTIES = [
         "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=12.998%2C77.768",
         "amenities": [
             {
-                "name": "Central Park (fa-tree) | Clubhouse (fa-building) | Pool (fa-swimming-pool) | Security",
+                "name": "Central Park",
+                "icon": "fa-tree"
+            },
+            {
+                "name": "Clubhouse",
+                "icon": "fa-building"
+            },
+            {
+                "name": "Pool",
+                "icon": "fa-swimming-pool"
+            },
+            {
+                "name": "Security",
                 "icon": "fa-shield-alt"
             }
         ]
@@ -2326,7 +3226,7 @@ const PROPERTIES = [
         "totalUnits": "440 Units",
         "possession": "Ready to Move",
         "heroImage": "Fetched dynamically via portal asset directory",
-        "videoEmbedUrl": "",
+        "videoEmbedUrl": "N/A",
         "description": "Assetz East Point is a completed premium high-rise apartment project in Bhoganahalli off Marathahalli-ORR, right next to Embassy TechVillage.",
         "gallery": [],
         "floorPlans": [],
@@ -2356,7 +3256,19 @@ const PROPERTIES = [
         "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=12.928%2C77.695",
         "amenities": [
             {
-                "name": "Grand Clubhouse (fa-building) | Swimming Pool (fa-swimming-pool) | Gym (fa-dumbbell) | Security",
+                "name": "Grand Clubhouse",
+                "icon": "fa-building"
+            },
+            {
+                "name": "Swimming Pool",
+                "icon": "fa-swimming-pool"
+            },
+            {
+                "name": "Gym",
+                "icon": "fa-dumbbell"
+            },
+            {
+                "name": "Security",
                 "icon": "fa-shield-alt"
             }
         ]
@@ -2371,17 +3283,17 @@ const PROPERTIES = [
         "typeLabel": "Grade-A Corporate Office Building",
         "lat": 12.985,
         "lng": 77.591,
-        "reraId": "",
+        "reraId": "N/A",
         "priceDisplay": "Price on Request",
         "basePriceNum": 0.0,
         "statusTag": "Completed",
         "vastuRating": "100% Vastu Compliant",
         "acres": "1 Acre",
         "towers": "Single Commercial Block",
-        "totalUnits": "",
+        "totalUnits": "N/A",
         "possession": "Ready to Move",
         "heroImage": "Fetched dynamically via portal asset directory",
-        "videoEmbedUrl": "",
+        "videoEmbedUrl": "N/A",
         "description": "Assetz Stratos is a completed Grade-A corporate office building located in central Bangalore on Raj Bhavan Road, offering premium commercial headquarters.",
         "gallery": [],
         "floorPlans": [],
@@ -2411,7 +3323,19 @@ const PROPERTIES = [
         "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=12.985%2C77.591",
         "amenities": [
             {
-                "name": "Executive Grand Lobby (fa-building) | 100% Power Backup (fa-bolt) | Multi-Level Parking (fa-car) | 24/7 Security",
+                "name": "Executive Grand Lobby",
+                "icon": "fa-building"
+            },
+            {
+                "name": "100% Power Backup",
+                "icon": "fa-bolt"
+            },
+            {
+                "name": "Multi-Level Parking",
+                "icon": "fa-car"
+            },
+            {
+                "name": "24/7 Security",
                 "icon": "fa-shield-alt"
             }
         ]
@@ -2436,7 +3360,7 @@ const PROPERTIES = [
         "totalUnits": "138 Units",
         "possession": "Ready to Move",
         "heroImage": "Fetched dynamically via portal asset directory",
-        "videoEmbedUrl": "",
+        "videoEmbedUrl": "N/A",
         "description": "Assetz Lumos is a completed premium high-rise residential project in Yeshwanthpur offering spacious luxury apartments close to Orion Mall and World Trade Center.",
         "gallery": [],
         "floorPlans": [],
@@ -2466,7 +3390,19 @@ const PROPERTIES = [
         "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=13.022%2C77.551",
         "amenities": [
             {
-                "name": "Rooftop Clubhouse (fa-building) | Pool (fa-swimming-pool) | Fitness Studio (fa-dumbbell) | Security",
+                "name": "Rooftop Clubhouse",
+                "icon": "fa-building"
+            },
+            {
+                "name": "Pool",
+                "icon": "fa-swimming-pool"
+            },
+            {
+                "name": "Fitness Studio",
+                "icon": "fa-dumbbell"
+            },
+            {
+                "name": "Security",
                 "icon": "fa-shield-alt"
             }
         ]
@@ -2491,7 +3427,7 @@ const PROPERTIES = [
         "totalUnits": "1,100 Units",
         "possession": "Ready to Move",
         "heroImage": "Fetched dynamically via portal asset directory",
-        "videoEmbedUrl": "",
+        "videoEmbedUrl": "N/A",
         "description": "Assetz 63 Degree East is a landmark completed eco-friendly mega township off Sarjapur Road featuring 68% open spaces and comprehensive lifestyle infrastructure.",
         "gallery": [],
         "floorPlans": [],
@@ -2521,7 +3457,19 @@ const PROPERTIES = [
         "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=12.895%2C77.71",
         "amenities": [
             {
-                "name": "5 Signature Clubhouses (fa-building) | 3 Swimming Pools (fa-swimming-pool) | Sports Complex (fa-basketball-ball) | Security",
+                "name": "5 Signature Clubhouses",
+                "icon": "fa-building"
+            },
+            {
+                "name": "3 Swimming Pools",
+                "icon": "fa-swimming-pool"
+            },
+            {
+                "name": "Sports Complex",
+                "icon": "fa-basketball-ball"
+            },
+            {
+                "name": "Security",
                 "icon": "fa-shield-alt"
             }
         ]
@@ -2546,7 +3494,7 @@ const PROPERTIES = [
         "totalUnits": "394 Units",
         "possession": "Ready to Move",
         "heroImage": "Fetched dynamically via portal asset directory",
-        "videoEmbedUrl": "",
+        "videoEmbedUrl": "N/A",
         "description": "Assetz Bloom & Dell is a serene completed residential project off Whitefield featuring 3 and 4 BHK high-rise residences with 78% open space and organic foliage.",
         "gallery": [],
         "floorPlans": [],
@@ -2576,7 +3524,23 @@ const PROPERTIES = [
         "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=12.985%2C77.761",
         "amenities": [
             {
-                "name": "Signature Clubhouse (fa-building) | Swimming Pool (fa-swimming-pool) | Fitness Center (fa-dumbbell) | Play Parks (fa-child) | Security",
+                "name": "Signature Clubhouse",
+                "icon": "fa-building"
+            },
+            {
+                "name": "Swimming Pool",
+                "icon": "fa-swimming-pool"
+            },
+            {
+                "name": "Fitness Center",
+                "icon": "fa-dumbbell"
+            },
+            {
+                "name": "Play Parks",
+                "icon": "fa-child"
+            },
+            {
+                "name": "Security",
                 "icon": "fa-shield-alt"
             }
         ]
@@ -2601,7 +3565,7 @@ const PROPERTIES = [
         "totalUnits": "378 Units",
         "possession": "June 2029",
         "heroImage": "Fetched dynamically via portal asset directory",
-        "videoEmbedUrl": "",
+        "videoEmbedUrl": "N/A",
         "description": "Purva Blubelle is an ultra-spacious 3 BHK luxury residential high-rise by Puravankara located directly on Magadi Road, near Rajajinagar. Featuring two 31-story towers with 80% open green spaces, the enclave provides immediate access to Magadi Road Metro Station and central Bangalore.",
         "gallery": [],
         "floorPlans": [],
@@ -2631,7 +3595,23 @@ const PROPERTIES = [
         "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=12.978%2C77.548",
         "amenities": [
             {
-                "name": "Signature Clubhouse (fa-building) | Swimming Pool (fa-swimming-pool) | Fitness Center (fa-dumbbell) | Multi-purpose Sports Court (fa-basketball-ball) | 24/7 Security",
+                "name": "Signature Clubhouse",
+                "icon": "fa-building"
+            },
+            {
+                "name": "Swimming Pool",
+                "icon": "fa-swimming-pool"
+            },
+            {
+                "name": "Fitness Center",
+                "icon": "fa-dumbbell"
+            },
+            {
+                "name": "Multi-purpose Sports Court",
+                "icon": "fa-basketball-ball"
+            },
+            {
+                "name": "24/7 Security",
                 "icon": "fa-shield-alt"
             }
         ]
@@ -2656,7 +3636,7 @@ const PROPERTIES = [
         "totalUnits": "492 Units",
         "possession": "December 2027",
         "heroImage": "Fetched dynamically via portal asset directory",
-        "videoEmbedUrl": "",
+        "videoEmbedUrl": "N/A",
         "description": "Purva Park Hill is a luxury residential enclave by Puravankara on Kanakapura Road, featuring unique tri-deck apartments with panoramic green views, resort amenities, and rapid metro connectivity.",
         "gallery": [],
         "floorPlans": [],
@@ -2686,7 +3666,23 @@ const PROPERTIES = [
         "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=12.872%2C77.548",
         "amenities": [
             {
-                "name": "Grand Clubhouse (fa-building) | Infinity Swimming Pool (fa-swimming-pool) | Gymnasium (fa-dumbbell) | Tennis Court (fa-table-tennis) | 24/7 Security",
+                "name": "Grand Clubhouse",
+                "icon": "fa-building"
+            },
+            {
+                "name": "Infinity Swimming Pool",
+                "icon": "fa-swimming-pool"
+            },
+            {
+                "name": "Gymnasium",
+                "icon": "fa-dumbbell"
+            },
+            {
+                "name": "Tennis Court",
+                "icon": "fa-table-tennis"
+            },
+            {
+                "name": "24/7 Security",
                 "icon": "fa-shield-alt"
             }
         ]
@@ -2711,7 +3707,7 @@ const PROPERTIES = [
         "totalUnits": "436 Units",
         "possession": "December 2027",
         "heroImage": "Fetched dynamically via portal asset directory",
-        "videoEmbedUrl": "",
+        "videoEmbedUrl": "N/A",
         "description": "Purva Celestial is part of a 150-acre integrated township on International Airport Road. It features BluNex home automation technology, 80% open spaces, and Chrysalis High School inside the campus.",
         "gallery": [],
         "floorPlans": [],
@@ -2741,7 +3737,23 @@ const PROPERTIES = [
         "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=13.185%2C77.625",
         "amenities": [
             {
-                "name": "Township Clubhouse (fa-building) | Swimming Pool (fa-swimming-pool) | Smart Automation (fa-microchip) | Sports Courts (fa-basketball-ball) | Security",
+                "name": "Township Clubhouse",
+                "icon": "fa-building"
+            },
+            {
+                "name": "Swimming Pool",
+                "icon": "fa-swimming-pool"
+            },
+            {
+                "name": "Smart Automation",
+                "icon": "fa-microchip"
+            },
+            {
+                "name": "Sports Courts",
+                "icon": "fa-basketball-ball"
+            },
+            {
+                "name": "Security",
                 "icon": "fa-shield-alt"
             }
         ]
@@ -2766,7 +3778,7 @@ const PROPERTIES = [
         "totalUnits": "44 Units",
         "possession": "October 2027",
         "heroImage": "Fetched dynamically via portal asset directory",
-        "videoEmbedUrl": "",
+        "videoEmbedUrl": "N/A",
         "description": "Purva Meraki is a ultra-low-density luxury boutique residential project in HSR Layout with only 44 limited-edition homes, private lake views, and rooftop skywalks.",
         "gallery": [],
         "floorPlans": [],
@@ -2796,7 +3808,19 @@ const PROPERTIES = [
         "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=12.912%2C77.645",
         "amenities": [
             {
-                "name": "Sky Lounge & Terrace Walk (fa-building) | Rooftop Swimming Pool (fa-swimming-pool) | Fitness Center (fa-dumbbell) | 24/7 Security",
+                "name": "Sky Lounge & Terrace Walk",
+                "icon": "fa-building"
+            },
+            {
+                "name": "Rooftop Swimming Pool",
+                "icon": "fa-swimming-pool"
+            },
+            {
+                "name": "Fitness Center",
+                "icon": "fa-dumbbell"
+            },
+            {
+                "name": "24/7 Security",
                 "icon": "fa-shield-alt"
             }
         ]
@@ -2821,7 +3845,7 @@ const PROPERTIES = [
         "totalUnits": "939 Units",
         "possession": "March 2027",
         "heroImage": "Fetched dynamically via portal asset directory",
-        "videoEmbedUrl": "",
+        "videoEmbedUrl": "N/A",
         "description": "Purva Atmosphere is a landmark eco-luxury high-rise development on Thanisandra Main Road featuring air-purification towers, Japanese landscaping, and a rooftop sky bridge.",
         "gallery": [],
         "floorPlans": [],
@@ -2851,7 +3875,23 @@ const PROPERTIES = [
         "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=13.062%2C77.622",
         "amenities": [
             {
-                "name": "Rooftop Sky Bridge (fa-building) | Air Filtration System (fa-wind) | Swimming Pool (fa-swimming-pool) | Gymnasium (fa-dumbbell) | Security",
+                "name": "Rooftop Sky Bridge",
+                "icon": "fa-building"
+            },
+            {
+                "name": "Air Filtration System",
+                "icon": "fa-wind"
+            },
+            {
+                "name": "Swimming Pool",
+                "icon": "fa-swimming-pool"
+            },
+            {
+                "name": "Gymnasium",
+                "icon": "fa-dumbbell"
+            },
+            {
+                "name": "Security",
                 "icon": "fa-shield-alt"
             }
         ]
@@ -2876,7 +3916,7 @@ const PROPERTIES = [
         "totalUnits": "207 Units",
         "possession": "December 2027",
         "heroImage": "Fetched dynamically via portal asset directory",
-        "videoEmbedUrl": "",
+        "videoEmbedUrl": "N/A",
         "description": "Purva Sparkling Springs is a villa enclave off Bannerghatta Road featuring triplex homes integrated with natural springs, private gardens, and resort amenities.",
         "gallery": [],
         "floorPlans": [],
@@ -2906,7 +3946,19 @@ const PROPERTIES = [
         "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=12.852%2C77.592",
         "amenities": [
             {
-                "name": "Natural Spring Waterbodies (fa-tint) | Villa Clubhouse (fa-building) | Infinity Pool (fa-swimming-pool) | Security",
+                "name": "Natural Spring Waterbodies",
+                "icon": "fa-tint"
+            },
+            {
+                "name": "Villa Clubhouse",
+                "icon": "fa-building"
+            },
+            {
+                "name": "Infinity Pool",
+                "icon": "fa-swimming-pool"
+            },
+            {
+                "name": "Security",
                 "icon": "fa-shield-alt"
             }
         ]
@@ -2931,7 +3983,7 @@ const PROPERTIES = [
         "totalUnits": "90 Units",
         "possession": "December 2027",
         "heroImage": "Fetched dynamically via portal asset directory",
-        "videoEmbedUrl": "",
+        "videoEmbedUrl": "N/A",
         "description": "Purva Symphony offers independent luxury villas off Bannerghatta Road with private lawn terraces, high-end automation, and lush greenery.",
         "gallery": [],
         "floorPlans": [],
@@ -2961,7 +4013,19 @@ const PROPERTIES = [
         "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=12.855%2C77.594",
         "amenities": [
             {
-                "name": "Private Gardens (fa-tree) | Clubhouse (fa-building) | Pool (fa-swimming-pool) | 24/7 Security",
+                "name": "Private Gardens",
+                "icon": "fa-tree"
+            },
+            {
+                "name": "Clubhouse",
+                "icon": "fa-building"
+            },
+            {
+                "name": "Pool",
+                "icon": "fa-swimming-pool"
+            },
+            {
+                "name": "24/7 Security",
                 "icon": "fa-shield-alt"
             }
         ]
@@ -2986,7 +4050,7 @@ const PROPERTIES = [
         "totalUnits": "872 Units",
         "possession": "Ready to Move",
         "heroImage": "Fetched dynamically via portal asset directory",
-        "videoEmbedUrl": "",
+        "videoEmbedUrl": "N/A",
         "description": "Purva Zenium is a next-generation smart residential project on Airport Road with BluNex AI automation, voice-controlled features, and multi-tier club amenities.",
         "gallery": [],
         "floorPlans": [],
@@ -3016,7 +4080,19 @@ const PROPERTIES = [
         "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=13.186%2C77.626",
         "amenities": [
             {
-                "name": "AI Smart Home Systems (fa-robot) | Grand Clubhouse (fa-building) | Swimming Pool (fa-swimming-pool) | Security",
+                "name": "AI Smart Home Systems",
+                "icon": "fa-robot"
+            },
+            {
+                "name": "Grand Clubhouse",
+                "icon": "fa-building"
+            },
+            {
+                "name": "Swimming Pool",
+                "icon": "fa-swimming-pool"
+            },
+            {
+                "name": "Security",
                 "icon": "fa-shield-alt"
             }
         ]
@@ -3041,7 +4117,7 @@ const PROPERTIES = [
         "totalUnits": "97 Units",
         "possession": "December 2027",
         "heroImage": "Fetched dynamically via portal asset directory",
-        "videoEmbedUrl": "",
+        "videoEmbedUrl": "N/A",
         "description": "Purva Orient Grand is an ultra-exclusive Italian-inspired sky-mansion development on Lalbagh Road, providing expansive views of Lalbagh Botanical Gardens and home automation.",
         "gallery": [],
         "floorPlans": [],
@@ -3071,7 +4147,19 @@ const PROPERTIES = [
         "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=12.955%2C77.588",
         "amenities": [
             {
-                "name": "Sky Lounge & Bar (fa-glass-cheers) | Heated Infinity Pool (fa-swimming-pool) | Italian Marble Lobby (fa-building) | Security",
+                "name": "Sky Lounge & Bar",
+                "icon": "fa-glass-cheers"
+            },
+            {
+                "name": "Heated Infinity Pool",
+                "icon": "fa-swimming-pool"
+            },
+            {
+                "name": "Italian Marble Lobby",
+                "icon": "fa-building"
+            },
+            {
+                "name": "Security",
                 "icon": "fa-shield-alt"
             }
         ]
@@ -3096,7 +4184,7 @@ const PROPERTIES = [
         "totalUnits": "320 Units",
         "possession": "December 2026",
         "heroImage": "Fetched dynamically via portal asset directory",
-        "videoEmbedUrl": "",
+        "videoEmbedUrl": "N/A",
         "description": "The Waves at Purva Palm Beach offers beach-themed apartment living off Hennur Road, featuring a lagoon with actual sand, wave pool, and sunken bar.",
         "gallery": [],
         "floorPlans": [],
@@ -3126,7 +4214,19 @@ const PROPERTIES = [
         "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=13.068%2C77.65",
         "amenities": [
             {
-                "name": "Artificial Wave Pool (fa-water) | Sand Beach Lagoon (fa-umbrella-beach) | Beach Clubhouse (fa-building) | Security",
+                "name": "Artificial Wave Pool",
+                "icon": "fa-water"
+            },
+            {
+                "name": "Sand Beach Lagoon",
+                "icon": "fa-umbrella-beach"
+            },
+            {
+                "name": "Beach Clubhouse",
+                "icon": "fa-building"
+            },
+            {
+                "name": "Security",
                 "icon": "fa-shield-alt"
             }
         ]
@@ -3151,7 +4251,7 @@ const PROPERTIES = [
         "totalUnits": "280 Units",
         "possession": "December 2026",
         "heroImage": "Fetched dynamically via portal asset directory",
-        "videoEmbedUrl": "",
+        "videoEmbedUrl": "N/A",
         "description": "Northern Waves is a premier residential phase inside the Purva Palm Beach township off Hennur Road with direct overlook of tropical wave pools and lagoons.",
         "gallery": [],
         "floorPlans": [],
@@ -3181,7 +4281,19 @@ const PROPERTIES = [
         "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=13.0685%2C77.6505",
         "amenities": [
             {
-                "name": "Wave Pool (fa-water) | Beach Clubhouse (fa-building) | Gym (fa-dumbbell) | Security",
+                "name": "Wave Pool",
+                "icon": "fa-water"
+            },
+            {
+                "name": "Beach Clubhouse",
+                "icon": "fa-building"
+            },
+            {
+                "name": "Gym",
+                "icon": "fa-dumbbell"
+            },
+            {
+                "name": "Security",
                 "icon": "fa-shield-alt"
             }
         ]
@@ -3206,7 +4318,7 @@ const PROPERTIES = [
         "totalUnits": "180 Units",
         "possession": "Ready to Move",
         "heroImage": "Fetched dynamically via portal asset directory",
-        "videoEmbedUrl": "",
+        "videoEmbedUrl": "N/A",
         "description": "Purva Seasons is a ready-to-move luxury apartment community in CV Raman Nagar near Indiranagar, offering fast access to Bagmane Tech Park and Metro.",
         "gallery": [],
         "floorPlans": [],
@@ -3236,7 +4348,19 @@ const PROPERTIES = [
         "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=12.982%2C77.665",
         "amenities": [
             {
-                "name": "Clubhouse (fa-building) | Swimming Pool (fa-swimming-pool) | Gymnasium (fa-dumbbell) | Security",
+                "name": "Clubhouse",
+                "icon": "fa-building"
+            },
+            {
+                "name": "Swimming Pool",
+                "icon": "fa-swimming-pool"
+            },
+            {
+                "name": "Gymnasium",
+                "icon": "fa-dumbbell"
+            },
+            {
+                "name": "Security",
                 "icon": "fa-shield-alt"
             }
         ]
@@ -3261,7 +4385,7 @@ const PROPERTIES = [
         "totalUnits": "120 Units",
         "possession": "Ready to Move",
         "heroImage": "Fetched dynamically via portal asset directory",
-        "videoEmbedUrl": "",
+        "videoEmbedUrl": "N/A",
         "description": "Limousine Homes is an elite residential segment inside Purva Sunflower in Rajajinagar, featuring large floor-plan layouts and luxury fitments.",
         "gallery": [],
         "floorPlans": [],
@@ -3291,7 +4415,19 @@ const PROPERTIES = [
         "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=12.977%2C77.552",
         "amenities": [
             {
-                "name": "Luxury Clubhouse (fa-building) | Swimming Pool (fa-swimming-pool) | Fitness Gym (fa-dumbbell) | Security",
+                "name": "Luxury Clubhouse",
+                "icon": "fa-building"
+            },
+            {
+                "name": "Swimming Pool",
+                "icon": "fa-swimming-pool"
+            },
+            {
+                "name": "Fitness Gym",
+                "icon": "fa-dumbbell"
+            },
+            {
+                "name": "Security",
                 "icon": "fa-shield-alt"
             }
         ]
@@ -3316,7 +4452,7 @@ const PROPERTIES = [
         "totalUnits": "152 Units",
         "possession": "June 2027",
         "heroImage": "Fetched dynamically via portal asset directory",
-        "videoEmbedUrl": "",
+        "videoEmbedUrl": "N/A",
         "description": "Purva Promenade is a beach-themed resort-style high-rise residence on Hennur Road featuring a central lagoon, wave pool, and tropical boardwalks.",
         "gallery": [],
         "floorPlans": [],
@@ -3346,7 +4482,19 @@ const PROPERTIES = [
         "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=13.069%2C77.651",
         "amenities": [
             {
-                "name": "Tropical Beach Lagoon (fa-umbrella-beach) | Wave Pool (fa-water) | Promenade Deck (fa-walking) | Security",
+                "name": "Tropical Beach Lagoon",
+                "icon": "fa-umbrella-beach"
+            },
+            {
+                "name": "Wave Pool",
+                "icon": "fa-water"
+            },
+            {
+                "name": "Promenade Deck",
+                "icon": "fa-walking"
+            },
+            {
+                "name": "Security",
                 "icon": "fa-shield-alt"
             }
         ]
@@ -3371,7 +4519,7 @@ const PROPERTIES = [
         "totalUnits": "180 Units",
         "possession": "Ready to Move",
         "heroImage": "Fetched dynamically via portal asset directory",
-        "videoEmbedUrl": "",
+        "videoEmbedUrl": "N/A",
         "description": "Fresco is a cinema-themed ready-to-move luxury apartment tower inside Purva Westend at Kudlu Gate, featuring an amphitheatre and outdoor movie screen.",
         "gallery": [],
         "floorPlans": [],
@@ -3401,7 +4549,19 @@ const PROPERTIES = [
         "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=12.895%2C77.64",
         "amenities": [
             {
-                "name": "Open-Air Amphitheatre (fa-film) | Swimming Pool (fa-swimming-pool) | Gymnasium (fa-dumbbell) | Security",
+                "name": "Open-Air Amphitheatre",
+                "icon": "fa-film"
+            },
+            {
+                "name": "Swimming Pool",
+                "icon": "fa-swimming-pool"
+            },
+            {
+                "name": "Gymnasium",
+                "icon": "fa-dumbbell"
+            },
+            {
+                "name": "Security",
                 "icon": "fa-shield-alt"
             }
         ]
@@ -3426,7 +4586,7 @@ const PROPERTIES = [
         "totalUnits": "260 Units",
         "possession": "December 2026",
         "heroImage": "Fetched dynamically via portal asset directory",
-        "videoEmbedUrl": "",
+        "videoEmbedUrl": "N/A",
         "description": "Purva Birds of Paradise is a tropical flora-themed apartment enclave along Kanakapura Road Corridor offering serene living and metro connectivity.",
         "gallery": [],
         "floorPlans": [],
@@ -3456,7 +4616,19 @@ const PROPERTIES = [
         "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=12.868%2C77.546",
         "amenities": [
             {
-                "name": "Clubhouse (fa-building) | Bird Sanctuary Zone (fa-dove) | Swimming Pool (fa-swimming-pool) | Security",
+                "name": "Clubhouse",
+                "icon": "fa-building"
+            },
+            {
+                "name": "Bird Sanctuary Zone",
+                "icon": "fa-dove"
+            },
+            {
+                "name": "Swimming Pool",
+                "icon": "fa-swimming-pool"
+            },
+            {
+                "name": "Security",
                 "icon": "fa-shield-alt"
             }
         ]
@@ -3481,7 +4653,7 @@ const PROPERTIES = [
         "totalUnits": "210 Units",
         "possession": "Ready to Move",
         "heroImage": "Fetched dynamically via portal asset directory",
-        "videoEmbedUrl": "",
+        "videoEmbedUrl": "N/A",
         "description": "Purva Midtown is a completed residential project on Old Madras Road, providing excellent transit access to Indiranagar, MG Road, and Outer Ring Road.",
         "gallery": [],
         "floorPlans": [],
@@ -3511,7 +4683,19 @@ const PROPERTIES = [
         "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=12.992%2C77.668",
         "amenities": [
             {
-                "name": "Clubhouse (fa-building) | Swimming Pool (fa-swimming-pool) | Fitness Center (fa-dumbbell) | Security",
+                "name": "Clubhouse",
+                "icon": "fa-building"
+            },
+            {
+                "name": "Swimming Pool",
+                "icon": "fa-swimming-pool"
+            },
+            {
+                "name": "Fitness Center",
+                "icon": "fa-dumbbell"
+            },
+            {
+                "name": "Security",
                 "icon": "fa-shield-alt"
             }
         ]
@@ -3536,7 +4720,7 @@ const PROPERTIES = [
         "totalUnits": "226 Units",
         "possession": "Ready to Move",
         "heroImage": "Fetched dynamically via portal asset directory",
-        "videoEmbedUrl": "",
+        "videoEmbedUrl": "N/A",
         "description": "Purva Sunflower is a landmark completed residential development in Rajajinagar offering spacious 2 & 3 BHK homes with immediate metro access.",
         "gallery": [],
         "floorPlans": [],
@@ -3566,7 +4750,19 @@ const PROPERTIES = [
         "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=12.977%2C77.552",
         "amenities": [
             {
-                "name": "Clubhouse (fa-building) | Swimming Pool (fa-swimming-pool) | Gymnasium (fa-dumbbell) | Security",
+                "name": "Clubhouse",
+                "icon": "fa-building"
+            },
+            {
+                "name": "Swimming Pool",
+                "icon": "fa-swimming-pool"
+            },
+            {
+                "name": "Gymnasium",
+                "icon": "fa-dumbbell"
+            },
+            {
+                "name": "Security",
                 "icon": "fa-shield-alt"
             }
         ]
@@ -3591,7 +4787,7 @@ const PROPERTIES = [
         "totalUnits": "270 Units",
         "possession": "Ready to Move",
         "heroImage": "Fetched dynamically via portal asset directory",
-        "videoEmbedUrl": "",
+        "videoEmbedUrl": "N/A",
         "description": "Purva 270 is a completed residential tower in CV Raman Nagar where apartments feature 3-side open balconies offering 270-degree unhindered green vistas.",
         "gallery": [],
         "floorPlans": [],
@@ -3621,7 +4817,19 @@ const PROPERTIES = [
         "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=12.984%2C77.664",
         "amenities": [
             {
-                "name": "Clubhouse (fa-building) | Swimming Pool (fa-swimming-pool) | Gym (fa-dumbbell) | Security",
+                "name": "Clubhouse",
+                "icon": "fa-building"
+            },
+            {
+                "name": "Swimming Pool",
+                "icon": "fa-swimming-pool"
+            },
+            {
+                "name": "Gym",
+                "icon": "fa-dumbbell"
+            },
+            {
+                "name": "Security",
                 "icon": "fa-shield-alt"
             }
         ]
@@ -3646,7 +4854,7 @@ const PROPERTIES = [
         "totalUnits": "288 Units",
         "possession": "Ready to Move",
         "heroImage": "Fetched dynamically via portal asset directory",
-        "videoEmbedUrl": "",
+        "videoEmbedUrl": "N/A",
         "description": "Purva Skydale is a completed lake-facing residential high-rise off Sarjapur Road near Haralur Lake, offering spacious 3 BHK homes with scenic water views.",
         "gallery": [],
         "floorPlans": [],
@@ -3676,7 +4884,19 @@ const PROPERTIES = [
         "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=12.915%2C77.658",
         "amenities": [
             {
-                "name": "Lakefront Deck (fa-water) | Clubhouse (fa-building) | Pool (fa-swimming-pool) | Security",
+                "name": "Lakefront Deck",
+                "icon": "fa-water"
+            },
+            {
+                "name": "Clubhouse",
+                "icon": "fa-building"
+            },
+            {
+                "name": "Pool",
+                "icon": "fa-swimming-pool"
+            },
+            {
+                "name": "Security",
                 "icon": "fa-shield-alt"
             }
         ]
@@ -3701,7 +4921,7 @@ const PROPERTIES = [
         "totalUnits": "192 Units",
         "possession": "Ready to Move",
         "heroImage": "Fetched dynamically via portal asset directory",
-        "videoEmbedUrl": "",
+        "videoEmbedUrl": "N/A",
         "description": "Purva Whitehall is an elite completed residential enclave directly on Sarjapur Main Road offering spacious 3 & 4 BHK residences with high-end specifications.",
         "gallery": [],
         "floorPlans": [],
@@ -3731,7 +4951,19 @@ const PROPERTIES = [
         "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=12.922%2C77.662",
         "amenities": [
             {
-                "name": "Grand Clubhouse (fa-building) | Swimming Pool (fa-swimming-pool) | Fitness Center (fa-dumbbell) | Security",
+                "name": "Grand Clubhouse",
+                "icon": "fa-building"
+            },
+            {
+                "name": "Swimming Pool",
+                "icon": "fa-swimming-pool"
+            },
+            {
+                "name": "Fitness Center",
+                "icon": "fa-dumbbell"
+            },
+            {
+                "name": "Security",
                 "icon": "fa-shield-alt"
             }
         ]
@@ -3756,7 +4988,7 @@ const PROPERTIES = [
         "totalUnits": "60 Units",
         "possession": "Ready to Move",
         "heroImage": "Fetched dynamically via portal asset directory",
-        "videoEmbedUrl": "",
+        "videoEmbedUrl": "N/A",
         "description": "Coronation Square is a completed boutique luxury apartment community in JP Nagar 7th Phase, featuring spacious homes, private gardens, and high privacy.",
         "gallery": [],
         "floorPlans": [],
@@ -3786,7 +5018,19 @@ const PROPERTIES = [
         "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=12.892%2C77.581",
         "amenities": [
             {
-                "name": "Boutique Clubhouse (fa-building) | Rooftop Pool (fa-swimming-pool) | Fitness Studio (fa-dumbbell) | Security",
+                "name": "Boutique Clubhouse",
+                "icon": "fa-building"
+            },
+            {
+                "name": "Rooftop Pool",
+                "icon": "fa-swimming-pool"
+            },
+            {
+                "name": "Fitness Studio",
+                "icon": "fa-dumbbell"
+            },
+            {
+                "name": "Security",
                 "icon": "fa-shield-alt"
             }
         ]
@@ -3811,7 +5055,7 @@ const PROPERTIES = [
         "totalUnits": "1,332 Units",
         "possession": "Ready to Move",
         "heroImage": "Fetched dynamically via portal asset directory",
-        "videoEmbedUrl": "",
+        "videoEmbedUrl": "N/A",
         "description": "Purva Venezia is a landmark completed Venetian water-themed residential township in Yelahanka New Town featuring indoor canals, arched bridges, and waterways.",
         "gallery": [],
         "floorPlans": [],
@@ -3841,7 +5085,19 @@ const PROPERTIES = [
         "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=13.102%2C77.582",
         "amenities": [
             {
-                "name": "Venetian Water Canals (fa-water) | Grand Clubhouse (fa-building) | Swimming Pool (fa-swimming-pool) | Security",
+                "name": "Venetian Water Canals",
+                "icon": "fa-water"
+            },
+            {
+                "name": "Grand Clubhouse",
+                "icon": "fa-building"
+            },
+            {
+                "name": "Swimming Pool",
+                "icon": "fa-swimming-pool"
+            },
+            {
+                "name": "Security",
                 "icon": "fa-shield-alt"
             }
         ]
@@ -3866,7 +5122,7 @@ const PROPERTIES = [
         "totalUnits": "207 Units",
         "possession": "Ready to Move",
         "heroImage": "Fetched dynamically via portal asset directory",
-        "videoEmbedUrl": "",
+        "videoEmbedUrl": "N/A",
         "description": "The Sound of Water is a completed rainforest-themed luxury villa community off Bannerghatta Road with man-made waterfalls, zen gardens, and club facilities.",
         "gallery": [],
         "floorPlans": [],
@@ -3896,7 +5152,19 @@ const PROPERTIES = [
         "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=12.852%2C77.592",
         "amenities": [
             {
-                "name": "Waterfall Garden (fa-water) | Rainforest Clubhouse (fa-building) | Infinity Pool (fa-swimming-pool) | Security",
+                "name": "Waterfall Garden",
+                "icon": "fa-water"
+            },
+            {
+                "name": "Rainforest Clubhouse",
+                "icon": "fa-building"
+            },
+            {
+                "name": "Infinity Pool",
+                "icon": "fa-swimming-pool"
+            },
+            {
+                "name": "Security",
                 "icon": "fa-shield-alt"
             }
         ]
@@ -3921,7 +5189,7 @@ const PROPERTIES = [
         "totalUnits": "70 Units",
         "possession": "Ready to Move",
         "heroImage": "Fetched dynamically via portal asset directory",
-        "videoEmbedUrl": "",
+        "videoEmbedUrl": "N/A",
         "description": "Purva Atria Platina is a completed luxury low-rise boutique residential enclave in Dollars Colony (RMV 2nd Stage), offering refined suburban living.",
         "gallery": [],
         "floorPlans": [],
@@ -3951,7 +5219,19 @@ const PROPERTIES = [
         "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=13.032%2C77.575",
         "amenities": [
             {
-                "name": "Boutique Clubhouse (fa-building) | Swimming Pool (fa-swimming-pool) | Gym (fa-dumbbell) | Security",
+                "name": "Boutique Clubhouse",
+                "icon": "fa-building"
+            },
+            {
+                "name": "Swimming Pool",
+                "icon": "fa-swimming-pool"
+            },
+            {
+                "name": "Gym",
+                "icon": "fa-dumbbell"
+            },
+            {
+                "name": "Security",
                 "icon": "fa-shield-alt"
             }
         ]
@@ -3976,7 +5256,7 @@ const PROPERTIES = [
         "totalUnits": "728 Units",
         "possession": "Ready to Move",
         "heroImage": "Fetched dynamically via portal asset directory",
-        "videoEmbedUrl": "",
+        "videoEmbedUrl": "N/A",
         "description": "Purva Skywood is a completed high-rise residential project off Sarjapur Road featuring 7 towers set amidst 12.8 acres of foliage and sports infrastructure.",
         "gallery": [],
         "floorPlans": [],
@@ -4006,7 +5286,19 @@ const PROPERTIES = [
         "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=12.912%2C77.655",
         "amenities": [
             {
-                "name": "Central Clubhouse (fa-building) | Swimming Pool (fa-swimming-pool) | Tennis Court (fa-table-tennis) | Security",
+                "name": "Central Clubhouse",
+                "icon": "fa-building"
+            },
+            {
+                "name": "Swimming Pool",
+                "icon": "fa-swimming-pool"
+            },
+            {
+                "name": "Tennis Court",
+                "icon": "fa-table-tennis"
+            },
+            {
+                "name": "Security",
                 "icon": "fa-shield-alt"
             }
         ]
@@ -4031,7 +5323,7 @@ const PROPERTIES = [
         "totalUnits": "848 Units",
         "possession": "Ready to Move",
         "heroImage": "Fetched dynamically via portal asset directory",
-        "videoEmbedUrl": "",
+        "videoEmbedUrl": "N/A",
         "description": "Purva Highland is a completed high-rise apartment township on a hilltop off Kanakapura Road, providing views and direct Green Line Metro access.",
         "gallery": [],
         "floorPlans": [],
@@ -4061,7 +5353,19 @@ const PROPERTIES = [
         "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=12.865%2C77.545",
         "amenities": [
             {
-                "name": "Hilltop Clubhouse (fa-building) | Swimming Pool (fa-swimming-pool) | Gymnasium (fa-dumbbell) | Security",
+                "name": "Hilltop Clubhouse",
+                "icon": "fa-building"
+            },
+            {
+                "name": "Swimming Pool",
+                "icon": "fa-swimming-pool"
+            },
+            {
+                "name": "Gymnasium",
+                "icon": "fa-dumbbell"
+            },
+            {
+                "name": "Security",
                 "icon": "fa-shield-alt"
             }
         ]
@@ -4086,7 +5390,7 @@ const PROPERTIES = [
         "totalUnits": "1,323 Units",
         "possession": "Ready to Move",
         "heroImage": "Fetched dynamically via portal asset directory",
-        "videoEmbedUrl": "",
+        "videoEmbedUrl": "N/A",
         "description": "Purva Palm Beach is a landmark completed resort township off Hennur Road featuring a wave pool, artificial beach, and palm-lined promenade.",
         "gallery": [],
         "floorPlans": [],
@@ -4116,7 +5420,19 @@ const PROPERTIES = [
         "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=13.068%2C77.65",
         "amenities": [
             {
-                "name": "Wave Pool & Beach Lagoon (fa-umbrella-beach) | Grand Clubhouse (fa-building) | Gym (fa-dumbbell) | Security",
+                "name": "Wave Pool & Beach Lagoon",
+                "icon": "fa-umbrella-beach"
+            },
+            {
+                "name": "Grand Clubhouse",
+                "icon": "fa-building"
+            },
+            {
+                "name": "Gym",
+                "icon": "fa-dumbbell"
+            },
+            {
+                "name": "Security",
                 "icon": "fa-shield-alt"
             }
         ]
@@ -4141,7 +5457,7 @@ const PROPERTIES = [
         "totalUnits": "207 Units",
         "possession": "Ready to Move",
         "heroImage": "Fetched dynamically via portal asset directory",
-        "videoEmbedUrl": "",
+        "videoEmbedUrl": "N/A",
         "description": "Purva Smiling Willows is a completed luxury villa community off Bannerghatta Road designed with waterbodies, willow groves, and private lawns.",
         "gallery": [],
         "floorPlans": [],
@@ -4171,7 +5487,19 @@ const PROPERTIES = [
         "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=12.853%2C77.593",
         "amenities": [
             {
-                "name": "Waterbody Parks (fa-water) | Villa Clubhouse (fa-building) | Pool (fa-swimming-pool) | Security",
+                "name": "Waterbody Parks",
+                "icon": "fa-water"
+            },
+            {
+                "name": "Villa Clubhouse",
+                "icon": "fa-building"
+            },
+            {
+                "name": "Pool",
+                "icon": "fa-swimming-pool"
+            },
+            {
+                "name": "Security",
                 "icon": "fa-shield-alt"
             }
         ]
@@ -4196,7 +5524,7 @@ const PROPERTIES = [
         "totalUnits": "26 Units",
         "possession": "Ready to Move",
         "heroImage": "Fetched dynamically via portal asset directory",
-        "videoEmbedUrl": "",
+        "videoEmbedUrl": "N/A",
         "description": "Purva Tiara is an ultra-exclusive completed mansion villa community in JP Nagar 7th Phase featuring 26 super-luxury independent residences.",
         "gallery": [],
         "floorPlans": [],
@@ -4226,7 +5554,19 @@ const PROPERTIES = [
         "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=12.89%2C77.58",
         "amenities": [
             {
-                "name": "Private Elevator (fa-sort) | Villa Clubhouse (fa-building) | Swimming Pool (fa-swimming-pool) | Security",
+                "name": "Private Elevator",
+                "icon": "fa-sort"
+            },
+            {
+                "name": "Villa Clubhouse",
+                "icon": "fa-building"
+            },
+            {
+                "name": "Swimming Pool",
+                "icon": "fa-swimming-pool"
+            },
+            {
+                "name": "Security",
                 "icon": "fa-shield-alt"
             }
         ]
@@ -4251,7 +5591,7 @@ const PROPERTIES = [
         "totalUnits": "380 Units",
         "possession": "Ready to Move",
         "heroImage": "Fetched dynamically via portal asset directory",
-        "videoEmbedUrl": "",
+        "videoEmbedUrl": "N/A",
         "description": "Purva Silversky is a completed residential project near Electronic City in Hebbagodi, providing convenient access to major IT corporate campuses.",
         "gallery": [],
         "floorPlans": [],
@@ -4281,7 +5621,19 @@ const PROPERTIES = [
         "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=12.822%2C77.678",
         "amenities": [
             {
-                "name": "Clubhouse (fa-building) | Swimming Pool (fa-swimming-pool) | Fitness Center (fa-dumbbell) | Security",
+                "name": "Clubhouse",
+                "icon": "fa-building"
+            },
+            {
+                "name": "Swimming Pool",
+                "icon": "fa-swimming-pool"
+            },
+            {
+                "name": "Fitness Center",
+                "icon": "fa-dumbbell"
+            },
+            {
+                "name": "Security",
                 "icon": "fa-shield-alt"
             }
         ]
@@ -4306,7 +5658,7 @@ const PROPERTIES = [
         "totalUnits": "140 Units",
         "possession": "Ready to Move",
         "heroImage": "Fetched dynamically via portal asset directory",
-        "videoEmbedUrl": "",
+        "videoEmbedUrl": "N/A",
         "description": "Purva Zentech is a completed residential enclave in Bikasipura near ISRO Layout, featuring peaceful surroundings and quick access to Kanakapura Road Metro.",
         "gallery": [],
         "floorPlans": [],
@@ -4336,7 +5688,19 @@ const PROPERTIES = [
         "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=12.898%2C77.558",
         "amenities": [
             {
-                "name": "Clubhouse (fa-building) | Gym (fa-dumbbell) | Play Area (fa-child) | Security",
+                "name": "Clubhouse",
+                "icon": "fa-building"
+            },
+            {
+                "name": "Gym",
+                "icon": "fa-dumbbell"
+            },
+            {
+                "name": "Play Area",
+                "icon": "fa-child"
+            },
+            {
+                "name": "Security",
                 "icon": "fa-shield-alt"
             }
         ]
@@ -4361,7 +5725,7 @@ const PROPERTIES = [
         "totalUnits": "110 Units",
         "possession": "Ready to Move",
         "heroImage": "Fetched dynamically via portal asset directory",
-        "videoEmbedUrl": "",
+        "videoEmbedUrl": "N/A",
         "description": "Purva Graces is a completed apartment project in Amrutahalli near Hebbal offering peaceful low-density residential living close to Airport Road.",
         "gallery": [],
         "floorPlans": [],
@@ -4391,7 +5755,15 @@ const PROPERTIES = [
         "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=13.068%2C77.598",
         "amenities": [
             {
-                "name": "Clubhouse (fa-building) | Swimming Pool (fa-swimming-pool) | Security",
+                "name": "Clubhouse",
+                "icon": "fa-building"
+            },
+            {
+                "name": "Swimming Pool",
+                "icon": "fa-swimming-pool"
+            },
+            {
+                "name": "Security",
                 "icon": "fa-shield-alt"
             }
         ]
@@ -4416,7 +5788,7 @@ const PROPERTIES = [
         "totalUnits": "180 Units",
         "possession": "Ready to Move",
         "heroImage": "Fetched dynamically via portal asset directory",
-        "videoEmbedUrl": "",
+        "videoEmbedUrl": "N/A",
         "description": "Purva Highcrest is a premium tower inside the Purva Highlands township on Kanakapura Road, featuring elevated skyline views and club facilities.",
         "gallery": [],
         "floorPlans": [],
@@ -4446,7 +5818,19 @@ const PROPERTIES = [
         "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=12.8655%2C77.5455",
         "amenities": [
             {
-                "name": "Township Clubhouse (fa-building) | Pool (fa-swimming-pool) | Gym (fa-dumbbell) | Security",
+                "name": "Township Clubhouse",
+                "icon": "fa-building"
+            },
+            {
+                "name": "Pool",
+                "icon": "fa-swimming-pool"
+            },
+            {
+                "name": "Gym",
+                "icon": "fa-dumbbell"
+            },
+            {
+                "name": "Security",
                 "icon": "fa-shield-alt"
             }
         ]
@@ -4471,7 +5855,7 @@ const PROPERTIES = [
         "totalUnits": "160 Units",
         "possession": "Ready to Move",
         "heroImage": "Fetched dynamically via portal asset directory",
-        "videoEmbedUrl": "",
+        "videoEmbedUrl": "N/A",
         "description": "Purva Gold Crest is a completed tower within the Purva Highlands township offering scenic valley views and direct access to Namma Metro.",
         "gallery": [],
         "floorPlans": [],
@@ -4501,7 +5885,15 @@ const PROPERTIES = [
         "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=12.866%2C77.546",
         "amenities": [
             {
-                "name": "Township Clubhouse (fa-building) | Pool (fa-swimming-pool) | Security",
+                "name": "Township Clubhouse",
+                "icon": "fa-building"
+            },
+            {
+                "name": "Pool",
+                "icon": "fa-swimming-pool"
+            },
+            {
+                "name": "Security",
                 "icon": "fa-shield-alt"
             }
         ]
@@ -4526,7 +5918,7 @@ const PROPERTIES = [
         "totalUnits": "240 Units",
         "possession": "Ready to Move",
         "heroImage": "Fetched dynamically via portal asset directory",
-        "videoEmbedUrl": "",
+        "videoEmbedUrl": "N/A",
         "description": "Purva Park is an established landmark completed apartment community in Cox Town near Frazer Town, featuring expansive green parks in central Bangalore.",
         "gallery": [],
         "floorPlans": [],
@@ -4556,7 +5948,19 @@ const PROPERTIES = [
         "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=12.992%2C77.618",
         "amenities": [
             {
-                "name": "Resident Clubhouse (fa-building) | Swimming Pool (fa-swimming-pool) | Central Park (fa-tree) | Security",
+                "name": "Resident Clubhouse",
+                "icon": "fa-building"
+            },
+            {
+                "name": "Swimming Pool",
+                "icon": "fa-swimming-pool"
+            },
+            {
+                "name": "Central Park",
+                "icon": "fa-tree"
+            },
+            {
+                "name": "Security",
                 "icon": "fa-shield-alt"
             }
         ]
@@ -4581,7 +5985,7 @@ const PROPERTIES = [
         "totalUnits": "60 Units",
         "possession": "Ready to Move",
         "heroImage": "Fetched dynamically via portal asset directory",
-        "videoEmbedUrl": "",
+        "videoEmbedUrl": "N/A",
         "description": "Purva Platina is a completed boutique residential building in RMV 2nd Stage (Dollars Colony) offering privacy and rapid access to Airport Road.",
         "gallery": [],
         "floorPlans": [],
@@ -4611,7 +6015,15 @@ const PROPERTIES = [
         "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=13.0325%2C77.5755",
         "amenities": [
             {
-                "name": "Boutique Clubhouse (fa-building) | Gym (fa-dumbbell) | Security",
+                "name": "Boutique Clubhouse",
+                "icon": "fa-building"
+            },
+            {
+                "name": "Gym",
+                "icon": "fa-dumbbell"
+            },
+            {
+                "name": "Security",
                 "icon": "fa-shield-alt"
             }
         ]
@@ -4636,7 +6048,7 @@ const PROPERTIES = [
         "totalUnits": "120 Units",
         "possession": "Ready to Move",
         "heroImage": "Fetched dynamically via portal asset directory",
-        "videoEmbedUrl": "",
+        "videoEmbedUrl": "N/A",
         "description": "Sky Condos Series I at Highlands features top-floor luxury residences within the Purva Highlands township offering unimpeded views of South Bangalore.",
         "gallery": [],
         "floorPlans": [],
@@ -4666,7 +6078,19 @@ const PROPERTIES = [
         "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=12.865%2C77.545",
         "amenities": [
             {
-                "name": "Sky Lounge Access (fa-couch) | Township Clubhouse (fa-building) | Pool (fa-swimming-pool) | Security",
+                "name": "Sky Lounge Access",
+                "icon": "fa-couch"
+            },
+            {
+                "name": "Township Clubhouse",
+                "icon": "fa-building"
+            },
+            {
+                "name": "Pool",
+                "icon": "fa-swimming-pool"
+            },
+            {
+                "name": "Security",
                 "icon": "fa-shield-alt"
             }
         ]
@@ -4691,7 +6115,7 @@ const PROPERTIES = [
         "totalUnits": "842 Plots",
         "possession": "December 2026",
         "heroImage": "Fetched dynamically via portal asset directory",
-        "videoEmbedUrl": "",
+        "videoEmbedUrl": "N/A",
         "description": "Purva Tivoli Hills is an Italian-inspired luxury plotted township by Purva Land in Devanahalli, featuring Renaissance-themed gardens and grand avenues.",
         "gallery": [],
         "floorPlans": [],
@@ -4721,7 +6145,19 @@ const PROPERTIES = [
         "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=13.245%2C77.712",
         "amenities": [
             {
-                "name": "Italian Renaissance Clubhouse (fa-building) | Paved Avenues (fa-road) | Swimming Pool (fa-swimming-pool) | Security",
+                "name": "Italian Renaissance Clubhouse",
+                "icon": "fa-building"
+            },
+            {
+                "name": "Paved Avenues",
+                "icon": "fa-road"
+            },
+            {
+                "name": "Swimming Pool",
+                "icon": "fa-swimming-pool"
+            },
+            {
+                "name": "Security",
                 "icon": "fa-shield-alt"
             }
         ]
@@ -4746,7 +6182,7 @@ const PROPERTIES = [
         "totalUnits": "220 Plots",
         "possession": "Ready to Move",
         "heroImage": "Fetched dynamically via portal asset directory",
-        "videoEmbedUrl": "",
+        "videoEmbedUrl": "N/A",
         "description": "Purva Woodfield is a completed luxury plotted township by Purva Land in Electronic City Phase 2, featuring tree-lined streets and modern infrastructure.",
         "gallery": [],
         "floorPlans": [],
@@ -4776,7 +6212,19 @@ const PROPERTIES = [
         "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=12.835%2C77.682",
         "amenities": [
             {
-                "name": "Plotted Clubhouse (fa-building) | Landscaped Parks (fa-tree) | Underground Utilities (fa-bolt) | 24/7 Security",
+                "name": "Plotted Clubhouse",
+                "icon": "fa-building"
+            },
+            {
+                "name": "Landscaped Parks",
+                "icon": "fa-tree"
+            },
+            {
+                "name": "Underground Utilities",
+                "icon": "fa-bolt"
+            },
+            {
+                "name": "24/7 Security",
                 "icon": "fa-shield-alt"
             }
         ]
@@ -4801,7 +6249,7 @@ const PROPERTIES = [
         "totalUnits": "40 Units",
         "possession": "July 2029",
         "heroImage": "Fetched dynamically via portal asset directory",
-        "videoEmbedUrl": "",
+        "videoEmbedUrl": "N/A",
         "description": "Azalea at Brigade Meadows is an exclusive senior-friendly low-rise residential enclave on Kanakapura Road, offering 40 tailored 1 & 2 BHK homes within the established Brigade Meadows township.",
         "gallery": [],
         "floorPlans": [],
@@ -4831,7 +6279,19 @@ const PROPERTIES = [
         "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=12.825%2C77.525",
         "amenities": [
             {
-                "name": "Senior-Friendly Elevator & Corridors (fa-wheelchair) | Clubhouse & Activity Lounge (fa-building) | Walking & Jogging Track (fa-running) | 24/7 Gated Security & Medical Assistance",
+                "name": "Senior-Friendly Elevator & Corridors",
+                "icon": "fa-wheelchair"
+            },
+            {
+                "name": "Clubhouse & Activity Lounge",
+                "icon": "fa-building"
+            },
+            {
+                "name": "Walking & Jogging Track",
+                "icon": "fa-running"
+            },
+            {
+                "name": "24/7 Gated Security & Medical Assistance",
                 "icon": "fa-shield-alt"
             }
         ]
@@ -4856,7 +6316,7 @@ const PROPERTIES = [
         "totalUnits": "773 Units",
         "possession": "March 2031",
         "heroImage": "Fetched dynamically via portal asset directory",
-        "videoEmbedUrl": "",
+        "videoEmbedUrl": "N/A",
         "description": "Brigade Belvedere is a landmark 43-story high-rise township development at Budigere Cross designed by Ricardo Bofill, offering 1 to 3.5 BHK luxury homes on 10.75 acres.",
         "gallery": [],
         "floorPlans": [],
@@ -4886,7 +6346,23 @@ const PROPERTIES = [
         "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=13.045%2C77.728",
         "amenities": [
             {
-                "name": "Signature Clubhouse (fa-building) | Swimming Pool & Splash Park (fa-swimming-pool) | Gymnasium (fa-dumbbell) | Multi-sports Courts (fa-basketball-ball) | 24/7 Security",
+                "name": "Signature Clubhouse",
+                "icon": "fa-building"
+            },
+            {
+                "name": "Swimming Pool & Splash Park",
+                "icon": "fa-swimming-pool"
+            },
+            {
+                "name": "Gymnasium",
+                "icon": "fa-dumbbell"
+            },
+            {
+                "name": "Multi-sports Courts",
+                "icon": "fa-basketball-ball"
+            },
+            {
+                "name": "24/7 Security",
                 "icon": "fa-shield-alt"
             }
         ]
@@ -4911,7 +6387,7 @@ const PROPERTIES = [
         "totalUnits": "320 Units",
         "possession": "March 2030",
         "heroImage": "Fetched dynamically via portal asset directory",
-        "videoEmbedUrl": "",
+        "videoEmbedUrl": "N/A",
         "description": "Laurel & Maple at Brigade Orchards is a modern mid-rise residential phase inside the 135-acre Brigade Orchards smart township in Devanahalli near the airport.",
         "gallery": [],
         "floorPlans": [],
@@ -4941,7 +6417,23 @@ const PROPERTIES = [
         "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=13.225%2C77.708",
         "amenities": [
             {
-                "name": "Township Sports Arena (fa-football-ball) | Clubhouse Signature (fa-building) | Swimming Pool (fa-swimming-pool) | Co-Working Space (fa-laptop) | Security",
+                "name": "Township Sports Arena",
+                "icon": "fa-football-ball"
+            },
+            {
+                "name": "Clubhouse Signature",
+                "icon": "fa-building"
+            },
+            {
+                "name": "Swimming Pool",
+                "icon": "fa-swimming-pool"
+            },
+            {
+                "name": "Co-Working Space",
+                "icon": "fa-laptop"
+            },
+            {
+                "name": "Security",
                 "icon": "fa-shield-alt"
             }
         ]
@@ -4966,7 +6458,7 @@ const PROPERTIES = [
         "totalUnits": "280 Units",
         "possession": "December 2027",
         "heroImage": "Fetched dynamically via portal asset directory",
-        "videoEmbedUrl": "",
+        "videoEmbedUrl": "N/A",
         "description": "Ebony at Brigade Orchards provides compact smart homes within the self-sustained 135-acre Brigade Orchards township in Devanahalli.",
         "gallery": [],
         "floorPlans": [],
@@ -4996,7 +6488,19 @@ const PROPERTIES = [
         "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=13.226%2C77.7085",
         "amenities": [
             {
-                "name": "Township Amenities (fa-building) | Pool (fa-swimming-pool) | Sports Complex (fa-basketball-ball) | Security",
+                "name": "Township Amenities",
+                "icon": "fa-building"
+            },
+            {
+                "name": "Pool",
+                "icon": "fa-swimming-pool"
+            },
+            {
+                "name": "Sports Complex",
+                "icon": "fa-basketball-ball"
+            },
+            {
+                "name": "Security",
                 "icon": "fa-shield-alt"
             }
         ]
@@ -5021,7 +6525,7 @@ const PROPERTIES = [
         "totalUnits": "310 Units",
         "possession": "December 2028",
         "heroImage": "Fetched dynamically via portal asset directory",
-        "videoEmbedUrl": "",
+        "videoEmbedUrl": "N/A",
         "description": "Brigade Avalon is an upscale residential high-rise enclave in Whitefield on Varthur Main Road, offering spacious 3 & 4 BHK luxury residences and a signature clubhouse.",
         "gallery": [],
         "floorPlans": [],
@@ -5051,7 +6555,19 @@ const PROPERTIES = [
         "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=12.952%2C77.741",
         "amenities": [
             {
-                "name": "Signature Clubhouse (fa-building) | Swimming Pool (fa-swimming-pool) | Gym (fa-dumbbell) | Security",
+                "name": "Signature Clubhouse",
+                "icon": "fa-building"
+            },
+            {
+                "name": "Swimming Pool",
+                "icon": "fa-swimming-pool"
+            },
+            {
+                "name": "Gym",
+                "icon": "fa-dumbbell"
+            },
+            {
+                "name": "Security",
                 "icon": "fa-shield-alt"
             }
         ]
@@ -5076,7 +6592,7 @@ const PROPERTIES = [
         "totalUnits": "620 Units",
         "possession": "December 2030",
         "heroImage": "Fetched dynamically via portal asset directory",
-        "videoEmbedUrl": "",
+        "videoEmbedUrl": "N/A",
         "description": "Brigade Lumina is a modern high-rise residential project on Tumkur Road, West Bengaluru, featuring 2 & 3 BHK luxury residences with rapid Green Line Metro access.",
         "gallery": [],
         "floorPlans": [],
@@ -5106,7 +6622,19 @@ const PROPERTIES = [
         "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=13.065%2C77.485",
         "amenities": [
             {
-                "name": "Grand Clubhouse (fa-building) | Swimming Pool (fa-swimming-pool) | Fitness Center (fa-dumbbell) | Security",
+                "name": "Grand Clubhouse",
+                "icon": "fa-building"
+            },
+            {
+                "name": "Swimming Pool",
+                "icon": "fa-swimming-pool"
+            },
+            {
+                "name": "Fitness Center",
+                "icon": "fa-dumbbell"
+            },
+            {
+                "name": "Security",
                 "icon": "fa-shield-alt"
             }
         ]
@@ -5131,7 +6659,7 @@ const PROPERTIES = [
         "totalUnits": "379 Units",
         "possession": "December 2029",
         "heroImage": "Fetched dynamically via portal asset directory",
-        "videoEmbedUrl": "",
+        "videoEmbedUrl": "N/A",
         "description": "Brigade Insignia is an ultra-luxury residential enclave in Yelahanka, featuring 6 towers housing 379 large-format 3, 4 & 5 BHK sky villas with world-class club facilities.",
         "gallery": [],
         "floorPlans": [],
@@ -5161,7 +6689,19 @@ const PROPERTIES = [
         "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=13.108%2C77.598",
         "amenities": [
             {
-                "name": "Clubhouse & Sky Lounge (fa-building) | Infinity Pool (fa-swimming-pool) | Squash & Badminton Courts (fa-table-tennis) | Security",
+                "name": "Clubhouse & Sky Lounge",
+                "icon": "fa-building"
+            },
+            {
+                "name": "Infinity Pool",
+                "icon": "fa-swimming-pool"
+            },
+            {
+                "name": "Squash & Badminton Courts",
+                "icon": "fa-table-tennis"
+            },
+            {
+                "name": "Security",
                 "icon": "fa-shield-alt"
             }
         ]
@@ -5186,7 +6726,7 @@ const PROPERTIES = [
         "totalUnits": "410 Units",
         "possession": "December 2028",
         "heroImage": "Fetched dynamically via portal asset directory",
-        "videoEmbedUrl": "",
+        "videoEmbedUrl": "N/A",
         "description": "Brigade Lakecrest is a lake-facing luxury residential project on Old Madras Road offering 2 & 3 BHK homes with unhindered water views and elite clubhouse amenities.",
         "gallery": [],
         "floorPlans": [],
@@ -5216,7 +6756,19 @@ const PROPERTIES = [
         "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=13.038%2C77.721",
         "amenities": [
             {
-                "name": "Lake Promenade (fa-water) | Signature Clubhouse (fa-building) | Swimming Pool (fa-swimming-pool) | Security",
+                "name": "Lake Promenade",
+                "icon": "fa-water"
+            },
+            {
+                "name": "Signature Clubhouse",
+                "icon": "fa-building"
+            },
+            {
+                "name": "Swimming Pool",
+                "icon": "fa-swimming-pool"
+            },
+            {
+                "name": "Security",
                 "icon": "fa-shield-alt"
             }
         ]
@@ -5241,7 +6793,7 @@ const PROPERTIES = [
         "totalUnits": "4,000+ Units",
         "possession": "Ready to Move",
         "heroImage": "Fetched dynamically via portal asset directory",
-        "videoEmbedUrl": "",
+        "videoEmbedUrl": "N/A",
         "description": "Brigade Cornerstone Utopia is a 47-acre integrated smart mega-township on Varthur Road, Whitefield, blending high-tech residences, retail high-street, and cineplexes.",
         "gallery": [],
         "floorPlans": [],
@@ -5271,7 +6823,19 @@ const PROPERTIES = [
         "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=12.938%2C77.748",
         "amenities": [
             {
-                "name": "Township Cineplex & Retail (fa-shopping-cart) | 3 Clubhouses (fa-building) | Pools (fa-swimming-pool) | Security",
+                "name": "Township Cineplex & Retail",
+                "icon": "fa-shopping-cart"
+            },
+            {
+                "name": "3 Clubhouses",
+                "icon": "fa-building"
+            },
+            {
+                "name": "Pools",
+                "icon": "fa-swimming-pool"
+            },
+            {
+                "name": "Security",
                 "icon": "fa-shield-alt"
             }
         ]
@@ -5296,7 +6860,7 @@ const PROPERTIES = [
         "totalUnits": "744 Units",
         "possession": "Ready to Move",
         "heroImage": "Fetched dynamically via portal asset directory",
-        "videoEmbedUrl": "",
+        "videoEmbedUrl": "N/A",
         "description": "Brigade Bricklane is a completed low-rise urban apartment project in Jakkur, offering low-density 1 & 2 BHK homes with brick-cladded architecture.",
         "gallery": [],
         "floorPlans": [],
@@ -5326,7 +6890,19 @@ const PROPERTIES = [
         "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=13.095%2C77.612",
         "amenities": [
             {
-                "name": "Urban Clubhouse (fa-building) | Swimming Pool (fa-swimming-pool) | Gym (fa-dumbbell) | Security",
+                "name": "Urban Clubhouse",
+                "icon": "fa-building"
+            },
+            {
+                "name": "Swimming Pool",
+                "icon": "fa-swimming-pool"
+            },
+            {
+                "name": "Gym",
+                "icon": "fa-dumbbell"
+            },
+            {
+                "name": "Security",
                 "icon": "fa-shield-alt"
             }
         ]
@@ -5351,7 +6927,7 @@ const PROPERTIES = [
         "totalUnits": "108 Units",
         "possession": "Ready to Move",
         "heroImage": "Fetched dynamically via portal asset directory",
-        "videoEmbedUrl": "",
+        "videoEmbedUrl": "N/A",
         "description": "Brigade Nanda Heights is a completed boutique high-rise residence in Padmanabhanagar, offering 3 & 4 BHK homes in central South Bangalore.",
         "gallery": [],
         "floorPlans": [],
@@ -5381,7 +6957,19 @@ const PROPERTIES = [
         "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=12.921%2C77.561",
         "amenities": [
             {
-                "name": "Boutique Clubhouse (fa-building) | Rooftop Pool (fa-swimming-pool) | Fitness Gym (fa-dumbbell) | Security",
+                "name": "Boutique Clubhouse",
+                "icon": "fa-building"
+            },
+            {
+                "name": "Rooftop Pool",
+                "icon": "fa-swimming-pool"
+            },
+            {
+                "name": "Fitness Gym",
+                "icon": "fa-dumbbell"
+            },
+            {
+                "name": "Security",
                 "icon": "fa-shield-alt"
             }
         ]
@@ -5406,7 +6994,7 @@ const PROPERTIES = [
         "totalUnits": "180 Units",
         "possession": "Ready to Move",
         "heroImage": "Fetched dynamically via portal asset directory",
-        "videoEmbedUrl": "",
+        "videoEmbedUrl": "N/A",
         "description": "Goldspire is a completed high-rise luxury apartment block within Brigade Orchards smart township in Devanahalli, offering 1, 2 & 3 BHK homes.",
         "gallery": [],
         "floorPlans": [],
@@ -5436,7 +7024,19 @@ const PROPERTIES = [
         "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=13.227%2C77.709",
         "amenities": [
             {
-                "name": "Township Amenities (fa-building) | Pool (fa-swimming-pool) | Sports Arena (fa-football-ball) | Security",
+                "name": "Township Amenities",
+                "icon": "fa-building"
+            },
+            {
+                "name": "Pool",
+                "icon": "fa-swimming-pool"
+            },
+            {
+                "name": "Sports Arena",
+                "icon": "fa-football-ball"
+            },
+            {
+                "name": "Security",
                 "icon": "fa-shield-alt"
             }
         ]
@@ -5461,7 +7061,7 @@ const PROPERTIES = [
         "totalUnits": "742 Units",
         "possession": "Ready to Move",
         "heroImage": "Fetched dynamically via portal asset directory",
-        "videoEmbedUrl": "",
+        "videoEmbedUrl": "N/A",
         "description": "Brigade Buena Vista is a completed residential project at Budigere Cross off Old Madras Road, featuring 80% open spaces and rapid access to Whitefield.",
         "gallery": [],
         "floorPlans": [],
@@ -5491,7 +7091,19 @@ const PROPERTIES = [
         "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=13.042%2C77.725",
         "amenities": [
             {
-                "name": "Grand Clubhouse (fa-building) | Swimming Pool (fa-swimming-pool) | Gym (fa-dumbbell) | Security",
+                "name": "Grand Clubhouse",
+                "icon": "fa-building"
+            },
+            {
+                "name": "Swimming Pool",
+                "icon": "fa-swimming-pool"
+            },
+            {
+                "name": "Gym",
+                "icon": "fa-dumbbell"
+            },
+            {
+                "name": "Security",
                 "icon": "fa-shield-alt"
             }
         ]
@@ -5516,7 +7128,7 @@ const PROPERTIES = [
         "totalUnits": "678 Units",
         "possession": "Ready to Move",
         "heroImage": "Fetched dynamically via portal asset directory",
-        "videoEmbedUrl": "",
+        "videoEmbedUrl": "N/A",
         "description": "Brigade 7 Gardens is a completed residential project in Banashankari 6th Stage featuring 7 distinct themed gardens and rapid NICE Road access.",
         "gallery": [],
         "floorPlans": [],
@@ -5546,7 +7158,19 @@ const PROPERTIES = [
         "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=12.895%2C77.532",
         "amenities": [
             {
-                "name": "7 Themed Gardens (fa-tree) | Clubhouse (fa-building) | Pool (fa-swimming-pool) | Security",
+                "name": "7 Themed Gardens",
+                "icon": "fa-tree"
+            },
+            {
+                "name": "Clubhouse",
+                "icon": "fa-building"
+            },
+            {
+                "name": "Pool",
+                "icon": "fa-swimming-pool"
+            },
+            {
+                "name": "Security",
                 "icon": "fa-shield-alt"
             }
         ]
@@ -5571,7 +7195,7 @@ const PROPERTIES = [
         "totalUnits": "180 Units",
         "possession": "Ready to Move",
         "heroImage": "Fetched dynamically via portal asset directory",
-        "videoEmbedUrl": "",
+        "videoEmbedUrl": "N/A",
         "description": "Brigade Northridge Neo is a completed high-rise apartment phase within the Brigade Northridge enclave in Jakkur, close to Manyata Tech Park.",
         "gallery": [],
         "floorPlans": [],
@@ -5601,7 +7225,19 @@ const PROPERTIES = [
         "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=13.092%2C77.61",
         "amenities": [
             {
-                "name": "Clubhouse (fa-building) | Swimming Pool (fa-swimming-pool) | Gym (fa-dumbbell) | Security",
+                "name": "Clubhouse",
+                "icon": "fa-building"
+            },
+            {
+                "name": "Swimming Pool",
+                "icon": "fa-swimming-pool"
+            },
+            {
+                "name": "Gym",
+                "icon": "fa-dumbbell"
+            },
+            {
+                "name": "Security",
                 "icon": "fa-shield-alt"
             }
         ]
@@ -5626,7 +7262,7 @@ const PROPERTIES = [
         "totalUnits": "410 Units",
         "possession": "Ready to Move",
         "heroImage": "Fetched dynamically via portal asset directory",
-        "videoEmbedUrl": "",
+        "videoEmbedUrl": "N/A",
         "description": "Juniper at Brigade Orchards is a completed residential block inside the smart township offering compact 2 & 3 BHK homes with full access to township amenities.",
         "gallery": [],
         "floorPlans": [],
@@ -5656,7 +7292,19 @@ const PROPERTIES = [
         "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=13.228%2C77.7095",
         "amenities": [
             {
-                "name": "Township Amenities (fa-building) | Pool (fa-swimming-pool) | Sports Arena (fa-basketball-ball) | Security",
+                "name": "Township Amenities",
+                "icon": "fa-building"
+            },
+            {
+                "name": "Pool",
+                "icon": "fa-swimming-pool"
+            },
+            {
+                "name": "Sports Arena",
+                "icon": "fa-basketball-ball"
+            },
+            {
+                "name": "Security",
                 "icon": "fa-shield-alt"
             }
         ]
@@ -5681,7 +7329,7 @@ const PROPERTIES = [
         "totalUnits": "108 Units",
         "possession": "Ready to Move",
         "heroImage": "Fetched dynamically via portal asset directory",
-        "videoEmbedUrl": "",
+        "videoEmbedUrl": "N/A",
         "description": "Signature Villas at Brigade Orchards offer luxury pavilion-style independent villas with private gardens set inside the 135-acre smart township.",
         "gallery": [],
         "floorPlans": [],
@@ -5711,7 +7359,15 @@ const PROPERTIES = [
         "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=13.229%2C77.71",
         "amenities": [
             {
-                "name": "Private Lawn & Pool (fa-swimming-pool) | Township Golf / Sports Club (fa-flag) | 24/7 Security",
+                "name": "Private Lawn & Pool",
+                "icon": "fa-swimming-pool"
+            },
+            {
+                "name": "Township Golf / Sports Club",
+                "icon": "fa-flag"
+            },
+            {
+                "name": "24/7 Security",
                 "icon": "fa-shield-alt"
             }
         ]
@@ -5736,7 +7392,7 @@ const PROPERTIES = [
         "totalUnits": "434 Units",
         "possession": "Ready to Move",
         "heroImage": "Fetched dynamically via portal asset directory",
-        "videoEmbedUrl": "",
+        "videoEmbedUrl": "N/A",
         "description": "Brigade Parkside North is a completed low-rise apartment enclave in Jalahalli on MES Road, featuring thoughtful design for both families and seniors.",
         "gallery": [],
         "floorPlans": [],
@@ -5766,7 +7422,19 @@ const PROPERTIES = [
         "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=13.045%2C77.545",
         "amenities": [
             {
-                "name": "Clubhouse (fa-building) | Swimming Pool (fa-swimming-pool) | Senior Plaza (fa-wheelchair) | Security",
+                "name": "Clubhouse",
+                "icon": "fa-building"
+            },
+            {
+                "name": "Swimming Pool",
+                "icon": "fa-swimming-pool"
+            },
+            {
+                "name": "Senior Plaza",
+                "icon": "fa-wheelchair"
+            },
+            {
+                "name": "Security",
                 "icon": "fa-shield-alt"
             }
         ]
@@ -5791,7 +7459,7 @@ const PROPERTIES = [
         "totalUnits": "705 Units",
         "possession": "Ready to Move",
         "heroImage": "Fetched dynamically via portal asset directory",
-        "videoEmbedUrl": "",
+        "videoEmbedUrl": "N/A",
         "description": "Brigade Cosmopolis is a completed flagship high-rise residential project on Whitefield Main Road, featuring international landscaping and urban conveniences.",
         "gallery": [],
         "floorPlans": [],
@@ -5821,7 +7489,19 @@ const PROPERTIES = [
         "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=12.968%2C77.748",
         "amenities": [
             {
-                "name": "Grand Clubhouse (fa-building) | Swimming Pool (fa-swimming-pool) | Tennis Court (fa-table-tennis) | Security",
+                "name": "Grand Clubhouse",
+                "icon": "fa-building"
+            },
+            {
+                "name": "Swimming Pool",
+                "icon": "fa-swimming-pool"
+            },
+            {
+                "name": "Tennis Court",
+                "icon": "fa-table-tennis"
+            },
+            {
+                "name": "Security",
                 "icon": "fa-shield-alt"
             }
         ]
@@ -5846,7 +7526,7 @@ const PROPERTIES = [
         "totalUnits": "454 Units",
         "possession": "Ready to Move",
         "heroImage": "Fetched dynamically via portal asset directory",
-        "videoEmbedUrl": "",
+        "videoEmbedUrl": "N/A",
         "description": "Brigade Exotica is an iconic completed 35-story luxury residential landmark on Old Madras Road featuring double-height patio terraces and green building certification.",
         "gallery": [],
         "floorPlans": [],
@@ -5876,7 +7556,19 @@ const PROPERTIES = [
         "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=13.039%2C77.722",
         "amenities": [
             {
-                "name": "Double-Height Patios (fa-couch) | World-Class Club (fa-building) | Heated Pool (fa-swimming-pool) | Security",
+                "name": "Double-Height Patios",
+                "icon": "fa-couch"
+            },
+            {
+                "name": "World-Class Club",
+                "icon": "fa-building"
+            },
+            {
+                "name": "Heated Pool",
+                "icon": "fa-swimming-pool"
+            },
+            {
+                "name": "Security",
                 "icon": "fa-shield-alt"
             }
         ]
@@ -5901,7 +7593,7 @@ const PROPERTIES = [
         "totalUnits": "138 Units",
         "possession": "Ready to Move",
         "heroImage": "Fetched dynamically via portal asset directory",
-        "videoEmbedUrl": "",
+        "videoEmbedUrl": "N/A",
         "description": "Brigade Gem is a completed boutique low-rise residential project on Sarjapur Road offering low-density 2 & 3 BHK apartments close to Carmeleram Railway Station.",
         "gallery": [],
         "floorPlans": [],
@@ -5931,7 +7623,19 @@ const PROPERTIES = [
         "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=12.898%2C77.695",
         "amenities": [
             {
-                "name": "Boutique Clubhouse (fa-building) | Swimming Pool (fa-swimming-pool) | Gymnasium (fa-dumbbell) | Security",
+                "name": "Boutique Clubhouse",
+                "icon": "fa-building"
+            },
+            {
+                "name": "Swimming Pool",
+                "icon": "fa-swimming-pool"
+            },
+            {
+                "name": "Gymnasium",
+                "icon": "fa-dumbbell"
+            },
+            {
+                "name": "Security",
                 "icon": "fa-shield-alt"
             }
         ]
@@ -5956,7 +7660,7 @@ const PROPERTIES = [
         "totalUnits": "670 Units",
         "possession": "Ready to Move",
         "heroImage": "Fetched dynamically via portal asset directory",
-        "videoEmbedUrl": "",
+        "videoEmbedUrl": "N/A",
         "description": "Brigade Golden Triangle is a completed mixed-use residential & commercial township on Old Madras Road providing easy connectivity to Whitefield & Hoskote.",
         "gallery": [],
         "floorPlans": [],
@@ -5986,7 +7690,19 @@ const PROPERTIES = [
         "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=13.035%2C77.728",
         "amenities": [
             {
-                "name": "Commercial Arcade (fa-shopping-bag) | Clubhouse (fa-building) | Swimming Pool (fa-swimming-pool) | Security",
+                "name": "Commercial Arcade",
+                "icon": "fa-shopping-bag"
+            },
+            {
+                "name": "Clubhouse",
+                "icon": "fa-building"
+            },
+            {
+                "name": "Swimming Pool",
+                "icon": "fa-swimming-pool"
+            },
+            {
+                "name": "Security",
                 "icon": "fa-shield-alt"
             }
         ]
@@ -6011,7 +7727,7 @@ const PROPERTIES = [
         "totalUnits": "1,074 Units",
         "possession": "Ready to Move",
         "heroImage": "Fetched dynamically via portal asset directory",
-        "videoEmbedUrl": "",
+        "videoEmbedUrl": "N/A",
         "description": "Brigade Lakefront is a completed luxury residential enclave adjoining Seetharampalya Lake in Whitefield EPIP zone, offering waterfront vistas and 30,000 sq. ft. club.",
         "gallery": [],
         "floorPlans": [],
@@ -6041,7 +7757,19 @@ const PROPERTIES = [
         "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=12.975%2C77.728",
         "amenities": [
             {
-                "name": "30,000 Sq.Ft. Clubhouse (fa-building) | Lake Deck (fa-water) | Pool (fa-swimming-pool) | Security",
+                "name": "30,000 Sq.Ft. Clubhouse",
+                "icon": "fa-building"
+            },
+            {
+                "name": "Lake Deck",
+                "icon": "fa-water"
+            },
+            {
+                "name": "Pool",
+                "icon": "fa-swimming-pool"
+            },
+            {
+                "name": "Security",
                 "icon": "fa-shield-alt"
             }
         ]
@@ -6066,7 +7794,7 @@ const PROPERTIES = [
         "totalUnits": "520 Units",
         "possession": "Ready to Move",
         "heroImage": "Fetched dynamically via portal asset directory",
-        "videoEmbedUrl": "",
+        "videoEmbedUrl": "N/A",
         "description": "Plumeria at Brigade Meadows is a completed apartment block within the 60-acre Brigade Meadows master township on Kanakapura Road with sports infrastructure.",
         "gallery": [],
         "floorPlans": [],
@@ -6096,7 +7824,19 @@ const PROPERTIES = [
         "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=12.825%2C77.525",
         "amenities": [
             {
-                "name": "Township Sports Complex (fa-running) | Clubhouse (fa-building) | Pool (fa-swimming-pool) | Security",
+                "name": "Township Sports Complex",
+                "icon": "fa-running"
+            },
+            {
+                "name": "Clubhouse",
+                "icon": "fa-building"
+            },
+            {
+                "name": "Pool",
+                "icon": "fa-swimming-pool"
+            },
+            {
+                "name": "Security",
                 "icon": "fa-shield-alt"
             }
         ]
@@ -6121,7 +7861,7 @@ const PROPERTIES = [
         "totalUnits": "380 Units",
         "possession": "Ready to Move",
         "heroImage": "Fetched dynamically via portal asset directory",
-        "videoEmbedUrl": "",
+        "videoEmbedUrl": "N/A",
         "description": "Plumeria Lifestyle is an upgraded residential section in the Brigade Meadows township on Kanakapura Road offering enhanced finishes and sports access.",
         "gallery": [],
         "floorPlans": [],
@@ -6151,7 +7891,19 @@ const PROPERTIES = [
         "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=12.8255%2C77.5255",
         "amenities": [
             {
-                "name": "Township Amenities (fa-building) | Sports Grounds (fa-football-ball) | Swimming Pool (fa-swimming-pool) | Security",
+                "name": "Township Amenities",
+                "icon": "fa-building"
+            },
+            {
+                "name": "Sports Grounds",
+                "icon": "fa-football-ball"
+            },
+            {
+                "name": "Swimming Pool",
+                "icon": "fa-swimming-pool"
+            },
+            {
+                "name": "Security",
                 "icon": "fa-shield-alt"
             }
         ]
@@ -6176,7 +7928,7 @@ const PROPERTIES = [
         "totalUnits": "640 Units",
         "possession": "Ready to Move",
         "heroImage": "Fetched dynamically via portal asset directory",
-        "videoEmbedUrl": "",
+        "videoEmbedUrl": "N/A",
         "description": "Wisteria at Brigade Meadows is a completed residential block inside Brigade Meadows township offering 2 & 3 BHK homes with extensive greenery.",
         "gallery": [],
         "floorPlans": [],
@@ -6206,7 +7958,19 @@ const PROPERTIES = [
         "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=12.8245%2C77.5245",
         "amenities": [
             {
-                "name": "Township Amenities (fa-building) | Pool (fa-swimming-pool) | Children Play Park (fa-child) | Security",
+                "name": "Township Amenities",
+                "icon": "fa-building"
+            },
+            {
+                "name": "Pool",
+                "icon": "fa-swimming-pool"
+            },
+            {
+                "name": "Children Play Park",
+                "icon": "fa-child"
+            },
+            {
+                "name": "Security",
                 "icon": "fa-shield-alt"
             }
         ]
@@ -6231,7 +7995,7 @@ const PROPERTIES = [
         "totalUnits": "333 Units",
         "possession": "Ready to Move",
         "heroImage": "Fetched dynamically via portal asset directory",
-        "videoEmbedUrl": "",
+        "videoEmbedUrl": "N/A",
         "description": "Brigade Woods is a unique completed low-rise woods-inspired residential enclave right next to ITPL in Whitefield, preserved with hundreds of mature trees.",
         "gallery": [],
         "floorPlans": [],
@@ -6261,7 +8025,19 @@ const PROPERTIES = [
         "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=12.982%2C77.751",
         "amenities": [
             {
-                "name": "Woods Walkways (fa-tree) | Clubhouse (fa-building) | Pool (fa-swimming-pool) | Security",
+                "name": "Woods Walkways",
+                "icon": "fa-tree"
+            },
+            {
+                "name": "Clubhouse",
+                "icon": "fa-building"
+            },
+            {
+                "name": "Pool",
+                "icon": "fa-swimming-pool"
+            },
+            {
+                "name": "Security",
                 "icon": "fa-shield-alt"
             }
         ]
@@ -6286,7 +8062,7 @@ const PROPERTIES = [
         "totalUnits": "520 Units",
         "possession": "Ready to Move",
         "heroImage": "Fetched dynamically via portal asset directory",
-        "videoEmbedUrl": "",
+        "videoEmbedUrl": "N/A",
         "description": "Brigade Omega is a completed high-rise residential development opposite Thurahalli Reserve Forest, offering panoramic nature views in South Bangalore.",
         "gallery": [],
         "floorPlans": [],
@@ -6316,7 +8092,19 @@ const PROPERTIES = [
         "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=12.888%2C77.538",
         "amenities": [
             {
-                "name": "Forest View Deck (fa-eye) | Clubhouse (fa-building) | Pool (fa-swimming-pool) | Security",
+                "name": "Forest View Deck",
+                "icon": "fa-eye"
+            },
+            {
+                "name": "Clubhouse",
+                "icon": "fa-building"
+            },
+            {
+                "name": "Pool",
+                "icon": "fa-swimming-pool"
+            },
+            {
+                "name": "Security",
                 "icon": "fa-shield-alt"
             }
         ]
@@ -6341,7 +8129,7 @@ const PROPERTIES = [
         "totalUnits": "1,400+ Units",
         "possession": "Ready to Move",
         "heroImage": "Fetched dynamically via portal asset directory",
-        "videoEmbedUrl": "",
+        "videoEmbedUrl": "N/A",
         "description": "Brigade Millennium is one of Bangalore's most celebrated pioneer townships in JP Nagar 7th Phase, housing the Millennium Club, Woodrose Club, and convention halls.",
         "gallery": [],
         "floorPlans": [],
@@ -6371,7 +8159,19 @@ const PROPERTIES = [
         "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=12.895%2C77.585",
         "amenities": [
             {
-                "name": "Woodrose Club (fa-building) | Convention Hall (fa-users) | Pools & Courts (fa-swimming-pool) | Security",
+                "name": "Woodrose Club",
+                "icon": "fa-building"
+            },
+            {
+                "name": "Convention Hall",
+                "icon": "fa-users"
+            },
+            {
+                "name": "Pools & Courts",
+                "icon": "fa-swimming-pool"
+            },
+            {
+                "name": "Security",
                 "icon": "fa-shield-alt"
             }
         ]
@@ -6396,7 +8196,7 @@ const PROPERTIES = [
         "totalUnits": "282 Units",
         "possession": "Ready to Move",
         "heroImage": "Fetched dynamically via portal asset directory",
-        "videoEmbedUrl": "",
+        "videoEmbedUrl": "N/A",
         "description": "Brigade Parkside East is a completed low-rise courtyard residential project on Sarjapur Road offering vibrant low-density homes for families & active adults.",
         "gallery": [],
         "floorPlans": [],
@@ -6426,7 +8226,19 @@ const PROPERTIES = [
         "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=12.892%2C77.708",
         "amenities": [
             {
-                "name": "Courtyard Clubhouse (fa-building) | Swimming Pool (fa-swimming-pool) | Gym (fa-dumbbell) | Security",
+                "name": "Courtyard Clubhouse",
+                "icon": "fa-building"
+            },
+            {
+                "name": "Swimming Pool",
+                "icon": "fa-swimming-pool"
+            },
+            {
+                "name": "Gym",
+                "icon": "fa-dumbbell"
+            },
+            {
+                "name": "Security",
                 "icon": "fa-shield-alt"
             }
         ]
@@ -6451,7 +8263,7 @@ const PROPERTIES = [
         "totalUnits": "980 Units",
         "possession": "Ready to Move",
         "heroImage": "Fetched dynamically via portal asset directory",
-        "videoEmbedUrl": "",
+        "videoEmbedUrl": "N/A",
         "description": "Brigade Gardenia is an established landmark completed apartment enclave in JP Nagar 8th Phase, featuring landscaped courtyards and full lifestyle amenities.",
         "gallery": [],
         "floorPlans": [],
@@ -6481,7 +8293,19 @@ const PROPERTIES = [
         "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=12.885%2C77.581",
         "amenities": [
             {
-                "name": "Resident Club (fa-building) | Swimming Pool (fa-swimming-pool) | Sports Courts (fa-basketball-ball) | Security",
+                "name": "Resident Club",
+                "icon": "fa-building"
+            },
+            {
+                "name": "Swimming Pool",
+                "icon": "fa-swimming-pool"
+            },
+            {
+                "name": "Sports Courts",
+                "icon": "fa-basketball-ball"
+            },
+            {
+                "name": "Security",
                 "icon": "fa-shield-alt"
             }
         ]
@@ -6506,7 +8330,7 @@ const PROPERTIES = [
         "totalUnits": "156 Units",
         "possession": "Ready to Move",
         "heroImage": "Fetched dynamically via portal asset directory",
-        "videoEmbedUrl": "",
+        "videoEmbedUrl": "N/A",
         "description": "Parkside Senior Living at Brigade Orchards provides specialized senior-friendly 1 & 2 BHK apartments managed with medical care corridors inside Brigade Orchards.",
         "gallery": [],
         "floorPlans": [],
@@ -6536,7 +8360,19 @@ const PROPERTIES = [
         "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=13.2285%2C77.7088",
         "amenities": [
             {
-                "name": "Senior Care Clinic (fa-user-md) | Assisted Dining Hall (fa-utensils) | Grab-Bar Corridors (fa-wheelchair) | 24/7 Medical Care",
+                "name": "Senior Care Clinic",
+                "icon": "fa-user-md"
+            },
+            {
+                "name": "Assisted Dining Hall",
+                "icon": "fa-utensils"
+            },
+            {
+                "name": "Grab-Bar Corridors",
+                "icon": "fa-wheelchair"
+            },
+            {
+                "name": "24/7 Medical Care",
                 "icon": "fa-shield-alt"
             }
         ]
@@ -6561,7 +8397,7 @@ const PROPERTIES = [
         "totalUnits": "188 Units",
         "possession": "Ready to Move",
         "heroImage": "Fetched dynamically via portal asset directory",
-        "videoEmbedUrl": "",
+        "videoEmbedUrl": "N/A",
         "description": "Brigade Altamont is a completed high-rise apartment enclave off Hennur Road, offering quiet residential living close to Manyata Tech Park and Outer Ring Road.",
         "gallery": [],
         "floorPlans": [],
@@ -6591,7 +8427,19 @@ const PROPERTIES = [
         "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=13.058%2C77.642",
         "amenities": [
             {
-                "name": "Clubhouse (fa-building) | Swimming Pool (fa-swimming-pool) | Gym (fa-dumbbell) | Security",
+                "name": "Clubhouse",
+                "icon": "fa-building"
+            },
+            {
+                "name": "Swimming Pool",
+                "icon": "fa-swimming-pool"
+            },
+            {
+                "name": "Gym",
+                "icon": "fa-dumbbell"
+            },
+            {
+                "name": "Security",
                 "icon": "fa-shield-alt"
             }
         ]
@@ -6616,7 +8464,7 @@ const PROPERTIES = [
         "totalUnits": "1,035 Units",
         "possession": "Ready to Move",
         "heroImage": "Fetched dynamically via portal asset directory",
-        "videoEmbedUrl": "",
+        "videoEmbedUrl": "N/A",
         "description": "Brigade Panorama is a completed 11-acre high-rise residential township on Mysore Road, featuring extensive sports facilities and direct Purple Line Metro access.",
         "gallery": [],
         "floorPlans": [],
@@ -6646,7 +8494,19 @@ const PROPERTIES = [
         "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=12.882%2C77.442",
         "amenities": [
             {
-                "name": "Grand Clubhouse (fa-building) | Swimming Pool (fa-swimming-pool) | Sports Courts (fa-basketball-ball) | Security",
+                "name": "Grand Clubhouse",
+                "icon": "fa-building"
+            },
+            {
+                "name": "Swimming Pool",
+                "icon": "fa-swimming-pool"
+            },
+            {
+                "name": "Sports Courts",
+                "icon": "fa-basketball-ball"
+            },
+            {
+                "name": "Security",
                 "icon": "fa-shield-alt"
             }
         ]
@@ -6671,7 +8531,7 @@ const PROPERTIES = [
         "totalUnits": "120 Units",
         "possession": "Ready to Move",
         "heroImage": "Fetched dynamically via portal asset directory",
-        "videoEmbedUrl": "",
+        "videoEmbedUrl": "N/A",
         "description": "Brigade Vista is a classic completed residential development in Banashankari 3rd Stage, offering peaceful neighborhood living in South Bangalore.",
         "gallery": [],
         "floorPlans": [],
@@ -6701,7 +8561,15 @@ const PROPERTIES = [
         "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=12.928%2C77.545",
         "amenities": [
             {
-                "name": "Community Hall (fa-building) | Children Play Park (fa-child) | 24/7 Security",
+                "name": "Community Hall",
+                "icon": "fa-building"
+            },
+            {
+                "name": "Children Play Park",
+                "icon": "fa-child"
+            },
+            {
+                "name": "24/7 Security",
                 "icon": "fa-shield-alt"
             }
         ]
@@ -6726,7 +8594,7 @@ const PROPERTIES = [
         "totalUnits": "480 Units",
         "possession": "October 2028",
         "heroImage": "Fetched dynamically via portal asset directory",
-        "videoEmbedUrl": "",
+        "videoEmbedUrl": "N/A",
         "description": "Sattva Aeropolis II is an urban residential high-rise enclave located on Airport Main Road, North Bengaluru. Offering studio, 1 & 3 BHK layouts, it is designed for working professionals and airport executives seeking rapid access to KIADB Aerospace Park.",
         "gallery": [],
         "floorPlans": [],
@@ -6756,7 +8624,23 @@ const PROPERTIES = [
         "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=13.165%2C77.632",
         "amenities": [
             {
-                "name": "Aeropolis Clubhouse (fa-building) | Swimming Pool (fa-swimming-pool) | Fitness Center (fa-dumbbell) | Co-Working Lounges (fa-laptop) | 24/7 Security",
+                "name": "Aeropolis Clubhouse",
+                "icon": "fa-building"
+            },
+            {
+                "name": "Swimming Pool",
+                "icon": "fa-swimming-pool"
+            },
+            {
+                "name": "Fitness Center",
+                "icon": "fa-dumbbell"
+            },
+            {
+                "name": "Co-Working Lounges",
+                "icon": "fa-laptop"
+            },
+            {
+                "name": "24/7 Security",
                 "icon": "fa-shield-alt"
             }
         ]
@@ -6781,7 +8665,7 @@ const PROPERTIES = [
         "totalUnits": "820 Units",
         "possession": "May 2031",
         "heroImage": "Fetched dynamically via portal asset directory",
-        "videoEmbedUrl": "",
+        "videoEmbedUrl": "N/A",
         "description": "Sattva Vasanta Skye is a multi-tier residential project in Devanahalli near Kempegowda International Airport. Featuring versatile studio to 4 BHK configurations, it offers Sky-Lounge amenities, work-from-home pods, and sports facilities.",
         "gallery": [],
         "floorPlans": [],
@@ -6811,7 +8695,23 @@ const PROPERTIES = [
         "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=13.238%2C77.712",
         "amenities": [
             {
-                "name": "Sky Lounge (fa-building) | Infinity Swimming Pool (fa-swimming-pool) | Fitness Center (fa-dumbbell) | Multi-purpose Sports Courts (fa-basketball-ball) | 24/7 Security",
+                "name": "Sky Lounge",
+                "icon": "fa-building"
+            },
+            {
+                "name": "Infinity Swimming Pool",
+                "icon": "fa-swimming-pool"
+            },
+            {
+                "name": "Fitness Center",
+                "icon": "fa-dumbbell"
+            },
+            {
+                "name": "Multi-purpose Sports Courts",
+                "icon": "fa-basketball-ball"
+            },
+            {
+                "name": "24/7 Security",
                 "icon": "fa-shield-alt"
             }
         ]
@@ -6836,7 +8736,7 @@ const PROPERTIES = [
         "totalUnits": "1,540 Units",
         "possession": "December 2029",
         "heroImage": "Fetched dynamically via portal asset directory",
-        "videoEmbedUrl": "",
+        "videoEmbedUrl": "N/A",
         "description": "Sattva Lumina is an expansive residential township in Yelahanka, North Bengaluru. Spanning 12.8 acres, it provides studio to 3 BHK homes with over 80% open landscape, active sports arenas, and quick connectivity to Airport Road and Yelahanka Junction.",
         "gallery": [],
         "floorPlans": [],
@@ -6866,7 +8766,19 @@ const PROPERTIES = [
         "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=13.142%2C77.575",
         "amenities": [
             {
-                "name": "Lumina Central Clubhouse (fa-building) | Olympic-Length Swimming Pool (fa-swimming-pool) | Squash & Tennis Courts (fa-table-tennis) | Multi-Tier Security",
+                "name": "Lumina Central Clubhouse",
+                "icon": "fa-building"
+            },
+            {
+                "name": "Olympic-Length Swimming Pool",
+                "icon": "fa-swimming-pool"
+            },
+            {
+                "name": "Squash & Tennis Courts",
+                "icon": "fa-table-tennis"
+            },
+            {
+                "name": "Multi-Tier Security",
                 "icon": "fa-shield-alt"
             }
         ]
@@ -6891,7 +8803,7 @@ const PROPERTIES = [
         "totalUnits": "1,100 Units",
         "possession": "March 2030",
         "heroImage": "Fetched dynamically via portal asset directory",
-        "videoEmbedUrl": "",
+        "videoEmbedUrl": "N/A",
         "description": "Sattva Songbird is a mixed residential community on Budigere Main Road, East Bengaluru. Offering both compact smart apartments and luxury row villas, it combines green spaces with fast access to Whitefield ITPL and Airport corridor.",
         "gallery": [],
         "floorPlans": [],
@@ -6921,7 +8833,23 @@ const PROPERTIES = [
         "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=13.068%2C77.745",
         "amenities": [
             {
-                "name": "Songbird Grand Clubhouse (fa-building) | Resort Pool (fa-swimming-pool) | Indoor Badminton Courts (fa-dumbbell) | Pet Park & Trails (fa-dog) | 24/7 Security",
+                "name": "Songbird Grand Clubhouse",
+                "icon": "fa-building"
+            },
+            {
+                "name": "Resort Pool",
+                "icon": "fa-swimming-pool"
+            },
+            {
+                "name": "Indoor Badminton Courts",
+                "icon": "fa-dumbbell"
+            },
+            {
+                "name": "Pet Park & Trails",
+                "icon": "fa-dog"
+            },
+            {
+                "name": "24/7 Security",
                 "icon": "fa-shield-alt"
             }
         ]
@@ -6946,7 +8874,7 @@ const PROPERTIES = [
         "totalUnits": "200 Units",
         "possession": "December 2030",
         "heroImage": "Fetched dynamically via portal asset directory",
-        "videoEmbedUrl": "",
+        "videoEmbedUrl": "N/A",
         "description": "Sattva Vasanta Cove is a specialized boutique apartment project in Devanahalli tailored for young tech creators, featuring 1 BHK units, co-working pods, podcast studios, VR gaming zones, and influencer spaces.",
         "gallery": [],
         "floorPlans": [],
@@ -6976,7 +8904,23 @@ const PROPERTIES = [
         "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=13.241%2C77.711",
         "amenities": [
             {
-                "name": "Creative Studio & Podcast Zone (fa-microphone) | VR Gaming Room (fa-gamepad) | Co-Working Space (fa-laptop) | Rooftop Lounge (fa-building) | 24/7 Security",
+                "name": "Creative Studio & Podcast Zone",
+                "icon": "fa-microphone"
+            },
+            {
+                "name": "VR Gaming Room",
+                "icon": "fa-gamepad"
+            },
+            {
+                "name": "Co-Working Space",
+                "icon": "fa-laptop"
+            },
+            {
+                "name": "Rooftop Lounge",
+                "icon": "fa-building"
+            },
+            {
+                "name": "24/7 Security",
                 "icon": "fa-shield-alt"
             }
         ]
@@ -7001,7 +8945,7 @@ const PROPERTIES = [
         "totalUnits": "810 Units",
         "possession": "September 2029",
         "heroImage": "Fetched dynamically via portal asset directory",
-        "videoEmbedUrl": "",
+        "videoEmbedUrl": "N/A",
         "description": "Sattva Park Cubix II is Phase 2 of the landmark Park Cubix residential project in Devanahalli. Surrounded by 79% open green views, it offers 2 fully-functional clubhouses, bowling alleys, and sports infrastructure.",
         "gallery": [],
         "floorPlans": [],
@@ -7031,7 +8975,23 @@ const PROPERTIES = [
         "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=13.235%2C77.708",
         "amenities": [
             {
-                "name": "2 Twin Clubhouses (fa-building) | Bowling Alley (fa-bowling-ball) | Swimming Pools (fa-swimming-pool) | Gymnasium (fa-dumbbell) | Security",
+                "name": "2 Twin Clubhouses",
+                "icon": "fa-building"
+            },
+            {
+                "name": "Bowling Alley",
+                "icon": "fa-bowling-ball"
+            },
+            {
+                "name": "Swimming Pools",
+                "icon": "fa-swimming-pool"
+            },
+            {
+                "name": "Gymnasium",
+                "icon": "fa-dumbbell"
+            },
+            {
+                "name": "Security",
                 "icon": "fa-shield-alt"
             }
         ]
@@ -7056,7 +9016,7 @@ const PROPERTIES = [
         "totalUnits": "180 Units",
         "possession": "June 2028",
         "heroImage": "Fetched dynamically via portal asset directory",
-        "videoEmbedUrl": "",
+        "videoEmbedUrl": "N/A",
         "description": "Sattva Simplicity is an urban apartment community in Rajarajeshwari Nagar (RR Nagar) off Mysore Road, offering studio & 1 BHK residences for young professionals and university students.",
         "gallery": [],
         "floorPlans": [],
@@ -7086,7 +9046,19 @@ const PROPERTIES = [
         "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=12.928%2C77.522",
         "amenities": [
             {
-                "name": "Boutique Clubhouse (fa-building) | Terrace Fitness Area (fa-dumbbell) | Co-Working Zone (fa-laptop) | 24/7 Security",
+                "name": "Boutique Clubhouse",
+                "icon": "fa-building"
+            },
+            {
+                "name": "Terrace Fitness Area",
+                "icon": "fa-dumbbell"
+            },
+            {
+                "name": "Co-Working Zone",
+                "icon": "fa-laptop"
+            },
+            {
+                "name": "24/7 Security",
                 "icon": "fa-shield-alt"
             }
         ]
@@ -7111,7 +9083,7 @@ const PROPERTIES = [
         "totalUnits": "1,001 Units",
         "possession": "October 2028",
         "heroImage": "Fetched dynamically via portal asset directory",
-        "videoEmbedUrl": "",
+        "videoEmbedUrl": "N/A",
         "description": "Sattva Aeropolis is Phase 1 of the high-rise smart residence project on Airport Main Road, Chikkajala. Offering budget-friendly studios to 3 BHK homes, it features tech-enabled security and extensive gardens.",
         "gallery": [],
         "floorPlans": [],
@@ -7141,7 +9113,23 @@ const PROPERTIES = [
         "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=13.164%2C77.631",
         "amenities": [
             {
-                "name": "Grand Aeropolis Club (fa-building) | Swimming Pool (fa-swimming-pool) | Sports Courts (fa-basketball-ball) | Gymnasium (fa-dumbbell) | Security",
+                "name": "Grand Aeropolis Club",
+                "icon": "fa-building"
+            },
+            {
+                "name": "Swimming Pool",
+                "icon": "fa-swimming-pool"
+            },
+            {
+                "name": "Sports Courts",
+                "icon": "fa-basketball-ball"
+            },
+            {
+                "name": "Gymnasium",
+                "icon": "fa-dumbbell"
+            },
+            {
+                "name": "Security",
                 "icon": "fa-shield-alt"
             }
         ]
@@ -7166,7 +9154,7 @@ const PROPERTIES = [
         "totalUnits": "797 Units",
         "possession": "December 2026",
         "heroImage": "Fetched dynamically via portal asset directory",
-        "videoEmbedUrl": "",
+        "videoEmbedUrl": "N/A",
         "description": "Sattva Misty Charm is a valley-facing apartment enclave situated off Kanakapura Road along Holiday Village Road. Featuring classical architecture and valley views, it offers direct Green Line Metro connectivity.",
         "gallery": [],
         "floorPlans": [],
@@ -7196,7 +9184,23 @@ const PROPERTIES = [
         "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=12.875%2C77.548",
         "amenities": [
             {
-                "name": "4-Level Standalone Clubhouse (fa-building) | Infinity Pool (fa-swimming-pool) | Squash Court (fa-table-tennis) | Multi-purpose Hall (fa-glass-cheers) | Security",
+                "name": "4-Level Standalone Clubhouse",
+                "icon": "fa-building"
+            },
+            {
+                "name": "Infinity Pool",
+                "icon": "fa-swimming-pool"
+            },
+            {
+                "name": "Squash Court",
+                "icon": "fa-table-tennis"
+            },
+            {
+                "name": "Multi-purpose Hall",
+                "icon": "fa-glass-cheers"
+            },
+            {
+                "name": "Security",
                 "icon": "fa-shield-alt"
             }
         ]
@@ -7221,7 +9225,7 @@ const PROPERTIES = [
         "totalUnits": "407 Units",
         "possession": "December 2029",
         "heroImage": "Fetched dynamically via portal asset directory",
-        "videoEmbedUrl": "",
+        "videoEmbedUrl": "N/A",
         "description": "Sattva Forest Ridge is a forest-themed residential project in Anjanapura, JP Nagar 9th Phase. Featuring three 30-story towers amidst 70%+ green cover, it offers fast access to Vajarahalli Metro Station.",
         "gallery": [],
         "floorPlans": [],
@@ -7251,7 +9255,23 @@ const PROPERTIES = [
         "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=12.868%2C77.562",
         "amenities": [
             {
-                "name": "Forest Canopy Walkways (fa-tree) | Grand Resident Clubhouse (fa-building) | Swimming Pool (fa-swimming-pool) | Gymnasium (fa-dumbbell) | 24/7 Security",
+                "name": "Forest Canopy Walkways",
+                "icon": "fa-tree"
+            },
+            {
+                "name": "Grand Resident Clubhouse",
+                "icon": "fa-building"
+            },
+            {
+                "name": "Swimming Pool",
+                "icon": "fa-swimming-pool"
+            },
+            {
+                "name": "Gymnasium",
+                "icon": "fa-dumbbell"
+            },
+            {
+                "name": "24/7 Security",
                 "icon": "fa-shield-alt"
             }
         ]
@@ -7276,7 +9296,7 @@ const PROPERTIES = [
         "totalUnits": "660 Units",
         "possession": "December 2027",
         "heroImage": "Fetched dynamically via portal asset directory",
-        "videoEmbedUrl": "",
+        "videoEmbedUrl": "N/A",
         "description": "Sattva Ashraya is an affordable residential community situated along the Bengaluru-Mysore Expressway at Bidadi. Featuring 1.5, 2 & 3 BHK homes, it serves industrial professionals in Bidadi SEZ and Kumbalgodu.",
         "gallery": [],
         "floorPlans": [],
@@ -7306,7 +9326,19 @@ const PROPERTIES = [
         "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=12.802%2C77.382",
         "amenities": [
             {
-                "name": "Ashraya Resident Club (fa-building) | Swimming Pool (fa-swimming-pool) | Children Play Areas (fa-child) | 24/7 Security",
+                "name": "Ashraya Resident Club",
+                "icon": "fa-building"
+            },
+            {
+                "name": "Swimming Pool",
+                "icon": "fa-swimming-pool"
+            },
+            {
+                "name": "Children Play Areas",
+                "icon": "fa-child"
+            },
+            {
+                "name": "24/7 Security",
                 "icon": "fa-shield-alt"
             }
         ]
@@ -7331,7 +9363,7 @@ const PROPERTIES = [
         "totalUnits": "420 Units",
         "possession": "March 2030",
         "heroImage": "Fetched dynamically via portal asset directory",
-        "videoEmbedUrl": "",
+        "videoEmbedUrl": "N/A",
         "description": "Sattva Songbird Phase II is the high-rise apartment phase within the Songbird township on Budigere Main Road. It offers 2 & 3 BHK luxury residences overlooking central gardens and clubhouse zones.",
         "gallery": [],
         "floorPlans": [],
@@ -7361,7 +9393,23 @@ const PROPERTIES = [
         "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=13.0685%2C77.7455",
         "amenities": [
             {
-                "name": "Grand Clubhouse (fa-building) | Swimming Pool (fa-swimming-pool) | Fitness Center (fa-dumbbell) | Sports Arena (fa-basketball-ball) | Security",
+                "name": "Grand Clubhouse",
+                "icon": "fa-building"
+            },
+            {
+                "name": "Swimming Pool",
+                "icon": "fa-swimming-pool"
+            },
+            {
+                "name": "Fitness Center",
+                "icon": "fa-dumbbell"
+            },
+            {
+                "name": "Sports Arena",
+                "icon": "fa-basketball-ball"
+            },
+            {
+                "name": "Security",
                 "icon": "fa-shield-alt"
             }
         ]
@@ -7386,7 +9434,7 @@ const PROPERTIES = [
         "totalUnits": "1,384 Units",
         "possession": "Ready to Move",
         "heroImage": "Fetched dynamically via portal asset directory",
-        "videoEmbedUrl": "",
+        "videoEmbedUrl": "N/A",
         "description": "Sattva Anugraha is a completed 12-acre residential gated community on Magadi Road near Vijayanagar Extension, featuring 2, 2.5 & 3 BHK homes with 30,000 sq. ft. of clubhouse amenities.",
         "gallery": [],
         "floorPlans": [],
@@ -7416,7 +9464,19 @@ const PROPERTIES = [
         "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=12.982%2C77.528",
         "amenities": [
             {
-                "name": "30,000 Sq.Ft. Clubhouse (fa-building) | Bowling Alley (fa-bowling-ball) | Swimming Pool (fa-swimming-pool) | Security",
+                "name": "30,000 Sq.Ft. Clubhouse",
+                "icon": "fa-building"
+            },
+            {
+                "name": "Bowling Alley",
+                "icon": "fa-bowling-ball"
+            },
+            {
+                "name": "Swimming Pool",
+                "icon": "fa-swimming-pool"
+            },
+            {
+                "name": "Security",
                 "icon": "fa-shield-alt"
             }
         ]
@@ -7441,7 +9501,7 @@ const PROPERTIES = [
         "totalUnits": "2,400 Units",
         "possession": "December 2030",
         "heroImage": "Fetched dynamically via portal asset directory",
-        "videoEmbedUrl": "",
+        "videoEmbedUrl": "N/A",
         "description": "Sattva City is an integrated township development situated on Bengaluru Airport Road near Chikkajala. Spanning 50 acres, it offers 2, 3 & 4 BHK residences with high-street commercial plazas and lakes.",
         "gallery": [],
         "floorPlans": [],
@@ -7471,7 +9531,19 @@ const PROPERTIES = [
         "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=13.168%2C77.632",
         "amenities": [
             {
-                "name": "Mega Township Club (fa-building) | Central Park Lagoon (fa-water) | Olympic Swimming Pool (fa-swimming-pool) | Security",
+                "name": "Mega Township Club",
+                "icon": "fa-building"
+            },
+            {
+                "name": "Central Park Lagoon",
+                "icon": "fa-water"
+            },
+            {
+                "name": "Olympic Swimming Pool",
+                "icon": "fa-swimming-pool"
+            },
+            {
+                "name": "Security",
                 "icon": "fa-shield-alt"
             }
         ]
@@ -7496,7 +9568,7 @@ const PROPERTIES = [
         "totalUnits": "338 Units",
         "possession": "December 2027",
         "heroImage": "Fetched dynamically via portal asset directory",
-        "videoEmbedUrl": "",
+        "videoEmbedUrl": "N/A",
         "description": "Sattva Bliss is an modern 2 BHK apartment development at Nimbekaipura, off Old Madras Road. Designed for young IT professionals, it offers efficient floor plans, sports courts, and quick reach to Hoskote SEZ.",
         "gallery": [],
         "floorPlans": [],
@@ -7526,7 +9598,23 @@ const PROPERTIES = [
         "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=13.028%2C77.742",
         "amenities": [
             {
-                "name": "Bliss Clubhouse (fa-building) | Swimming Pool (fa-swimming-pool) | Gymnasium (fa-dumbbell) | Multi-sports Court (fa-basketball-ball) | Security",
+                "name": "Bliss Clubhouse",
+                "icon": "fa-building"
+            },
+            {
+                "name": "Swimming Pool",
+                "icon": "fa-swimming-pool"
+            },
+            {
+                "name": "Gymnasium",
+                "icon": "fa-dumbbell"
+            },
+            {
+                "name": "Multi-sports Court",
+                "icon": "fa-basketball-ball"
+            },
+            {
+                "name": "Security",
                 "icon": "fa-shield-alt"
             }
         ]
@@ -7551,7 +9639,7 @@ const PROPERTIES = [
         "totalUnits": "380 Units",
         "possession": "June 2030",
         "heroImage": "Fetched dynamically via portal asset directory",
-        "videoEmbedUrl": "",
+        "videoEmbedUrl": "N/A",
         "description": "Sattva Aangane is a high-rise luxury residential project located at Budigere Cross off Old Madras Road. Offering spacious 3 & 4 BHK homes, it features courtyard design, private balconies, and sports amenities.",
         "gallery": [],
         "floorPlans": [],
@@ -7581,7 +9669,19 @@ const PROPERTIES = [
         "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=13.065%2C77.741",
         "amenities": [
             {
-                "name": "Courtyard Clubhouse (fa-building) | Swimming Pool (fa-swimming-pool) | Fitness Center (fa-dumbbell) | Security",
+                "name": "Courtyard Clubhouse",
+                "icon": "fa-building"
+            },
+            {
+                "name": "Swimming Pool",
+                "icon": "fa-swimming-pool"
+            },
+            {
+                "name": "Fitness Center",
+                "icon": "fa-dumbbell"
+            },
+            {
+                "name": "Security",
                 "icon": "fa-shield-alt"
             }
         ]
@@ -7606,7 +9706,7 @@ const PROPERTIES = [
         "totalUnits": "310 Units",
         "possession": "December 2029",
         "heroImage": "Fetched dynamically via portal asset directory",
-        "videoEmbedUrl": "",
+        "videoEmbedUrl": "N/A",
         "description": "Sattva Aaranya is an ultra-luxury residential high-rise project directly adjacent to Jnanabharathi Metro Station on Mysore Road. Featuring 3 & 4 BHK homes ranging from 2,117 to 2,944 sq. ft., it offers urban forest living.",
         "gallery": [],
         "floorPlans": [],
@@ -7636,7 +9736,19 @@ const PROPERTIES = [
         "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=12.935%2C77.502",
         "amenities": [
             {
-                "name": "30,000 Sq.Ft. Grand Clubhouse (fa-building) | Infinity Pool (fa-swimming-pool) | Forest Park & Trails (fa-tree) | 24/7 Multi-Tier Security",
+                "name": "30,000 Sq.Ft. Grand Clubhouse",
+                "icon": "fa-building"
+            },
+            {
+                "name": "Infinity Pool",
+                "icon": "fa-swimming-pool"
+            },
+            {
+                "name": "Forest Park & Trails",
+                "icon": "fa-tree"
+            },
+            {
+                "name": "24/7 Multi-Tier Security",
                 "icon": "fa-shield-alt"
             }
         ]
@@ -7661,7 +9773,7 @@ const PROPERTIES = [
         "totalUnits": "138 Units",
         "possession": "Ready to Move",
         "heroImage": "Fetched dynamically via portal asset directory",
-        "videoEmbedUrl": "",
+        "videoEmbedUrl": "N/A",
         "description": "Sattva Aqua Vista is an exclusive high-rise development on Bannerghatta Main Road offering ultra-spacious 3 & 4 BHK duplex apartments with private terrace gardens and water features.",
         "gallery": [],
         "floorPlans": [],
@@ -7691,7 +9803,19 @@ const PROPERTIES = [
         "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=12.885%2C77.598",
         "amenities": [
             {
-                "name": "Water-Themed Clubhouse (fa-building) | Rooftop Swimming Pool (fa-swimming-pool) | Fitness Center (fa-dumbbell) | Security",
+                "name": "Water-Themed Clubhouse",
+                "icon": "fa-building"
+            },
+            {
+                "name": "Rooftop Swimming Pool",
+                "icon": "fa-swimming-pool"
+            },
+            {
+                "name": "Fitness Center",
+                "icon": "fa-dumbbell"
+            },
+            {
+                "name": "Security",
                 "icon": "fa-shield-alt"
             }
         ]
@@ -7716,7 +9840,7 @@ const PROPERTIES = [
         "totalUnits": "66 Units",
         "possession": "December 2027",
         "heroImage": "Fetched dynamically via portal asset directory",
-        "videoEmbedUrl": "",
+        "videoEmbedUrl": "N/A",
         "description": "Sattva Springs is an ultra-luxury row house community off Kanakapura Road featuring 4 BHK triplex row villas with private gardens, personal elevator option, and natural springs water features.",
         "gallery": [],
         "floorPlans": [],
@@ -7746,7 +9870,19 @@ const PROPERTIES = [
         "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=12.835%2C77.535",
         "amenities": [
             {
-                "name": "Springs Villa Clubhouse (fa-building) | Heated Swimming Pool (fa-swimming-pool) | Private Gardens (fa-tree) | Security",
+                "name": "Springs Villa Clubhouse",
+                "icon": "fa-building"
+            },
+            {
+                "name": "Heated Swimming Pool",
+                "icon": "fa-swimming-pool"
+            },
+            {
+                "name": "Private Gardens",
+                "icon": "fa-tree"
+            },
+            {
+                "name": "Security",
                 "icon": "fa-shield-alt"
             }
         ]
@@ -7771,7 +9907,7 @@ const PROPERTIES = [
         "totalUnits": "63 Units",
         "possession": "June 2027",
         "heroImage": "Fetched dynamically via portal asset directory",
-        "videoEmbedUrl": "",
+        "videoEmbedUrl": "N/A",
         "description": "Sattva La Vita is an exclusive gated row house community off Hennur Road featuring 63 triplex 4 BHK row houses with private backyards, terrace gardens, and dedicated club facilities.",
         "gallery": [],
         "floorPlans": [],
@@ -7801,7 +9937,19 @@ const PROPERTIES = [
         "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=13.062%2C77.652",
         "amenities": [
             {
-                "name": "Private Club & Pool (fa-swimming-pool) | Landscaped Lawns (fa-tree) | Fitness Studio (fa-dumbbell) | 24/7 Security",
+                "name": "Private Club & Pool",
+                "icon": "fa-swimming-pool"
+            },
+            {
+                "name": "Landscaped Lawns",
+                "icon": "fa-tree"
+            },
+            {
+                "name": "Fitness Studio",
+                "icon": "fa-dumbbell"
+            },
+            {
+                "name": "24/7 Security",
                 "icon": "fa-shield-alt"
             }
         ]
@@ -7826,7 +9974,7 @@ const PROPERTIES = [
         "totalUnits": "244 Units",
         "possession": "Ready to Move",
         "heroImage": "Fetched dynamically via portal asset directory",
-        "videoEmbedUrl": "",
+        "videoEmbedUrl": "N/A",
         "description": "Sattva Magnificia is a landmark completed ultra-luxury high-rise on Old Madras Road near Indiranagar, featuring 4 BHK duplexes and sky penthouses with private decks.",
         "gallery": [],
         "floorPlans": [],
@@ -7856,7 +10004,19 @@ const PROPERTIES = [
         "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=12.988%2C77.658",
         "amenities": [
             {
-                "name": "Grand Clubhouse (fa-building) | Swimming Pool (fa-swimming-pool) | Tennis Court (fa-table-tennis) | Security",
+                "name": "Grand Clubhouse",
+                "icon": "fa-building"
+            },
+            {
+                "name": "Swimming Pool",
+                "icon": "fa-swimming-pool"
+            },
+            {
+                "name": "Tennis Court",
+                "icon": "fa-table-tennis"
+            },
+            {
+                "name": "Security",
                 "icon": "fa-shield-alt"
             }
         ]
@@ -7881,7 +10041,7 @@ const PROPERTIES = [
         "totalUnits": "6 Units",
         "possession": "Ready to Move",
         "heroImage": "Fetched dynamically via portal asset directory",
-        "videoEmbedUrl": "",
+        "videoEmbedUrl": "N/A",
         "description": "Sattva Casa Crescent is an ultra-exclusive completed residential address in Benson Town featuring only 6 single-floor 4 BHK duplex sky mansions with private elevators.",
         "gallery": [],
         "floorPlans": [],
@@ -7911,7 +10071,19 @@ const PROPERTIES = [
         "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=12.998%2C77.598",
         "amenities": [
             {
-                "name": "Private Key-Card Elevator (fa-sort) | Italian Marble Lobby (fa-building) | Gym (fa-dumbbell) | 24/7 Security",
+                "name": "Private Key-Card Elevator",
+                "icon": "fa-sort"
+            },
+            {
+                "name": "Italian Marble Lobby",
+                "icon": "fa-building"
+            },
+            {
+                "name": "Gym",
+                "icon": "fa-dumbbell"
+            },
+            {
+                "name": "24/7 Security",
                 "icon": "fa-shield-alt"
             }
         ]
@@ -7936,7 +10108,7 @@ const PROPERTIES = [
         "totalUnits": "320 Plots",
         "possession": "March 2029",
         "heroImage": "Fetched dynamically via portal asset directory",
-        "videoEmbedUrl": "",
+        "videoEmbedUrl": "N/A",
         "description": "Sattva Ekatra is a modern plotted township development by Sattva on Doddaballapur Road near Devanahalli. Offering villa plots from 600 to 1,800 sq. ft., it features wide paved roads and underground cabling.",
         "gallery": [],
         "floorPlans": [],
@@ -7966,7 +10138,19 @@ const PROPERTIES = [
         "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=13.282%2C77.542",
         "amenities": [
             {
-                "name": "Ekatra Plotted Clubhouse (fa-building) | Paved Avenues & Green Parks (fa-tree) | Underground Utilities (fa-bolt) | Security",
+                "name": "Ekatra Plotted Clubhouse",
+                "icon": "fa-building"
+            },
+            {
+                "name": "Paved Avenues & Green Parks",
+                "icon": "fa-tree"
+            },
+            {
+                "name": "Underground Utilities",
+                "icon": "fa-bolt"
+            },
+            {
+                "name": "Security",
                 "icon": "fa-shield-alt"
             }
         ]
@@ -7991,7 +10175,7 @@ const PROPERTIES = [
         "totalUnits": "343 Plots",
         "possession": "December 2026",
         "heroImage": "Fetched dynamically via portal asset directory",
-        "videoEmbedUrl": "",
+        "videoEmbedUrl": "N/A",
         "description": "Sattva Bhumi is a 19.38-acre luxury plotted township located in Devanahalli. Featuring 343 plots ranging from 600 to 1,800 sq. ft., it provides 49% open spaces, cricket pitches, and clubhouse amenities.",
         "gallery": [],
         "floorPlans": [],
@@ -8021,7 +10205,19 @@ const PROPERTIES = [
         "googleMapUrl": "https://www.google.com/maps/search/?api=1&query=13.242%2C77.712",
         "amenities": [
             {
-                "name": "Bhumi Township Clubhouse (fa-building) | Cricket Pitch & Sports Turf (fa-baseball-ball) | Landscaped Green Avenues (fa-tree) | Security",
+                "name": "Bhumi Township Clubhouse",
+                "icon": "fa-building"
+            },
+            {
+                "name": "Cricket Pitch & Sports Turf",
+                "icon": "fa-baseball-ball"
+            },
+            {
+                "name": "Landscaped Green Avenues",
+                "icon": "fa-tree"
+            },
+            {
+                "name": "Security",
                 "icon": "fa-shield-alt"
             }
         ]
