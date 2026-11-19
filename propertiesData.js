@@ -21,7 +21,58 @@ const PROPERTIES = [
         "heroImage": "https://raw.githubusercontent.com/novaestatesrealtycompany/Projects/main/Prestige/Prestige-Crystal-Lawns/Images/1.png",
         "videoEmbedUrl": "https://www.youtube.com/embed/61GGYh5uzOg",
         "description": "Prestige Crystal Lawns is an elite, gated plotted development by the Prestige Group situated on IVC Road, North Bangalore. Spanning across 24.3 acres, it offers custom-sized luxury plots ranging from 2,400 sq. ft. to 4,000 sq. ft. Designed for modern community living, the township blends open green spaces, grand landscapes, and top-tier lifestyle amenities with close proximity to Kempegowda International Airport.",
-        "gallery": [],
+        "gallery": [
+            {
+                "url": "https://raw.githubusercontent.com/novaestatesrealtycompany/Projects/main/Prestige/Prestige-Crystal-Lawns/Images/1.png",
+                "title": "",
+                "category": ""
+            },
+            {
+                "url": "https://raw.githubusercontent.com/novaestatesrealtycompany/Projects/main/Prestige/Prestige-Crystal-Lawns/Images/2.png",
+                "title": "",
+                "category": ""
+            },
+            {
+                "url": "https://raw.githubusercontent.com/novaestatesrealtycompany/Projects/main/Prestige/Prestige-Crystal-Lawns/Images/3.png",
+                "title": "",
+                "category": ""
+            },
+            {
+                "url": "https://raw.githubusercontent.com/novaestatesrealtycompany/Projects/main/Prestige/Prestige-Crystal-Lawns/Images/4.png",
+                "title": "",
+                "category": ""
+            },
+            {
+                "url": "https://raw.githubusercontent.com/novaestatesrealtycompany/Projects/main/Prestige/Prestige-Crystal-Lawns/Images/5.png",
+                "title": "",
+                "category": ""
+            },
+            {
+                "url": "https://raw.githubusercontent.com/novaestatesrealtycompany/Projects/main/Prestige/Prestige-Crystal-Lawns/Images/6.png",
+                "title": "",
+                "category": ""
+            },
+            {
+                "url": "https://raw.githubusercontent.com/novaestatesrealtycompany/Projects/main/Prestige/Prestige-Crystal-Lawns/Images/7.png",
+                "title": "",
+                "category": ""
+            },
+            {
+                "url": "https://raw.githubusercontent.com/novaestatesrealtycompany/Projects/main/Prestige/Prestige-Crystal-Lawns/Images/8.png",
+                "title": "",
+                "category": ""
+            },
+            {
+                "url": "https://raw.githubusercontent.com/novaestatesrealtycompany/Projects/main/Prestige/Prestige-Crystal-Lawns/Images/9.png",
+                "title": "",
+                "category": ""
+            },
+            {
+                "url": "https://raw.githubusercontent.com/novaestatesrealtycompany/Projects/main/Prestige/Prestige-Crystal-Lawns/Images/10.png",
+                "title": "",
+                "category": ""
+            }
+        ],
         "floorPlans": [],
         "pricingMatrix": [
             {
